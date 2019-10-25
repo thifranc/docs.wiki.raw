@@ -1,6 +1,6 @@
 This guide details how to use and administer a [Liquid Investigations][] node. For installation instructions go to [[Technical Overview]].
 
-[Liquid Investigations]: https://liquidinvestigations.github.io/
+[Liquid Investigations]: https://github.com/liquidinvestigations/docs/wiki
 
 ## Users
 * [[User - Overview]]
