@@ -1,28 +1,24 @@
-This is the communications platform.
+ 
+# Now how do I join some collaboration ?
 
-A guide to RocketChat is available here:
-https://rocket.chat/docs/user-guides/
+Well, first come to the place where communication happens. Use Rocket.chat. Your username is already there, created automatically when you login to Liquid. 
 
-You might recognise this because it is a rip-off of slack
+Start by going here https://rocketchat.liquiddemo.org/directory. You will see all public available channels. If you want to join any of them, click on the channel and, well, join!
 
-Your username is created automatically and is the same as your username on the login page
+In that same place you can also see a list with all users. If you want to engage in one-to-one chatter, please click the user and start exchanging information. If you want to have extra-security, go to the chat upper right corner, and click the sandwich button for settings (More) and click OTR (a key symbol). 
 
-There are two sections here - ‘channels’, where users can communicate in a group, and ‘users’, where you can communicate directly with an individual
+After the other user is confirming the OTR session, all your messages will be encrypted end-to-end. Be careful, after the session expires, you won’t find any archive of these messages exchanged under OTR.  
 
-i) To see the existing channels, these appear on both the leftthand column and in the ‘directory’, which is the globe icon on the upper toolbar of the leftthand column.
+Feel like sharing a document by a quick drag&drop ? Tough luck, this option is disabled. We use Nextcloud (link to Nextcloud explainer) to share documents, because they can stay in the archive longer, they are indexed and OCRd (by language - link to OCR language folder) and they are searchable. 
 
-In the directory are a list of public channels and a list of users. 
+Chat rooms are usually dedicated to topics to investigate, or to logistical exchanges (like maintenance, or sharing urls post-publication). 
 
-NB: This is not ‘public’ in the sense that anyone can access it, only ‘public’ to all the users of the system.
+Inside a chat room with many people talking about many things at once, you may choose to engage in a Thread (a short exchange on a specific topic) or to start a Discussion, which works like a talk inside a talk (and has it’s own url to share, like this https://rocketchat.liquiddemo.org/channel/general?msg=EMRzxhqfYiKrLWMA3 ). Discussions can be dedicated to meetings, and for sharing meeting urls and notes, so they all stay in one place. They are listed on your left bar, same as the chat rooms and your private groups and communications. 
 
-ii) To access the general chat, go to the ‘G’ icon, and press on #general
+Private Groups are locked chat rooms. Only invited people can get in. They are not visible to the rest of the participants. 
 
-iii) To access public channels, click on these in the directory
+For each chat room, private group or discussion, you have on the upper right corner a way to see all members of that space, you can search for the archive (be aware, we prune these rooms now and then, so don’t use the chat rooms as archives) and you can see info related to the rooms. 
 
-iv) To communicate with other users, click on the ‘users’ section in the directory
+A guide to RocketChat is available here: https://rocket.chat/docs/user-guides/ . Some stuff that you will see on the guide won't work. Assume is by design (or make a big issue here)
 
-v) To access a private channel, you need an invitation from the owner of the channel. 
 
-vi) To create a private channel, go to the pencil icon in the upper toolbar on the left hand column, click on #channel, and this gives you options on what you can create, and who you can invite to the channel
-
-Logout process: [POSSIBLY LOOK INTO]
