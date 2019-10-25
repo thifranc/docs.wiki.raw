@@ -16,11 +16,11 @@ With the full bundle in production we allow for distributed, non-hierarchical da
 
 ## Project History & Funding
 
-The core code started to be developed for the Romanian Centre for Investigative Journalism (RCIJ) at the end of 2015 as an index & search tool for a small network of Romanian journalists to be able to search documents (RCIJ is one of the oldest investigative journalism non-profits in Europe, established in 2001). 
+The core code started to be developed for the Romanian Centre for Investigative Journalism (RCIJ) at the end of 2015 by Alex Morega as an index & search tool (Hoover) for a small network of Romanian journalists to be able to search documents (RCIJ is one of the oldest investigative journalism non-profits in Europe, established in 2001). 
 
-It got adopted and further developed by the European Investigative Collaborations network (EIC) during 2016, while EIC was  starting to process a growing collection of leaked material (Football Leaks). 
+It got adopted and further developed for the European Investigative Collaborations network (EIC) during 2016, adding Gabi Vijiala in the dev team, while EIC was  starting to process a growing collection of leaked material (Football Leaks). 
 
-During 2017 RCIJ won a Google DNI grant (https://newsinitiative.withgoogle.com/dnifund/insights/liquid-investigations-helping-journalists-collaborate-safely-scale/) to develop the bundle. 
+During 2017 RCIJ won a Google DNI grant (https://newsinitiative.withgoogle.com/dnifund/insights/liquid-investigations-helping-journalists-collaborate-safely-scale/) to develop the current bundle around Hoover. 
 
-After the grant was over, since 2018, the bundle was further developed with financial support from EIC.network, which is a non-profit network by agreement where each media organisation who's a member is putting human and financial resources together to research stories and maintain or develop tools for investigative journalists (which are published under free and open source). 
+After the grant was over, since 2018, the bundle was further developed with financial support from EIC.network, which is a non-profit network by agreement where each media organisation who's a member is putting human and financial resources together to research stories and maintain or develop tools for investigative journalists (published under free and open source). 
 
