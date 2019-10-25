@@ -1,1 +1,8 @@
-TODO: contrib guide
+# Submit feedback
+
+
+# Report a bug
+
+# Send code
+
+# 
