@@ -1,0 +1,15 @@
+# interact with your documents
+
+While searching you should use annotations to bookmark interesting documents, or simply mark read and junk documents. Or you can translate paragraphs, you can highlight text and you can add notes on things to follow-up, to check further or connect information that is available somewhere else (in a wiki, in a folder, or outside the system). 
+
+You can do this by making use of Hypothesis (https://hypothesis.liquiddemo.org/users/admin). Anytime you navigate Hoover documents (or wiki pages, or documents in Nextcloud) annotations appear as a slim column-bar on your right (see picture).
+
+Enlarge the column and you’ll see if you are logged in (if not, click login and the system will automatically log you in based on your Liquid credentials). 
+
+At first you can annotate for you only or under the Public (that is not the outside public, but only the users on your system). Then you can create Groups (for specific topics or projects or for specific stories). You can share access to these groups and you can get access to existing groups. So you end up having multiple options when making an annotation: for your eyes only, for the entire public, for given stories or topics or projects. Unless your annotations are for your eyes only, they will be available for anybody who will step onto the same document you annotated.   
+
+Your collaborators can respond to your annotations, you can edit them or you can respond yourself by annotating documents in several different places and then cross-link them through annotations. You can share your annotations in the chat or drop them in a wiki page.  
+
+You can later search for keywords used in annotations or simply see all annotations that have been made (https://hypothesis.liquiddemo.org/search) And you can do so by searching in specific groups, or on specific urls (say urls related to one specific collection in Hoover) or you can search by tags (if tags where used when annotations were posted). 
+
+A guide to Hypothesis is available here: https://web.hypothes.is/help/. Some stuff that you will see on the guide won't work. Assume is by design (or make a big issue here). 
