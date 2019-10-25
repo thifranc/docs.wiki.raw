@@ -13,3 +13,4 @@ This guide details how to use and administer a [Liquid Investigations][] node. F
 
 ## Administrators
 * [[Admin - Onboarding]]
+* [[Admin - Permissions for collections]]
