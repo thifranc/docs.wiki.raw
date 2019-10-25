@@ -1,13 +1,13 @@
-# Submit feedback
+## Submit feedback
 
-# Request a feature
+## Request a feature
 
-# Report a bug
+## Report a bug
 
 Report bugs as GitHub Issues under the relevant repository listed in the 
 [[Architecture]] page.
 
-# Send code
+## Send code
 
 [[Technical Overview]]
 
