@@ -1,1 +1,1 @@
-Report incomplete documentation [here](https://github.com/liquidinvestigations/docs/issues/new).
+Report incomplete documentation by [opening a new Issue in this repository](https://github.com/liquidinvestigations/docs/issues/new).
