@@ -1,13 +1,21 @@
 Welcome to Liquid Investigations. 
 
-The best way to enter the system is to start with the chat (Rocket.Chat). Follow the link, ignore the request to input a user and password, and just follow the blue line and `CLICK HERE TO GET IN!` and connect to the other users.
+The best way to enter the system is to start with the chat ([Rocket.Chat](https://github.com/liquidinvestigations/docs/wiki/User---Rocket.Chat)). 
 
-Getting back to this homepage you will be able to post your source documents in a file sharing app (Nextcloud). That’s the same place where you will see all contacts for the users of this system. 
+Follow the link on the homepage, ignore the request to input a user and password, and just follow the blue line telling you to `CLICK HERE TO GET IN!` and connect to the other users.
 
-All documents you upload are indexed, and if needed OCRd, and made searchable in Hoover (under the Uploads collection). 
+Getting back to this homepage you will be able to post your source documents in a file sharing app ([Nextcloud](https://github.com/liquidinvestigations/docs/wiki/User---Nextcloud)). That’s the same place where you will see all contacts for the users of this system. 
 
-Use Hoover for all other searches and ask your coordinator for permissions if you feel you deserve to see more collections. Activate your annotation powers and leave a mark on documents and findings with Hypothesis. If you need to take notes for yourself or for a team, use a pad (CodiMD).
+All documents you upload are indexed, and if needed OCRd, and made searchable in [Hoover](https://github.com/liquidinvestigations/docs/wiki/User---Hoover) (under the Uploads collection). 
 
-Detailed instructions on how to search, share, engage with others and keep an overview on where is what are in our Wiki system. That’s where our knowledge base is growing (yeah, like a wilde forest). 
+Use Hoover for all other searches and ask your coordinator for permissions if you feel you deserve to see more collections. 
 
-Otherwise navigate in-between the apps clicking the liquid logo.
+Activate your annotation powers and leave a mark on documents and findings with [Hypothesis](https://github.com/liquidinvestigations/docs/wiki/User---Hypothesis). 
+
+If you need to take notes for yourself or for a team, use a pad ([CodiMD](https://github.com/liquidinvestigations/docs/wiki/User---CodiMD)).
+
+Detailed instructions on how to search, share, engage with others and keep an overview on where is what are in our [Wiki](https://github.com/liquidinvestigations/docs/wiki/User---DokuWiki) system. That’s where our knowledge base is growing (yeah, like a wilde forest). 
+
+Otherwise navigate in-between the apps clicking the liquid logo or the text `-> Liquid at work`.
+
+Here you have an overview of our [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide). 
