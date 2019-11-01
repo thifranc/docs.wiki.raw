@@ -9,3 +9,5 @@ When you’re done, decide if you want to keep the note for yourself (private) o
 Sharing the url to an editable pad makes the pad the most collaborative place on Liquid bundle, since content can be added by all users in real time (say during a meeting for all users to add meeting notes, or during a coordination meeting to organise tasks and assignments). 
 
 For more features please see https://codimd.liquiddemo.org/features
+
+Here you have an overview of our [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
