@@ -21,4 +21,4 @@ For each chat room, private group or discussion, you have on the upper right cor
 
 A guide to RocketChat is available here: https://rocket.chat/docs/user-guides/ . Some stuff that you will see on the guide won't work. Assume is by design (or make a big issue here)
 
-
+Here you have an overview of our [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
