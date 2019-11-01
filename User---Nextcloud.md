@@ -11,3 +11,5 @@ Each folder has an action menu: details is for a shortcut url to share with othe
 Since you are on Nextcloud, you may want to add your contacts, or see the contacts of the other participants in your Liquid bundle (see picture). 
 
 A guide to Nextcloud is available here: https://docs.nextcloud.com/desktop/2.3/. Most stuff that you will see on the guide won't work. Assume is by design (or make a big issue here). 
+
+Here you have an overview of our [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
