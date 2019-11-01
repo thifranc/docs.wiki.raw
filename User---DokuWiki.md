@@ -26,7 +26,9 @@ Check the Sitemap (just below the search box on the upper right corner) and see 
 
 ### Wiki pages labels and names
 
-You should name your wiki exactly what it is: a wedding list, a deal, a company structure, a bio for a person etc. That should be reflected in the wiki title. For inspiration go read some wikipedia articles.
+You should name your wiki exactly what it is: a wedding list of someone, a deal of somebody, a structure of a company, a bio for a person etc. That should be reflected in the wiki title. For inspiration go read some wikipedia articles.
+
+Each project starts with a project name (say Wassergate) and an overview directory (Wassergate:overview) that has a pitch page (description to convince others to join the project). So the first page of a project should be https://dokuwiki.liquiddemo.org/doku.php?id=wassergate:overview:pitch   
 
 Confrontation pages should be created after the drafts are done. The confrontation pages should list ALL people and institutions that need to be confronted with written questions before the story is ready. In confrontation pages, each EIC journo should have the time to add his/her questions.
 
