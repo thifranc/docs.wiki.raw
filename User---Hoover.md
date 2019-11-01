@@ -14,3 +14,5 @@ You can navigate down (shortcut key is J) and up (shortcut key is K) or select a
 /data/Norica NICOLAI - 96825/96825_DFI_rev0_RO.pdf is the path to this document https://hoover.liquiddemo.org/doc/avere-europarl/06537836113a2f84d160eb7c21ad69d75579ba0385b5f9dc463a723732d419bf )
 
 Once you open a document in a new tab, you can you can navigate up and down in the indexed folders (left column, hit Up like in the picture). And you can download the document or print it (it won’t print the MD5 and the path, so from the point of view of metadata, you don’t need to store it in a secure place. But even print outs can be tricky https://www.bbc.com/future/article/20170607-why-printers-add-secret-tracking-dots). 
+
+Here you have an overview of our [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
