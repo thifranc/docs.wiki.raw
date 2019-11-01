@@ -27,3 +27,5 @@ Click the checkbox to select the user;
 On Action dropdown menu, select Create invitations and click Go;
 Send the generated url to the user via encrypted email only;
 The link will be valid for 30 minutes, repeat this process if it expires.
+
+Here you have an overview of our [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
