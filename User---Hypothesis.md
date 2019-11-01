@@ -13,3 +13,5 @@ Your collaborators can respond to your annotations, you can edit them or you can
 You can later search for keywords used in annotations or simply see all annotations that have been made (https://hypothesis.liquiddemo.org/search) And you can do so by searching in specific groups, or on specific urls (say urls related to one specific collection in Hoover) or you can search by tags (if tags where used when annotations were posted). 
 
 A guide to Hypothesis is available here: https://web.hypothes.is/help/. Some stuff that you will see on the guide won't work. Assume is by design (or make a big issue here). 
+
+Here you have an overview of our [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
