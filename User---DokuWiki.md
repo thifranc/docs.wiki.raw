@@ -50,3 +50,4 @@ The end resulting information wiki page should be a clear sourced information pa
 
 For anything wiki, read this page https://dokuwiki.liquiddemo.org/doku.php?id=wiki:dokuwiki 
 
+Here you have an overview of our [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
