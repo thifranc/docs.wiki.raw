@@ -16,5 +16,5 @@ Report all other bugs as GitHub Issues under the relevant repository listed in t
 
 All work is done through GitHub Pull Requests. See the following page for technical details:
 - [[Technical Overview]]
-- [[Development]]
 - [[Hacking]]
+- [`node` docs/development.md](https://github.com/liquidinvestigations/node/blob/master/docs/Development.md)
