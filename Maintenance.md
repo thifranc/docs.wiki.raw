@@ -1,19 +1,19 @@
 ## Upgrades
 At some point after installing, you'll want to upgrade to a newer version of the Liquid bundle.
 
-1. Update the `cluster` to version `x.y.z`:
+1. Update the `cluster` to version `X.Y.Z`:
     ```shell
     cd /opt/cluster
     git fetch
-    git checkout vx.y.z
+    git checkout vX.Y.Z
     # check for new settings in `examples/cluster.ini` and add them to `cluster.ini`
-    bin/docker.sh --rm --pull
+    bin/docker.sh --rm --pull --image=liquidinvestigations/cluster:X.Y.Z
     ```
-2. Update `liquid` to version `x.y.z`:
+2. Update `liquid` to version `X.Y.Z`:
     ```shell
     cd /opt/node
     git fetch
-    git checkout vx.y.z
+    git checkout vX.Y.Z
     # check for new settings in `examples/liquid.ini` and add them to `liquid.ini`
     ./liquid deploy
     ```
