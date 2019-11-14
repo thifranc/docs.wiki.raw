@@ -4,3 +4,5 @@ First make sure your system meets the [[Hardware requirements]].
 2. Install `node` following the [instructions in the Readme](https://github.com/liquidinvestigations/node#installation). We recommend the `/opt/node` as location, the rest of the wiki assumes this path.
 
 Go to [[User Guide]] for instructions on creating users and granting access. For development tips, go to [[Hacking]].
+
+Follow the [[Maintenance]] page on how to keep the system up to date.
