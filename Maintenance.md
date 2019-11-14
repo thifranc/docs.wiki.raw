@@ -33,7 +33,7 @@ To shut down the bundle, stop the cluster container, with a generous timeout:
 docker stop -t 120 cluster 
 ```
 
-## Clean restarts
+## Clean reset
 
 Some [Nomad versions](https://www.nomadproject.io/guides/upgrade/upgrade-specific.html) require clearing the server data for upgrades. In those cases it's best to clear the docker system images too, using the following command sequence.
 
@@ -41,6 +41,7 @@ Some [Nomad versions](https://www.nomadproject.io/guides/upgrade/upgrade-specifi
 docker stop -t 120 cluster
 docker stop $(docker ps -qa)
 docker system prune --all --force --volumes
+sudo rm -rf /opt/cluster/var/nomad
 ```
 
 ... and continue with deploying normally as described in the beginning of this article:
