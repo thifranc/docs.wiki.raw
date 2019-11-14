@@ -13,6 +13,8 @@ Watch out for breaking changes in the configuration by looking at the changelogs
     git checkout vX.Y.Z
     # check for new settings in `examples/cluster.ini` and add them to `cluster.ini`
     bin/docker.sh --rm --pull --image=liquidinvestigations/cluster:X.Y.Z
+    # wait for services to be ready
+    docker exec cluster ./cluster.py wait
     ```
 
 ### 2. Update `liquid` to version `X.Y.Z`:
@@ -40,3 +42,19 @@ docker stop -t 120 cluster
 docker stop $(docker ps -qa)
 docker system prune --all --force --volumes
 ```
+
+... and continue with deploying normally as described in the beginning of this article:
+```bash
+cd /opt/cluster
+bin/docker.sh --rm --pull --image=liquidinvestigations/cluster:X.Y.Z
+docker exec cluster ./cluster.py wait
+
+cd /opt/node
+./liquid deploy
+```
+
+_Note:_ if the `docker system prune --all --force --volumes` command takes too long to finish, `sudo systemctl restart docker` and re-run it.
+
+## Other problems
+
+Use the [[Admin FAQ]] for miscellaneous operating details and the [[Security]] page on how to keep a production system secure.
