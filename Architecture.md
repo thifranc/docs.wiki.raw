@@ -7,6 +7,7 @@ Liquid Investigations is a bundle of applications, hosted together on a cluster,
 * [Rocket.Chat][]: real-time chat, similar to IRC and Slack
 * [Nextcloud][]: file sharing
 * [Hoover][]: search in collections of documents
+  * [Snoop][]: extract data from files
 * [DokuWiki][]: [wiki][] for the users to organize their research and internal documentation
 * [Hypothesis][]: annotate documents in `hoover`, `nextcloud` and `dokuwiki`
 * [CodiMD][]: realtime collaborative [Markdown][] editor
@@ -21,7 +22,8 @@ Liquid Investigations is a bundle of applications, hosted together on a cluster,
 [authproxy]: https://github.com/liquidinvestigations/authproxy
 [Rocket.Chat]: https://rocket.chat/
 [Nextcloud]: https://github.com/liquidinvestigations/liquid-nextcloud
-[Hoover]: https://github.com/liquidinvestigations/h
+[Hoover]: https://github.com/liquidinvestigations/hoover-search
+[Snoop]: https://github.com/liquidinvestigations/hoover-snoop2
 [DokuWiki]: https://github.com/liquidinvestigations/liquid-dokuwiki
 [wiki]: https://en.wikipedia.org/wiki/Wiki
 [Hypothesis]: https://github.com/liquidinvestigations/h
