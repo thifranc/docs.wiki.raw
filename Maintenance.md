@@ -7,7 +7,7 @@ Watch out for breaking changes in the configuration by looking at the changelogs
 - [the cluster releases page](https://github.com/liquidinvestigations/cluster/releases)
 
 ### 1. Update the `cluster` to version `X.Y.Z`:
-    ```shell
+
     cd /opt/cluster
     git fetch
     git checkout vX.Y.Z
@@ -15,16 +15,16 @@ Watch out for breaking changes in the configuration by looking at the changelogs
     bin/docker.sh --rm --pull --image=liquidinvestigations/cluster:X.Y.Z
     # wait for services to be ready
     docker exec cluster ./cluster.py wait
-    ```
+
 
 ### 2. Update `liquid` to version `X.Y.Z`:
-    ```shell
+
     cd /opt/node
     git fetch
     git checkout vX.Y.Z
     # check for new settings in `examples/liquid.ini` and add them to `liquid.ini`
     ./liquid deploy
-    ```
+
 
 ## Shutting down
 
