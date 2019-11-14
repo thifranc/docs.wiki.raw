@@ -1,7 +1,12 @@
 ## Upgrades
 At some point after installing, you'll want to upgrade to a newer version of the Liquid bundle.
 
-1. Update the `cluster` to version `X.Y.Z`:
+Watch out for breaking changes in the configuration by looking at the changelogs (tag messages) in:
+
+- [the node releases page](https://github.com/liquidinvestigations/node/releases)
+- [the cluster releases page](https://github.com/liquidinvestigations/cluster/releases)
+
+### 1. Update the `cluster` to version `X.Y.Z`:
     ```shell
     cd /opt/cluster
     git fetch
@@ -9,7 +14,8 @@ At some point after installing, you'll want to upgrade to a newer version of the
     # check for new settings in `examples/cluster.ini` and add them to `cluster.ini`
     bin/docker.sh --rm --pull --image=liquidinvestigations/cluster:X.Y.Z
     ```
-2. Update `liquid` to version `X.Y.Z`:
+
+### 2. Update `liquid` to version `X.Y.Z`:
     ```shell
     cd /opt/node
     git fetch
@@ -19,7 +25,18 @@ At some point after installing, you'll want to upgrade to a newer version of the
     ```
 
 ## Shutting down
+
 To shut down the bundle, stop the cluster container, with a generous timeout:
 ```shell
 docker stop -t 120 cluster 
+```
+
+## Clean restarts
+
+Some [Nomad versions](https://www.nomadproject.io/guides/upgrade/upgrade-specific.html) require clearing the server data for upgrades. In those cases it's best to clear the docker system images too, using the following command sequence.
+
+```bash
+docker stop -t 120 cluster
+docker stop $(docker ps -qa)
+docker system prune --all --force --volumes
 ```
