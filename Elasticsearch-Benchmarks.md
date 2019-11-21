@@ -19,4 +19,7 @@ export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")
 pip3 install esrally
 esrally configure
 esrally --distribution-version=6.8.3
+esrally --distribution-version=6.8.3 --track=geopoint
+esrally --distribution-version=6.8.3 --track=geonames
+esrally --distribution-version=6.8.3 --track=http_logs
 ```
