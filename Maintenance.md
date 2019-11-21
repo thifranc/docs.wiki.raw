@@ -30,7 +30,13 @@ Watch out for breaking changes in the configuration by looking at the changelogs
 
 To shut down the bundle, stop the cluster container, with a generous timeout:
 ```shell
-docker stop -t 120 cluster 
+docker stop -t 120 cluster
+```
+
+If Nomad isn't configured to drain jobs (or the drain operation fails) you may also need to kill all containers it left behind:
+
+```shell
+docker stop $(docker ps -qa)
 ```
 
 ## Clean reset
