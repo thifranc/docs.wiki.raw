@@ -11,3 +11,12 @@ Please run the following [tracks](https://esrally.readthedocs.io/en/stable/race.
 - http_logs
 
 Check the [esrally documentation](https://esrally.readthedocs.io/en/stable/recipes.html#benchmarking-an-existing-cluster) on how to benchmark an existing cluster. The node addresses can be found in the Nomad UI.
+
+## tl;dr
+```shell
+sudo apt install default-jre-headless
+export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")
+pip3 install esrally
+esrally configure
+esrally --distribution-version=6.8.3
+```
