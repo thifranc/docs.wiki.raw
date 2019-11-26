@@ -53,7 +53,7 @@ sudo rm -rf /opt/cluster/var/nomad
 ... and continue with deploying normally as described in the beginning of this article:
 ```bash
 cd /opt/cluster
-bin/docker.sh --rm --pull --image=liquidinvestigations/cluster:X.Y.Z
+bin/docker.sh --rm --pull --image liquidinvestigations/cluster:X.Y.Z
 docker exec cluster ./cluster.py wait
 
 cd /opt/node
