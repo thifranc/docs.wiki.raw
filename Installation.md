@@ -3,7 +3,7 @@ First make sure your system meets the [[Hardware requirements]].
 1. Checkout `cluster`. We recommend you check out the repo as `/opt/cluster`, the rest of the wiki assumes this path.
 ```shell
 sudo mkdir /opt/cluster
-sudo chown $(whoami): /opt/cluster
+sudo chown $(whoami) /opt/cluster
 cd /opt
 git clone https://github.com/liquidinvestigations/cluster.git
 ```
@@ -11,7 +11,7 @@ git clone https://github.com/liquidinvestigations/cluster.git
 3. Checkout `node` . We recommend you check out the repo as `/opt/node`, the rest of the wiki assumes this path.
 ```shell
 sudo mkdir /opt/node
-sudo chown $(whoami): /opt/node
+sudo chown $(whoami) /opt/node
 cd /opt
 git clone https://github.com/liquidinvestigations/node.git
 ```
