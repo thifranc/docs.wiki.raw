@@ -7,7 +7,7 @@ This guide describes the structure of the [Liquid Investigations][] project and 
 [HashiStack]: https://www.hashicorp.com/cloud-operating-model
 
 * [[Architecture]]
-* [[Hardware and Software requirements]]
+* [[Hardware requirements]]
 * [[Installation]]
 * [[Hacking]]
 * [[Maintenance]]
