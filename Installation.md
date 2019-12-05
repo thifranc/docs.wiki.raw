@@ -1,6 +1,6 @@
 First make sure your system meets the [[Hardware requirements]].
 
-1. Checkout `cluster`. We recommend you check out the repo as `/opt/cluster`, the rest of the wiki assumes this path.
+1. Checkout [`cluster`](https://github.com/liquidinvestigations/cluster). We recommend you check out the repo as `/opt/cluster`, the rest of the wiki assumes this path.
 ```shell
 sudo mkdir /opt/cluster
 sudo chown $(whoami) /opt/cluster
@@ -8,7 +8,7 @@ cd /opt
 git clone https://github.com/liquidinvestigations/cluster.git
 ```
 2. Follow the [instructions in the Readme](https://github.com/liquidinvestigations/cluster#quick-start).
-3. Checkout `node` . We recommend you check out the repo as `/opt/node`, the rest of the wiki assumes this path.
+3. Checkout [`node`](https://github.com/liquidinvestigations/node) . We recommend you check out the repo as `/opt/node`, the rest of the wiki assumes this path.
 ```shell
 sudo mkdir /opt/node
 sudo chown $(whoami) /opt/node
