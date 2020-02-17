@@ -12,7 +12,7 @@ Watch out for breaking changes in the configuration by looking at the changelogs
     git fetch
     git checkout vX.Y.Z
     # check for new settings in `examples/cluster.ini` and add them to `cluster.ini`
-    bin/docker.sh --rm --pull --image=liquidinvestigations/cluster:X.Y.Z
+    bin/docker.sh --rm --pull --image liquidinvestigations/cluster:X.Y.Z
     # wait for services to be ready
     docker exec cluster ./cluster.py wait
 
