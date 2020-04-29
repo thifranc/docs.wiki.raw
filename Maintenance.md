@@ -62,6 +62,32 @@ cd /opt/node
 
 _Note:_ if the `docker system prune --all --force --volumes` command takes too long to finish, `sudo systemctl restart docker` and re-run it.
 
+## Backup
+
+run `./liquid backup $DIR` to back up the system. 
+
+Optional parameters to specify which parts of the system will be backed up:
+
+`--no-apps`             : excludes app data from backup  
+`--no-collections`      : excludes collections from backup  
+`--no-pg`               : excludes collection databases from backup  
+`--no-es`               : excludes collection es snapshots from backup  
+`--no-blobs`            : excludes collection blobs (**B**inary **L**arge **OB**jects) from backup  
+
+When no optional parameter is given, the whole system will be backed up.
+
+## Restore 
+
+Make sure a clean system is installed before starting with the restore process.
+
+Restoring apps: `./liquid restore_apps $DIR`
+
+Restoring collections: `./liquid restore_all_collections $DIR`
+
+_Note:_ To be able to restore the collections have to be disabled in the `liquid.ini`. After the restore process is finished, the collections have to be enabled in the `liquid.ini` again to be accessible.
+
+To finish the restore process run `./liquid deploy`.
+
 ## Other problems
 
 Use the [[Admin FAQ]] for miscellaneous operating details and the [[Security]] page on how to keep a production system secure.
