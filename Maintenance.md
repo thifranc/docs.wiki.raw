@@ -84,7 +84,7 @@ Restoring apps: `./liquid restore_apps $DIR`
 
 Restoring collections: `./liquid restore_all_collections $DIR`
 
-_Note:_ To be able to restore the collections have to be disabled in the `liquid.ini`. After the restore process is finished, the collections have to be enabled in the `liquid.ini` again to be accessible.
+_Note:_ The collections have to be disabled in the `liquid.ini` to be restored. After the restore process is finished the collections have to be enabled in the `liquid.ini` again to be accessible.
 
 To finish the restore process run `./liquid deploy`.
 
