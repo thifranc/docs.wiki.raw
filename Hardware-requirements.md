@@ -1,3 +1,5 @@
+# Single Node Configuration
+
 To run the Liquid Investigations bundle you will need, at a minimum:
 
 * A single Linux system with
@@ -15,31 +17,33 @@ Liquid Investigations has only been tested on Ubuntu 18, Debian 10 and CentOS.
 
 ## Storage
 
+It's highly recommended to use RAID-5 (or better) for both the SSD and the HDD volumes. Backups should also be saved on a different machine, or at least on a different disk array.
+
 Liquid Investigations requires SSD storage (either SATA or M.2) to be available for:
-- docker images -- 20GB
-- application data -- max. 50GB for wiki, chat, pads, annotations
-- system runtime metrics -- ~30GB for the last 4 weeks of system metrics
-- hoover elasticsearch and databases storage -- ~0.6 X size of source data 
+- operating system and host system packages - 10GB
+- docker images - 20GB
+- application data - max. 50GB for wiki, chat, pads, annotations
+- system runtime metrics - ~30GB for the last 4 weeks of system metrics
+- hoover elasticsearch and databases storage - ~0.6 X size of source data 
 
 The following can be stored on slower storage, HDD or NAS:
 - hoover source collection data - includes files uploaded by users
-- hoover internal data (data blobs) -- ~2.5 X size of source data
+- hoover internal data (data blobs) - ~2.5 X size of source data
 
+
+Backups also take space: expect application data to be 5-20GB / snapshot, and collection backups to take as much as 2X the source data.
 
 So, for example, you need to be able to search through **2TB** of source collection data. You need at least:
 
-- 2TB (source) + 5TB (blobs) = **7TB of HDD storage**
-- 1.2TB (hoover database and elasticsearch) + .1TB (everything else in the list) = **1.3TB of SSD storage**
+- server HDD array: 2TB (source) + 5TB (blobs) = **7TB**
+- server SSD array: 1.2TB (hoover database and elasticsearch) + .11TB (everything else in the list) = **1.31TB**
+- backup machine: 2 * 2TB (1 backup for each collection processed) + 240GB (12 application snapshots) = **4.24TB**
 
-
-It's highly recommended to use RAID-5 (or better) for both the SSD and the HDD volumes.
-
-Backups also take space: expect application data to be around 20GB / snapshot, and collection backups to take around the same space as the source data.
 
 ## Memory
 
 The minimal memory requirement to run every app is 28GB.
-- When the number of concurrent users reaches around 50, an extra 8GB of RAM is needed to scale the number of web server and authentication proxy containers. 
+- When the number of concurrent users reaches around 50-100, an extra 8GB of RAM is needed to scale the number of web server and authentication proxy containers. 
 - The memory requirement for hoover's elasticsearch and postgresql depends on source collection data size:
   - **~1TB source** data: machine requires in total **32GB of RAM**
     - 5GB elasticsearch, 3GB postgresql
@@ -47,7 +51,7 @@ The minimal memory requirement to run every app is 28GB.
   - **~3TB source** data: machine requires in total **64GB of RAM**
     - 16GB elasticsearch, 6GB postgresql
     - 22GB of additional RAM to be used as filesystem cache
-  - **more than 8TB** source data: machine requires in total **128GB RAM**
+  - **more than 8TB source** data: machine requires in total **128GB RAM**
     - 30GB elasticsearch, 10GB postgresql
     - 40GB of additional RAM to be used as filesystem cache
 
@@ -70,4 +74,18 @@ Most of the work has been done on *gaming computers* with these specifications. 
 
 Setup cost total: ~$2300
 
-With some fine tuning, this node has served around 120 concurrent users searching through 3TB of source data.
+With some fine tuning, this single node system has served around 120 concurrent users searching through 3TB of source data.
+
+### Extending the setup
+
+Processing speed may be improved by using adding more workers to the cluster. These can be flexibly added and removed; see the next section.
+
+
+# Multi Node Configuration
+
+The single-node setup can be extended to multiple machines if needed.
+
+- Use at least 16GB of RAM and 100GB of local SSD storage for each worker node in the cluster.
+- Use at least 32GB of RAM for the server node.
+- In the current implementation all nodes must access all the data, so mount both the HDD and the SSD volumes from the server node to each worker node using NFS.
+- A 1Gbps LAN should give acceptable performance.
