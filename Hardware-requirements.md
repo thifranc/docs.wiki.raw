@@ -37,7 +37,7 @@ So, for example, you need to be able to search through **2TB** of source collect
 
 - server HDD array: 2TB (source) + 5TB (blobs) = **7TB**
 - server SSD array: 1.2TB (hoover database and elasticsearch) + .11TB (everything else in the list) = **1.31TB**
-- backup machine: 2 * 2TB (1 backup for each collection processed) + 240GB (12 application snapshots) = **4.24TB**
+- backup machine: 2 * 2 * 2TB (2 backups for each collection processed) + 240GB (12 application snapshots) = **8.24TB**
 
 
 ## Memory
