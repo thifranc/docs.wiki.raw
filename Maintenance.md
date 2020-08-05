@@ -73,6 +73,7 @@ Optional parameters to specify which parts of the system will be backed up:
 `--no-pg`               : excludes collection databases from backup  
 `--no-es`               : excludes collection es snapshots from backup  
 `--no-blobs`            : excludes collection blobs (**B**inary **L**arge **OB**jects) from backup  
+`--collection $NAME`    : backup specific collection
 
 When no optional parameter is given, the whole system will be backed up.
 
