@@ -83,7 +83,7 @@ Make sure a clean system is installed before starting with the restore process.
 
 Restoring apps: `./liquid restore-apps $DIR`
 
-Restoring collections: `./liquid restore-all_collections $DIR`
+Restoring collections: `./liquid restore-all-collections $DIR`
 
 _Note:_ The collections have to be disabled in the `liquid.ini` to be restored. After the restore process is finished the collections have to be enabled in the `liquid.ini` again to be accessible.
 
