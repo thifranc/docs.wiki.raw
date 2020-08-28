@@ -64,7 +64,7 @@ _Note:_ if the `docker system prune --all --force --volumes` command takes too l
 
 ## Backup
 
-run `./liquid backup $DIR` to back up the system. 
+run `./liquid backup [OPTIONS] $DIR` to back up the system. 
 
 Optional parameters to specify which parts of the system will be backed up:
 
