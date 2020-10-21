@@ -28,14 +28,14 @@ Liquid Investigations requires SSD storage (either SATA or M.2) to be available 
 
 The following can be stored on slower storage, HDD or NAS:
 - hoover source collection data - includes files uploaded by users
-- hoover internal data (data blobs) - ~2.5 X size of source data
+- hoover internal data (data blobs) - ~3 X size of source data
 
 
 Backups also take space: expect application data to be 5-20GB / snapshot, and collection backups to take as much as 2X the source data.
 
 So, for example, you need to be able to search through **2TB** of source collection data. You need at least:
 
-- server HDD array: 2TB (source) + 5TB (blobs) = **7TB**
+- server HDD array: 2TB (source) + 6TB (blobs) = **8TB**
 - server SSD array: 1.2TB (hoover database and elasticsearch) + .11TB (everything else in the list) = **1.31TB**
 - backup machine: 2 * 2 * 2TB (2 backups for each collection processed) + 240GB (12 application snapshots) = **8.24TB**
 
