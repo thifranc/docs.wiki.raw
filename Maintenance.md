@@ -44,6 +44,7 @@ docker stop $(docker ps -qa)
 Some [Nomad versions](https://www.nomadproject.io/guides/upgrade/upgrade-specific.html) require clearing the server data for upgrades. In those cases it's best to clear the docker system images too, using the following command sequence.
 
 ```bash
+./liquid halt
 docker stop -t 120 cluster
 docker stop $(docker ps -qa)
 docker system prune --all --force --volumes
