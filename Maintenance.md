@@ -6,7 +6,7 @@ Watch out for breaking changes in the configuration by looking at the changelogs
 - [the node releases page](https://github.com/liquidinvestigations/node/releases)
 - [the cluster releases page](https://github.com/liquidinvestigations/cluster/releases)
 
-### 1. Update the `cluster` to version `X.Y.Z`:
+### 1. Update the `cluster` to [version `X.Y.Z`](https://github.com/liquidinvestigations/cluster/releases):
 
     cd /opt/cluster
     git fetch
@@ -17,7 +17,7 @@ Watch out for breaking changes in the configuration by looking at the changelogs
     docker exec cluster ./cluster.py wait
 
 
-### 2. Update `liquid` to version `X.Y.Z`:
+### 2. Update`node` to [version `X.Y.Z`](https://github.com/liquidinvestigations/node/releases):
 
     cd /opt/node
     git fetch
