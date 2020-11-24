@@ -19,3 +19,17 @@ To follow Traefik's progress in getting the HTTPS certificates from LetsEncrypt 
 
 ## Nomad won't schedule jobs
 Try [running a clean reset](https://github.com/liquidinvestigations/docs/wiki/Maintenance#clean-reset). Watch out for [docker daemon GOMAXPROCS](https://github.com/liquidinvestigations/cluster/blob/474f0fd4910bee7e70a1ad09771f9c8033d7d63e/examples/registry-systemd-override.conf#L3) if you are running on many cores.
+
+
+## Elasticsearch won't index documents
+
+When the elasticsearch disk exceeds some 90% limit, elasticsearch will lock itself up.
+
+Be sure to free up some disk space first, then run:
+
+```
+curl  -XPUT '10.66.60.1:9990/_es/_cluster/settings' -H 'Content-Type: application/json' -d '{"persistent":{"cluster.blocks.read_only":false}}'
+```
+
+... where 10.66.60.1 is the network address configured in cluster.ini and liquid.ini.
+
