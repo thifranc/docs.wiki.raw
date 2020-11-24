@@ -28,7 +28,9 @@ When the elasticsearch disk exceeds some 90% limit, elasticsearch will lock itse
 Be sure to free up some disk space first, then run:
 
 ```
-curl  -XPUT '10.66.60.1:9990/_es/_cluster/settings' -H 'Content-Type: application/json' -d '{"persistent":{"cluster.blocks.read_only":false}}'
+export ES_IP=10.66.60.1
+curl  -XPUT "$ES_IP:9990/_es/_cluster/settings" -H 'Content-Type: application/json' -d '{"persistent":{"cluster.blocks.read_only":false}}'
+curl  -XPUT "$ES_IP:9990/_es/_all/_settings" -H 'Content-Type: application/json' -d'{ "index.blocks.read_only_allow_delete" : null } }'
 ```
 
 ... where 10.66.60.1 is the network address configured in cluster.ini and liquid.ini.
