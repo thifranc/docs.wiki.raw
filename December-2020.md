@@ -21,9 +21,25 @@ For more details, checkout the **weekly** highlights and release notes.
 
 **5th -> 11th December**
 - Mediapart support for Hoover search;
+- Rocketchat upgrade to v3.9;
+- Revised auto-logout and single-sign-out timeouts in proxies, backend
+- UI:
+  - Fixes for multiple fields sorting;
+  - Changes in collections filter;
+  - Fixes for hacky old school pagination in finder;
+
+**12th -> 18th December**
+- Fix for Snoop XLS processing;
+- Tags backend - create/edit public, private tags;
+- Tags UI for create/delete and change private/public;
+- Moved search query to backend
+
 
 > ## Release notes 
 > ### Hoover UI
+>Date: Dec 18th / v0.8.0
+>-Simple tags UI, elasticsearch query on backend
+>
 >Date: Dec 9th / v0.7.0 -> v0.7.4
 >- remove cookie header overwrite;
 >- pass headers to api;
@@ -35,6 +51,11 @@ For more details, checkout the **weekly** highlights and release notes.
 >- Redux refactoring
 >
 > ### Node
+>Date: Dec 17th / v0.12.5 -> v012.7
+>- fixup port location for snoop-web;
+>- update snoop: build with all languages for ocr;
+>- update snoop: fix XLS file processing;
+>
 >Date: Dec 9th / v0.12.2 -> v0.12.3
 >- breaking change! all data from the chat server is lost!;
 >- update rocketchat and mongodb to latest version;
@@ -62,8 +83,19 @@ For more details, checkout the **weekly** highlights and release notes.
 >- proxy the ui through nginx instead of static exports from the backend
 >
 > ### Snoop
->Date: Dec 11th / v0.13.0
->- don't update mime twice
+>Date: Dec 18 / v0.14.0 -> v0.14.6
+>- fix tag detail route;
+>- give tika the file content type;
+>- skip testing on non-push events;
+>- only allow modifying own tags;
+>- fixup drone ci error;
+>- add support for user tags;
+>
+>Date: Dec 11th / v0.13.0 -> v0.13.3
+>- put back all OCR languages in snoop image;
+>- subcommand to re-run handle_file on some files;
+>- don't queue index immediately after digest.launch;
+>- don't update mime twice;
 >
 >Date: Dec 1st -> Dec 10th / v0.12.1 -> v0.12.7
 >- update dependencies;
