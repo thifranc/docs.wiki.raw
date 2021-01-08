@@ -21,17 +21,21 @@ To follow Traefik's progress in getting the HTTPS certificates from LetsEncrypt 
 Try [running a clean reset](https://github.com/liquidinvestigations/docs/wiki/Maintenance#clean-reset). Watch out for [docker daemon GOMAXPROCS](https://github.com/liquidinvestigations/cluster/blob/474f0fd4910bee7e70a1ad09771f9c8033d7d63e/examples/registry-systemd-override.conf#L3) if you are running on many cores.
 
 
-## Elasticsearch won't index documents
+## Elasticsearch won't index documents / Hypothesis won't save annotations
 
 When the elasticsearch disk exceeds some 90% limit, elasticsearch will lock itself up.
+
+Hypothesis also uses elasticsearch to save annotations, so you'll see the same issue there.
 
 Be sure to free up some disk space first, then run:
 
 ```
-export ES_IP=10.66.60.1
-curl  -XPUT "$ES_IP:9990/_es/_cluster/settings" -H 'Content-Type: application/json' -d '{"persistent":{"cluster.blocks.read_only":false}}'
-curl  -XPUT "$ES_IP:9990/_es/_all/_settings" -H 'Content-Type: application/json' -d'{ "index.blocks.read_only_allow_delete" : null } }'
+export ES_ADDR=10.66.60.1:9990/_es
+curl  -XPUT "$ES_ADDR/_cluster/settings" -H 'Content-Type: application/json' -d '{"persistent":{"cluster.blocks.read_only":false}}'
+curl  -XPUT "$ES_ADDR/_all/_settings" -H 'Content-Type: application/json' -d'{ "index.blocks.read_only_allow_delete" : null } }'
 ```
 
 ... where 10.66.60.1 is the network address configured in cluster.ini and liquid.ini.
 
+
+For hypothesis, you have to identify the container port opened with `docker ps | grep hypothesis/elasticsearch` and set the ES_ADDR to that `ip:port`. Then, re-run the 2 commands.
