@@ -9,7 +9,7 @@ Watch out for breaking changes in the configuration by looking at the changelogs
 ### 1. Update the `cluster` to [version `X.Y.Z`](https://github.com/liquidinvestigations/cluster/releases):
 
     cd /opt/cluster
-    git fetch
+    git fetch -ap
     git checkout vX.Y.Z
     # check for new settings in `examples/cluster.ini` and add them to `cluster.ini`
     bin/docker.sh --rm --pull --image liquidinvestigations/cluster:X.Y.Z
@@ -54,10 +54,14 @@ sudo rm -rf /opt/cluster/var/nomad
 ... and continue with deploying normally as described in the beginning of this article:
 ```bash
 cd /opt/cluster
+git fetch -ap
+git checkout vX.Y.Z
 bin/docker.sh --rm --pull --image liquidinvestigations/cluster:X.Y.Z
 docker exec cluster ./cluster.py wait
 
 cd /opt/node
+git fetch -ap
+git checkout vX.Y.Z
 ./liquid deploy
 ```
 
