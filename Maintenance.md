@@ -94,6 +94,29 @@ _Note:_ The collections have to be disabled in the `liquid.ini` to be restored. 
 
 To finish the restore process run `./liquid deploy`.
 
+
+## Changing domain name
+
+After changing the upstream network configuration, you will also have to change the following:
+
+- domain in `liquid.ini`
+- change domain under `volumes/nextcloud/nextcloud/config/config.php` (it appears two times) 
+
+
+### Issues after domain change
+
+#### Hypothesis
+
+Bulk changing of annotation target URLs is not supported: [docs page](https://web.hypothes.is/help/how-to-establish-or-avoid-document-equivalence-in-the-hypothesis-system/) 
+
+Since none of our services export those markers, the URLs in Hypothesis will be wrong.
+
+#### HTTPS certificates
+
+HTTPS certificates are not automatically removed. See the [[Admin FAQ]] for more details.
+
+#### 
+
 ## Other problems
 
 Use the [[Admin FAQ]] for miscellaneous operating details and the [[Security]] page on how to keep a production system secure.
