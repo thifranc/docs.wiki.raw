@@ -111,11 +111,15 @@ Bulk changing of annotation target URLs is not supported: [docs page](https://we
 
 Since none of our services export those markers, the URLs in Hypothesis will be wrong.
 
+#### Rocketchat
+
+Login with the auto-generated admin user and password and update all OAuth2 settings by hand.
+
+
 #### HTTPS certificates
 
 HTTPS certificates are not automatically removed. See the [[Admin FAQ]] for more details.
 
-#### 
 
 ## Other problems
 
