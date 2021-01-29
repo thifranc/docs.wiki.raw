@@ -107,13 +107,58 @@ After changing the upstream network configuration, you will also have to change 
 
 #### Hypothesis
 
-Bulk changing of annotation target URLs is not supported: [docs page](https://web.hypothes.is/help/how-to-establish-or-avoid-document-equivalence-in-the-hypothesis-system/) 
 
-Since none of our services export those markers, the URLs in Hypothesis will be wrong.
+Bulk changing of annotation target URLs is not officially supported by upstream ([docs page](https://web.hypothes.is/help/how-to-establish-or-avoid-document-equivalence-in-the-hypothesis-system/)), so we use database-level replace to change the targets ourselves.
+
+To fix hypothesis configuration, run these commands 
+after replacing `NEW.DOMAIN.ORG` and `OLD.DOMAIN.COM` with the new and domains you set in `[liquid] liquid_domain`.
+
+
+```
+./liquid shell hypothesis-deps:pg psql -U hypothesis
+
+hypothesis=# update public.user set authority = 'NEW.DOMAIN.ORG', email = concat(username, '@NEW.DOMAIN.ORG');
+UPDATE 50
+
+hypothesis=# update annotation set userid = replace(userid, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
+UPDATE 200
+hypothesis=# update annotation set target_uri = replace(target_uri, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
+UPDATE 200
+hypothesis=# update annotation set target_uri_normalized = replace(target_uri_normalized, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
+UPDATE 200
+
+
+hypothesis=# delete from authclient where name = 'liquid';
+DELETE 1
+
+hypothesis=# \q
+```
+
+Also run:
+```
+./liquid shell hypothesis:hypothesis ./bin/hypothesis -- --  move-uri --old 'OLD.DOMAIN.COM' --new 'NEW.DOMAIN.COM'
+```
+
+The previous command doesn't replace the USER IDs, but our database script above does, so please run both.
+
+
+And restart hypothesis from the Nomad Web UI.
+
+
+After finishing the requests above, run:
+
+```
+./liquid shell hypothesis:hypothesis ./bin/hypothesis -- -- search reindex
+```
+
 
 #### Rocketchat
 
-Login with the auto-generated admin user and password and update all OAuth2 settings by hand.
+Login with the auto-generated admin user and password and update all these settings by hand:
+- General > Site URL
+- OAuth2 > Liquid
+
+Take care in updating HTTP vs. HTTPS for your new domain.
 
 
 #### HTTPS certificates
