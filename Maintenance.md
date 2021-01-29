@@ -127,6 +127,17 @@ UPDATE 200
 hypothesis=# update annotation set target_uri_normalized = replace(target_uri_normalized, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
 UPDATE 200
 
+hypothesis=#  update document set web_uri = replace(web_uri, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
+UPDATE 150
+hypothesis=# update document_uri set claimant = replace(claimant, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
+UPDATE 200
+hypothesis=# update document_uri set claimant_normalized = replace(claimant_normalized, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
+UPDATE 200
+hypothesis=# update document_uri set uri_normalized = replace(uri_normalized, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
+UPDATE 200
+hypothesis=# update document_uri set uri = replace(uri, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
+UPDATE 200
+
 
 hypothesis=# delete from authclient where name = 'liquid';
 DELETE 1
