@@ -113,41 +113,18 @@ Bulk changing of annotation target URLs is not officially supported by upstream 
 To fix hypothesis configuration, run these commands 
 after replacing `NEW.DOMAIN.ORG` and `OLD.DOMAIN.COM` with the new and domains you set in `[liquid] liquid_domain`.
 
-
-```
-./liquid shell hypothesis-deps:pg psql -U hypothesis
-
-hypothesis=# update public.user set authority = 'NEW.DOMAIN.ORG', email = concat(username, '@NEW.DOMAIN.ORG');
-UPDATE 50
-
-hypothesis=# update annotation set userid = replace(userid, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
-UPDATE 200
-hypothesis=# update annotation set target_uri = replace(target_uri, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
-UPDATE 200
-hypothesis=# update annotation set target_uri_normalized = replace(target_uri_normalized, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
-UPDATE 200
-
-hypothesis=#  update document set web_uri = replace(web_uri, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
-UPDATE 150
-hypothesis=# update document_uri set claimant = replace(claimant, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
-UPDATE 200
-hypothesis=# update document_uri set claimant_normalized = replace(claimant_normalized, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
-UPDATE 200
-hypothesis=# update document_uri set uri_normalized = replace(uri_normalized, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
-UPDATE 200
-hypothesis=# update document_uri set uri = replace(uri, 'OLD.DOMAIN.COM', 'NEW.DOMAIN.ORG');
-UPDATE 200
-
-
-hypothesis=# delete from authclient where name = 'liquid';
-DELETE 1
-
-hypothesis=# \q
-```
-
-Also run:
 ```
 ./liquid shell hypothesis:hypothesis ./bin/hypothesis -- --  move-uri --old 'OLD.DOMAIN.COM' --new 'NEW.DOMAIN.COM'
+```
+
+```
+./liquid dockerexec hypothesis-deps:pg pg_dump -U hypothesis hypothesis -C -c > h.sql
+sed -i.bak 's/OLD.DOMAIN.COM/NEW.DOMAIN.ORG/g' h.sql
+
+# stop the Hypothesis web service from the UI, then run:
+./liquid dockerexec hypothesis-deps:pg dropdb hypothesis -U hypothesis
+echo "create database hypothesis with owner = hypothesis" | ./liquid shell hypothesis-deps:pg psql -U hypothesis -d postgres
+cat h.sql | ./liquid dockerexec hypothesis-deps:pg psql -U hypothesis
 ```
 
 The previous command doesn't replace the USER IDs, but our database script above does, so please run both.
