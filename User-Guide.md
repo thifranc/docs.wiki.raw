@@ -1,4 +1,4 @@
-This guide details how to use and administer a [Liquid Investigations][] node. Additionally it offers users a broad overview of all the apps functionalities that are part of the liquid bundle. Non admin users should concern themselves with only the '**Users**' section below.
+This guide details how to use and administer a [Liquid Investigations][] node. Additionally it offers users a broad overview of all the apps functionalities that are part of the liquid bundle. Non admin users should only concern themselves with the '**Users**' section below.
 
 For installation instructions go to [[Technical Overview]].
 
