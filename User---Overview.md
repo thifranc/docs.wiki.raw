@@ -8,7 +8,7 @@ Liquid Investigations is EIC's in-house free, open-source  tools bundle  (index,
 
 ## What is the usual workflow between all the liquid apps?
 
-Once you find yourself on the Liquid Investigations homepage, the best way to start navigating the system is to start with the chat app [Rocket.Chat](https://github.com/liquidinvestigations/docs/wiki/User---Rocket.Chat). This way you will immediately connect with your fellow collaborators, who may also lend a hand and tell you a bit about how the system works for them.
+Once you find yourself on the Liquid Investigations homepage, the best way to start navigating the system is to start with the chat app [RocketChat](https://github.com/liquidinvestigations/docs/wiki/User---Rocket.Chat). This way you will immediately connect with your fellow collaborators, who may also lend a hand and tell you a bit about how the system works for them.
 
 Click the RocketChat link on the Liquid homepage, (ignore the request to input a user and password), and follow the blue line telling you to `CLICK HERE TO GET IN!` and connect to the other users.
 
