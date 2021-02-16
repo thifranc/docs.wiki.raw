@@ -22,7 +22,7 @@ Activate your annotation powers and leave a mark on documents and findings with 
 
 If you need to take notes for yourself or for a team, use our real time note pad [CodiMD](https://github.com/liquidinvestigations/docs/wiki/User---CodiMD).
 
-Engage with others and keep an overview on search practice and liquid workflows via [DokuWiki](https://github.com/liquidinvestigations/docs/wiki/User---DokuWiki). 
+Engage with others and keep an overview on search practices and liquid workflows and projects via [DokuWiki](https://github.com/liquidinvestigations/docs/wiki/User---DokuWiki). 
 This is our collective project memory and knowledge base and you can contribute to it!
 
 Otherwise toggle back and forth our liquid apps by clicking the liquid logo or the text `-> Liquid at work`.
