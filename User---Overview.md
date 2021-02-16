@@ -12,7 +12,7 @@ Once you find yourself on the Liquid Investigations homepage, the best way to st
 
 Click the RocketChat link on the Liquid homepage, (ignore the request to input a user and password), and follow the blue line telling you to `CLICK HERE TO GET IN!` and connect to the other users.
 
-If you want to upload and share documentation, please return to the Liquid Homepage and click on [NextCloud](https://github.com/liquidinvestigations/docs/wiki/User---Nextcloud), our file sharing app. All the documents you upload in NextCloud are indexed, and OCRed (if needed), and made searchable via Hoover, our performant search app, under the 'Uploads' collection. 
+If you want to upload and share documentation, please return to the Liquid homepage and click on [NextCloud](https://github.com/liquidinvestigations/docs/wiki/User---Nextcloud), our file sharing app. All the documents you upload in NextCloud are indexed, and OCRed (if needed), and made searchable via Hoover, our performant search app, under the 'Uploads' collection. 
 
 Besides uploading your source documents, the NextCloud app will allow you to also view the contacts for all the users in the system.
 
