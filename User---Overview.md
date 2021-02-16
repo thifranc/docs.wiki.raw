@@ -30,6 +30,5 @@ Otherwise toggle back and forth our liquid apps by clicking the liquid logo or t
 
 ***
 
-
-Here you have an overview of our [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide). 
+Back to our detailed [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide) for more useful info. 
 
