@@ -6,7 +6,7 @@ The main goal of this software is to facilitate secure online collaborations for
 
 Liquid Investigations is EIC's in-house free, open-source  tools bundle  (index, OCR & search, wiki, chat, file-sync, pad and annotations in a self-hosted environment behind a 2FA layer), promoting secure information-exchange and collaborative knowledge production.
 
-## What is the regular workflow between all these apps?
+## What is the usual workflow between all these apps?
 
 Once you find yourself on the Liquid Investigations homepage, the best way to start navigating the system is to start with the chat app [Rocket.Chat](https://github.com/liquidinvestigations/docs/wiki/User---Rocket.Chat). This way you will immediately connect with your fellow collaborators, who may also lend a hand and tell you a bit about how the system works for them.
 
