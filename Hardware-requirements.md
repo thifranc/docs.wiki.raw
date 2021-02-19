@@ -12,7 +12,7 @@ To run the Liquid Investigations bundle you will need, at a minimum:
 
 A system in this configuration should be able to handle about 200GB of Hoover source data while also running all the bundled applications, see the next section for details.
 
-Liquid Investigations has only been tested on Ubuntu 18, Debian 10 and CentOS.
+Liquid Investigations has only been tested on Ubuntu 18 & 20 LTS, Debian 10 and CentOS.
 
 
 ## Storage
