@@ -20,5 +20,4 @@ There is a [Reading List](https://hackmd.io/upSx7g7qSYSjE0poRtprkQ?view) we made
 
 All work is done through GitHub Pull Requests. See the following page for technical details:
 - [[Technical Overview]]
-- [[Hacking]]
-- [`node` docs/development.md](https://github.com/liquidinvestigations/node/blob/master/docs/Development.md)
+- [[Development]]
