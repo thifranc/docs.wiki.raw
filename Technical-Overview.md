@@ -9,5 +9,5 @@ This guide describes the structure of the [Liquid Investigations][] project and 
 * [[Architecture]]
 * [[Hardware requirements]]
 * [[Installation]]
-* [[Hacking]]
 * [[Maintenance]]
+* [[Development]]
