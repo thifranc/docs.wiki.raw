@@ -17,6 +17,6 @@ git clone https://github.com/liquidinvestigations/node.git
 ```
 4. Install `node` following the [instructions in the Readme](https://github.com/liquidinvestigations/node#installation)
 
-Go to [[User Guide]] for instructions on creating users and granting access. For development tips, go to [[Hacking]].
+Go to [[User Guide]] for instructions on creating users and granting access. For development tips, go to [[Development]].
 
 Follow the [[Maintenance]] page on how to keep the system up to date.
