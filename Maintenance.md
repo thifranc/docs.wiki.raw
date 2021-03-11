@@ -6,22 +6,22 @@ Watch out for breaking changes in the configuration by looking at the changelogs
 - [the node releases page](https://github.com/liquidinvestigations/node/releases)
 - [the cluster releases page](https://github.com/liquidinvestigations/cluster/releases)
 
-### 1. Update the `cluster` to [version `X.Y.Z`](https://github.com/liquidinvestigations/cluster/releases):
+### 1. Update the `cluster` to [version `X.X.X`](https://github.com/liquidinvestigations/cluster/releases):
 
     cd /opt/cluster
     git fetch -ap
-    git checkout vX.Y.Z
+    git checkout vX.X.X
     # check for new settings in `examples/cluster.ini` and add them to `cluster.ini`
-    bin/docker.sh --rm --pull --image liquidinvestigations/cluster:X.Y.Z
+    bin/docker.sh --rm --pull --image liquidinvestigations/cluster:X.X.X
     # wait for services to be ready
     docker exec cluster ./cluster.py wait
 
 
-### 2. Update`node` to [version `X.Y.Z`](https://github.com/liquidinvestigations/node/releases):
+### 2. Update`node` to [version `Z.Z.Z`](https://github.com/liquidinvestigations/node/releases):
 
     cd /opt/node
     git fetch
-    git checkout vX.Y.Z
+    git checkout vZ.Z.Z
     # check for new settings in `examples/liquid.ini` and add them to `liquid.ini`
     ./liquid deploy
 
@@ -55,13 +55,13 @@ sudo rm -rf /opt/cluster/var/nomad
 ```bash
 cd /opt/cluster
 git fetch -ap
-git checkout vX.Y.Z
-bin/docker.sh --rm --pull --image liquidinvestigations/cluster:X.Y.Z
+git checkout vX.X.X
+bin/docker.sh --rm --pull --image liquidinvestigations/cluster:X.X.X
 docker exec cluster ./cluster.py wait
 
 cd /opt/node
 git fetch -ap
-git checkout vX.Y.Z
+git checkout vZ.Z.Z
 ./liquid deploy
 ```
 
