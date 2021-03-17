@@ -1,7 +1,7 @@
 # Development
 
 The different components require different setups for working on them.
-Please take note of our [[Hardware requirements]] before attempting to run the services on your machine.
+Please take note of our [[Hardware requirements]] before attempting to run the services on your machine. If you need instructions to set up for development see [[Liquid Investigations Development First Steps]].
 
 
 ### Working on the infrastructure
