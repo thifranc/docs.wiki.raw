@@ -16,6 +16,10 @@ Report all other bugs as GitHub Issues under the relevant repository listed in t
 
 There is a [Reading List](https://hackmd.io/upSx7g7qSYSjE0poRtprkQ?view) we made for the 2020 summer internship. It references all the main components in the system.
 
+## Get started with development ##
+
+To get started see [[Liquid Investigations Development First Steps]].
+
 ## Send code
 
 All work is done through GitHub Pull Requests. See the following page for technical details:
