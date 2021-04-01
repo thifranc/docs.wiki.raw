@@ -22,10 +22,7 @@ Please note that this is a living document evolving at the same time with our te
 
 Below is a quick explanatory graph, of all the liquid apps and how they interact with each other.
 
-[Liquid workflow](https://github.com/liquidinvestigations/docs/blob/master/Screen%20Shot%202021-03-02%20at%2010.39.53%20AM.png)
- 
-
-INSERT PICTURE FROM URL
+![](https://github.com/liquidinvestigations/docs/blob/master/Screen%20Shot%202021-03-02%20at%2010.39.53%20AM.png)
 
 Once you find yourself on the Liquid Investigations homepage, the best way to start navigating the system is to start with the chat app [Rocket.Chat](https://github.com/liquidinvestigations/docs/wiki/User-Guide%3A-Rocket.Chat). This way you will immediately connect with your fellow collaborators, who may also lend a hand and tell you a bit about how the system works for them. 
 
