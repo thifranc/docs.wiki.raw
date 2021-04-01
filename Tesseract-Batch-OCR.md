@@ -1,3 +1,0 @@
-The server administrator can set up a batch OCR task to run on collection files. The process requires the users to select one or more languages for each document (by placing the document in a subdirectory named `/data/ocr/<language-codes>/`).
-
-The `launchocr` command is documented [in the node repository](https://github.com/liquidinvestigations/node/blob/master/docs/Hoover.md#tesseract-batch-ocr) and the task implementation is hosted on [this repository](https://github.com/liquidinvestigations/tesseract-batch).
