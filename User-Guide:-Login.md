@@ -4,4 +4,6 @@ After a pre-defined time (by default 12 hours, configurable, can be disabled) th
 
 ![](https://en.wikipedia.org/wiki/QR_code#/media/File:QR_code_for_mobile_English_Wikipedia.svg)
 
+
+
 Here you have an overview of our [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
