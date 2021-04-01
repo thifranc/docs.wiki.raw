@@ -15,7 +15,7 @@ For installation instructions go to [[Technical Overview]].
 * [[User Guide: CodiMD]]
 
 ## Administrators
-* [[Admin - Onboarding]]
-* [[Admin - Manage Hoover collections]]
-* [[Admin - Permissions for Hoover collections]]
-* [[Admin FAQ]]
+* [[Admin Guide: Onboarding]]
+* [[Admin Guide: Manage Hoover collections]]
+* [[Admin Guide: Permissions for Hoover collections]]
+* [[Admin Guide: FAQ]]
