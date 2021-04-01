@@ -1,7 +1,7 @@
 
 ### 2021
 
-* [January](https://github.com/liquidinvestigations/docs/wiki/January-2021)
+* [January](https://github.com/liquidinvestigations/docs/wiki/Tech-Team-Monthly-Summary:-January-2021)
 
 ### 2020
 
