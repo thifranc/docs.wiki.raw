@@ -5,14 +5,14 @@ For installation instructions go to [[Technical Overview]].
 [Liquid Investigations]: https://github.com/liquidinvestigations/docs/wiki
 
 ## Users
-* [[User - Overview]]
-* [[User - Login]]
-* [[User - Rocket.Chat]]
-* [[User - Nextcloud]]
-* [[User - Hoover]]
-* [[User - DokuWiki]]
-* [[User - Hypothesis]]
-* [[User - CodiMD]]
+* [[User Guide: Overview]]
+* [[User Guide: Login]]
+* [[User Guide: Rocket.Chat]]
+* [[User Guide: Nextcloud]]
+* [[User Guide: Hoover]]
+* [[User Guide: DokuWiki]]
+* [[User Guide: Hypothesis]]
+* [[User Guide: CodiMD]]
 
 ## Administrators
 * [[Admin - Onboarding]]
