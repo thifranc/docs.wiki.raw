@@ -21,6 +21,8 @@ Please note that this is a living document evolving at the same time with our te
 ## What is the usual workflow between all the Liquid Investigations apps?
 
 Below is a quick explanatory graph, of all the liquid apps and how they interact with each other.
+
+[Liquid workflow](https://github.com/liquidinvestigations/docs/blob/master/Screen%20Shot%202021-03-02%20at%2010.39.53%20AM.png)
  
 
 INSERT PICTURE FROM URL
