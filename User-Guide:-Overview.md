@@ -23,21 +23,20 @@ Please note that this is a living document evolving at the same time with our te
 Below is a quick explanatory graph, of all the liquid apps and how they interact with each other.
  
 
-![](file:///Users/adygov/Downloads/Screen%20Shot%202021-03-02%20at%2010.39.53%20AM.png)
+INSERT PICTURE FROM URL
 
-Once you find yourself on the Liquid Investigations homepage, the best way to start navigating the system is to start with the chat app RocketChat. This way you will immediately connect with your fellow collaborators, who may also lend a hand and tell you a bit about how the system works for them. 
+Once you find yourself on the Liquid Investigations homepage, the best way to start navigating the system is to start with the chat app [Rocket.Chat](https://github.com/liquidinvestigations/docs/wiki/User-Guide%3A-Rocket.Chat). This way you will immediately connect with your fellow collaborators, who may also lend a hand and tell you a bit about how the system works for them. 
 
 Click the RocketChat link on the Liquid homepage, and follow the blue line telling you to ‘click here to get in’ and connect to the other users.
 
+If you want to upload and share documentation, please return to the Liquid homepage and click on [Nextcloud](https://github.com/liquidinvestigations/docs/wiki/User-Guide%3A-Nextcloud), our file sharing app. All the documents you upload in Nextcloud are indexed, and OCRed (if needed), and made searchable via Hoover, our search app, under the 'Uploads' collection. Besides uploading source documents, we use Nextcloud to centralize contacts for all the users in the system.
 
-If you want to upload and share documentation, please return to the Liquid homepage and click on Nextcloud, our file sharing app. All the documents you upload in Nextcloud are indexed, and OCRed (if needed), and made searchable via Hoover, our search app, under the 'Uploads' collection. Besides uploading source documents, we use Nextcloud to centralize contacts for all the users in the system.
+Use the [Hoover](https://github.com/liquidinvestigations/docs/wiki/User-Guide%3A-Hoover) search app for all other searches and ask your coordinator for permissions if you feel you deserve to see more collections.
+Activate your annotation powers and leave a mark on documents and findings with [Hypothesis](https://github.com/liquidinvestigations/docs/wiki/User-Guide%3A-Hypothesis).
 
-Use the Hoover search app for all other searches and ask your coordinator for permissions if you feel you deserve to see more collections.
-Activate your annotation powers and leave a mark on documents and findings with Hypothesis.
+If you need to take notes for yourself or for a team, use our real time notepad [CodiMD](https://github.com/liquidinvestigations/docs/wiki/User-Guide%3A-CodiMD).
 
-If you need to take notes for yourself or for a team, use our real time notepad CodiMD.
-
-Engage with others and keep an overview on search practices and liquid projects via DokuWiki. This is our knowledge base and you can certainly contribute to it!
+Engage with others and keep an overview on search practices and liquid projects via [Dokuwiki](https://github.com/liquidinvestigations/docs/wiki/User-Guide%3A-DokuWiki). This is our knowledge base and you can certainly contribute to it!
 
 Otherwise toggle back and forth between our liquid apps by clicking the liquid logo or the text ’Liquid at work’. 
 
