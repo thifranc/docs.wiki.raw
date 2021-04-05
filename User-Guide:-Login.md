@@ -1,4 +1,5 @@
 _First time Users_
+
 Prerequisites for logging into Liquid Investigations
 
 Have an Authenticator enabled: 
@@ -8,10 +9,10 @@ Have an Authenticator enabled:
 
 A new user will get their credentials (username and a one-time onboarding URL) via an encrypted channel (e.g. Signal desktop). You will maintain the created username but may change your password. You will be asked to scan a QR code with your 2FA app:
 
-
+**[photo]**
 
 To finalize the account creation process you will then be prompted to also enter your 6 digit authentication code.
-Please make sure to activate your account in the next 12 hours! Otherwise the link will expire.
+**Please make sure to activate your account in the next 12 hours!** Otherwise the link will expire.
 
 _Login_
 
