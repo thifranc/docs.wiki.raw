@@ -89,6 +89,41 @@ _Search preview_
 
 The ‘Preview’ mode shows the text, the tags and meta information of a certain document. 
 
+**[photo]**
+
+Here,  the user can also mark the document as interesting, or starred, or trash (top right corner). This will automatically create a public tag on the document.
+
+**[photo]**
+
+The META tab shows you additional information about the investigated document (including the MD5 unique identifier). The Meta info is not printable or downloadable.
+
+**[photo]**
+
+From here you can _print_, _download_ or _open _the document in a new tab. To avoid any security breaches, the users are not able to print or to download the META information (MD5 and the path) of a document. But even just text print-outs could be tricky, so please read the following article carefully: https://www.bbc.com/future/article/20170607-why-printers-add-secret-tracking-dots.
+
+_Open document in a new tab: _
+
+Once you open a document in a new tab, you can navigate across the document by clicking the up/down arrows (which collapse or expand the desired doc modules) - especially in the case of email documents who could have multiple files attached.
+
+
+_Annotating Hoover documents_
+
+
+Once a document is opened in a new tab, it can be annotated by clicking on the _PDF viewer link_ underneath the PDF, Tags and Meta tabs (if the file type is a PDF). For any other file types you can just start annotating by highlighting some text.
+
+**[photo]**
+
+The Hypothes.is annotation frame will be visible, allowing for highlights and annotation. You need to be signed into your Hypothes.is account in order to make digital annotations on your Hoover document.
+
+**[photo]**
+
+Once you highlight the text to be annotated, an annotation panel will open on the right hand side. Here you can post the annotation to a specific group or keep it just for yourself. The number of annotations will  be displayed on the side of your document with a counter (e.g. 1 = only one annotation was made).  
+
+**[photo]**
+
+When another colleague will search and find the same document, he/she will notice the annotations that were made (provided the annotations were posted publicly). Hypothes.is digital annotations are a great way to share findings directly on the source documents. 
+
+**[photo]**
 
 
 ***
