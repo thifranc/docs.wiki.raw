@@ -99,9 +99,9 @@ The META tab shows you additional information about the investigated document (i
 
 **[photo]**
 
-From here you can _print_, _download_ or _open _the document in a new tab. To avoid any security breaches, the users are not able to print or to download the META information (MD5 and the path) of a document. But even just text print-outs could be tricky, so please read the following article carefully: https://www.bbc.com/future/article/20170607-why-printers-add-secret-tracking-dots.
+From here you can _print_, _download_ or _open the document in a new tab_. To avoid any security breaches, the users are not able to print or to download the META information (MD5 and the path) of a document. But even just text print-outs could be tricky, so please read the following article carefully: https://www.bbc.com/future/article/20170607-why-printers-add-secret-tracking-dots.
 
-_Open document in a new tab: _
+_Open document in a new tab_
 
 Once you open a document in a new tab, you can navigate across the document by clicking the up/down arrows (which collapse or expand the desired doc modules) - especially in the case of email documents who could have multiple files attached.
 
