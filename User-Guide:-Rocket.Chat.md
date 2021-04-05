@@ -1,24 +1,68 @@
- 
-# Now how do I join some collaboration ?
+This is the place where the main communication between EIC journalists happens, so it’s a great place to start. Your username is created automatically when you login to Liquid Investigations. 
+A detailed guide to RocketChat is available here: https://rocket.chat/docs/user-guides/.
+Some stuff that you will see on the guide won't work. Assume is by design or let our dev people know. 
 
-Well, first come to the place where communication happens. Use Rocket.chat. Your username is already there, created automatically when you login to Liquid. 
+_Channels/rooms_
+A deep-dive into channels can be found here: https://docs.rocket.chat/guides/user-guides/channels
+Basically the homepage will show you all publicly available channels/rooms (on left hand side).
 
-Start by going here https://rocketchat.liquiddemo.org/directory. You will see all public available channels. If you want to join any of them, click on the channel and, well, join!
+**[photo]**
 
-In that same place you can also see a list with all users. If you want to engage in one-to-one chatter, please click the user and start exchanging information. If you want to have extra-security, go to the chat upper right corner, and click the sandwich button for settings (More) and click OTR (a key symbol). 
+If you want to join any of them, just click on the channel/room of your choice and start announcing your presence by typing a message. 
+You can reply to a message or people can reply to your message with another message, with a reaction, by starting a discussion or a thread. Just look for these options at the top right corner of the message. **[photo]**
 
-After the other user is confirming the OTR session, all your messages will be encrypted end-to-end. Be careful, after the session expires, you won’t find any archive of these messages exchanged under OTR.  
+Private channels/rooms are locked. Only invited people can get in. They are not visible to the rest of the participants. They work exactly as the public channels.
+The various EIC channels/rooms are generally dedicated to topics to investigate, or to logistical exchanges (like maintenance, or sharing URLs post-publication).
 
-Feel like sharing a document by a quick drag&drop ? Tough luck, this option is disabled. We use Nextcloud (link to Nextcloud explainer) to share documents, because they can stay in the archive longer, they are indexed and OCRd (by language - link to OCR language folder) and they are searchable. 
+_Discussions_
+Within a channel/room with many people talking about many things at once, you can choose to engage in a thread (a short exchange on a specific topic) or to start a discussion, which is basically like a room inside another room.
+Discussions can be dedicated to meetings, and for sharing meeting URLs and notes, so they all stay in one place. They are listed on your left bar, same as the chat channels/rooms and your other private groups and communications.
+To start a brand new discussion within any channel, click the + sign within the 'type message' bar (type in the name/topic of the discussion, invite the participants and type the actual message).
 
-Chat rooms are usually dedicated to topics to investigate, or to logistical exchanges (like maintenance, or sharing urls post-publication). 
+**[photo]**
 
-Inside a chat room with many people talking about many things at once, you may choose to engage in a Thread (a short exchange on a specific topic) or to start a Discussion, which works like a talk inside a talk (and has it’s own url to share, like this https://rocketchat.liquiddemo.org/channel/general?msg=EMRzxhqfYiKrLWMA3 ). Discussions can be dedicated to meetings, and for sharing meeting urls and notes, so they all stay in one place. They are listed on your left bar, same as the chat rooms and your private groups and communications. 
+Each discussion has its own URL and can be shared with others, by clicking the 3dot icon top right, and selecting the ‘Get Link’ option.
 
-Private Groups are locked chat rooms. Only invited people can get in. They are not visible to the rest of the participants. 
+**[photo]**
 
-For each chat room, private group or discussion, you have on the upper right corner a way to see all members of that space, you can search for the archive (be aware, we prune these rooms now and then, so don’t use the chat rooms as archives) and you can see info related to the rooms. 
+Basically, any channel/room allows you to start discussions, threads, search for messages, view its members and many more tasks. To explore these tasks, just look to the top right corner for these icons. **[photo]**
 
-A guide to RocketChat is available here: https://rocket.chat/docs/user-guides/ . Some stuff that you will see on the guide won't work. Assume is by design (or make a big issue here)
+The only capability that is currently unavailable is file sharing. The feature was disabled to avoid any points of confusion. The Liquid Investigations bundle uses Nextcloud for file sharing purposes (more info in the chapter about Nextcloud).
+
+You can search for the archive of messages pertaining to each channel by clicking the search icon (top right corner). Just a caveat, we do prune these channels/rooms now and then, so don’t use the chat rooms as archives. To prune messages, go to the 3dots icon > Prune Messages.
+
+_Homepage_
+Back to the homepage, you will see other nifty icons in the top left corner, right next to your username.
+
+**[photo]**
+
+The _directory/world _icon will show you a broader view of ALL the publicly available channels. 
+
+**[photo]**
+
+Here you can also view a list with all the users. If you want to engage in one-to-one conversations, please click on the username of your choice and start exchanging messages. 
+If you want to have an extra-security layer for your conversation, go to the chat upper right corner, and click the 3dots button for settings and click on the key symbol > OTR.
+
+**[photo]**
+
+After the other user is confirming the OTR session, all your messages will be encrypted end-to-end. Be careful, after the session expires, you won’t find any archive of these messages exchanged in the OTR mode.
+
+The _pencil_ icon allows you to create a brand new channel/room, discussion or direct message. 
+
+**[photo]**
+
+
+When you create a channel/room, you can choose whether it's public or private.
+
+**[photo]**
+
+The Direct Messages option allows you to talk directly to one or multiple persons without having to create a channel for it.
+You can organize your channels, discussions and how you view all this information by clicking on the _view mode _icon.
+
+**[photo]**
+
+
+***
+
 
 Here you have an overview of our [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
