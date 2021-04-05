@@ -3,6 +3,7 @@ A detailed guide to RocketChat is available here: https://rocket.chat/docs/user-
 Some stuff that you will see on the guide won't work. Assume is by design or let our dev people know. 
 
 _Channels/rooms_
+
 A deep-dive into channels can be found here: https://docs.rocket.chat/guides/user-guides/channels
 Basically the homepage will show you all publicly available channels/rooms (on left hand side).
 
