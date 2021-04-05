@@ -78,10 +78,10 @@ _Search results_
 A list of search results will be displayed in the middle panel. Clicking on each result, a preview of the document is made available on the right side column.
 
 There are certain hotkeys that allow the user a fast navigation between the various search results. Press ‘Command’ and 
-* **J **- Navigate down the search results list
-* **K** - Navigate up the search results list 
-* **C ** - share a document with others, by copying it’s unique identifier (MD5) onto the clipboard; you only need to hit CTRL V to paste them in the chat, into a wiki page or into a pad for research notes (i.e bcb0b33b01977cdd8c1a5306bb3a7bfd /data/Nextcloud Manual.pdf)
-*** O** - Select a preview to open in a new tab
+*J- Navigate down the search results list
+*K- Navigate up the search results list 
+*C- Share a document with others, by copying it’s unique identifier (MD5) onto the clipboard; you only need to hit CTRL V to paste them in the chat, into a wiki page or into a pad for research notes (i.e bcb0b33b01977cdd8c1a5306bb3a7bfd /data/Nextcloud Manual.pdf)
+*O- Select a preview to open in a new tab
 
 
 _Search preview_
