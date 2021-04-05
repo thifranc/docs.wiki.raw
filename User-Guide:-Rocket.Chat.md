@@ -62,7 +62,7 @@ When you create a channel/room, you can choose whether it's public or private.
 
 The Direct Messages option allows you to talk directly to one or multiple persons without having to create a channel for it.
 
-You can organize your channels, discussions and how you view all this information by clicking on the _view mode _icon.
+You can organize your channels, discussions and how you view all this information by clicking on the _view mode_ icon.
 
 **[photo]**
 
