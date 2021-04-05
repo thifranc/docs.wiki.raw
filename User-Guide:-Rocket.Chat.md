@@ -70,4 +70,4 @@ You can organize your channels, discussions and how you view all this informatio
 ***
 
 
-Here you have an overview of our [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
+Back to our detailed [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
