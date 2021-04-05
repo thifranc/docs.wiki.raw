@@ -35,11 +35,12 @@ The only capability that is currently unavailable is file sharing. The feature w
 You can search for the archive of messages pertaining to each channel by clicking the search icon (top right corner). Just a caveat, we do prune these channels/rooms now and then, so don’t use the chat rooms as archives. To prune messages, go to the 3dots icon > Prune Messages.
 
 _Homepage_
+
 Back to the homepage, you will see other nifty icons in the top left corner, right next to your username.
 
 **[photo]**
 
-The _directory/world _icon will show you a broader view of ALL the publicly available channels. 
+The _directory/world_ icon will show you a broader view of ALL the publicly available channels. 
 
 **[photo]**
 
@@ -60,6 +61,7 @@ When you create a channel/room, you can choose whether it's public or private.
 **[photo]**
 
 The Direct Messages option allows you to talk directly to one or multiple persons without having to create a channel for it.
+
 You can organize your channels, discussions and how you view all this information by clicking on the _view mode _icon.
 
 **[photo]**
