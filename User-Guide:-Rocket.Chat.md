@@ -17,6 +17,7 @@ Private channels/rooms are locked. Only invited people can get in. They are not 
 The various EIC channels/rooms are generally dedicated to topics to investigate, or to logistical exchanges (like maintenance, or sharing URLs post-publication).
 
 _Discussions_
+
 Within a channel/room with many people talking about many things at once, you can choose to engage in a thread (a short exchange on a specific topic) or to start a discussion, which is basically like a room inside another room.
 Discussions can be dedicated to meetings, and for sharing meeting URLs and notes, so they all stay in one place. They are listed on your left bar, same as the chat channels/rooms and your other private groups and communications.
 To start a brand new discussion within any channel, click the + sign within the 'type message' bar (type in the name/topic of the discussion, invite the participants and type the actual message).
