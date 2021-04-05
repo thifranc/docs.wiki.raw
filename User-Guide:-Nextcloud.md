@@ -15,7 +15,7 @@ Or you can create your own folder by hitting the + sign and upload the files of 
 **[photo]**
 
 Each folder has an action menu:
-_Move_ is to relocate the document within the system; you can rename,_ download_ or _delete_ the folder (in case of deleting, think twice, because the folder will not be available anymore for the entire group of people working on your Liquid Investigations).
+_Move_ is to relocate the document within the system; you can rename, _download_ or _delete_ the folder (in case of deleting, think twice, because the folder will not be available anymore for the entire group of people working on your Liquid Investigations).
 
 **[photo]**
 
