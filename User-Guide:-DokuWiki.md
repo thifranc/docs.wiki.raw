@@ -80,15 +80,17 @@ _How to edit a Wiki page_
 
 
 For the syntax used to obtain headers, bold, colours etc, please look at the syntax page: https://www.dokuwiki.org/wiki:syntax
-Tips for keeping a clean wiki
-Write at the top of the Wiki who is the owner of that Wiki and their contact details with the name [OWNER:]. Underneath this, write the names of all the people who have contributed to writing this Wiki with their contact details, with the name [CONTRIBUTOR:]
-Clearly label the provenance of any information in a URL link at the beginning of every relevant paragraph. Using ((text)) you put that text in a footnote.
-Clearly label whether information is from a source with [SOURCE:] at the beginning of every relevant paragraph.
-Clearly label whether information is speculation [SPECULATION:] at the beginning of every relevant paragraph.
-If you want to write a comment on the Wiki, or dispute a piece of information, or believe something is unclear, use annotations - select that sentence and annotate under the
-specific group or in public (e.g this does not make senseB)
-The end resulting information wiki page should be a clear sourced information page that can be fact checked by anybody who reads it for the first time.
 
+_Tips for keeping a clean wiki_
+
+
+* Write at the top of the Wiki who is the owner of that Wiki and their contact details with the name [OWNER:]. Underneath this, write the names of all the people who have contributed to writing this Wiki with their contact details, with the name [CONTRIBUTOR:]
+* Clearly label the provenance of any information in a URL link at the beginning of every relevant paragraph. Using ((text)) you put that text in a footnote.
+* Clearly label whether information is from a source with [SOURCE:] at the beginning of every relevant paragraph.
+* Clearly label whether information is speculation [SPECULATION:] at the beginning of every relevant paragraph.
+* If you want to write a comment on the Wiki, or dispute a piece of information, or believe something is unclear, use annotations - select that sentence and annotate under the specific group or in public (e.g this does not make sense)
+
+The end resulting information wiki page should be a clear sourced information page that can be fact checked by anybody who reads it for the first time.
 
 
 
