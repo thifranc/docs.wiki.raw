@@ -1,5 +1,6 @@
 This is the place where the main communication between EIC journalists happens, so it’s a great place to start. Your username is created automatically when you login to Liquid Investigations. 
 A detailed guide to RocketChat is available here: https://rocket.chat/docs/user-guides/.
+
 Some stuff that you will see on the guide won't work. Assume is by design or let our dev people know. 
 
 _Channels/rooms_
