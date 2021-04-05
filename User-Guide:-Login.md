@@ -22,4 +22,4 @@ Login by typing your username, password and TOTP token (if two-factor authentica
 ***
 
 
-Here you have an overview of our [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
+Back to our detailed [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
