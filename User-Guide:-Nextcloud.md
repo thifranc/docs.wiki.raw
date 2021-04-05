@@ -28,6 +28,7 @@ OtherLiquid Investigations apps do have file sharing capabilities but we’ve ch
 We use Nextcloud to centralize our contact list. Since you are already here you may want to add your contact information, or see the contacts of the other participants in yourLiquid Investigations.
 
 **[photo]**
+
 **[photo]**
 
 
