@@ -1,13 +1,23 @@
-# take research or meeting notes, plan, brainstorm
+Details about CodiMD features can  be found here:
+https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-documentation
 
-While you investigate a lead in a large collection of documents and have 100 more tabs opened, it’s hard to keep track. 
 
-You can open your investigation pad by using the CodiMD app in the bundle (https://codimd.liquiddemo.org/) Sign up (the system will remember your Liquid login information) and begin to write up new notes. 
+The CodiMD pad helps you take research or meeting notes, plan, brainstorm in real time with others. While you investigate a lead in a large collection of documents and have 100 more tabs opened, it’s hard to keep track.
 
-When you’re done, decide if you want to keep the note for yourself (private) or if you want to make it editable by the group (upper right corner). 
+Just click sign in via Liquid (the system will remember your Liquid login information) and hit the blue ‘New Note’ button to create a new pad.
+The history tab centralizes all your current pads. You can search pads by keywords or tags and can reorder the pads based on title or time created.
 
-Sharing the url to an editable pad makes the pad the most collaborative place on Liquid bundle, since content can be added by all users in real time (say during a meeting for all users to add meeting notes, or during a coordination meeting to organise tasks and assignments). 
+**[photo]**
 
-For more features please see https://codimd.liquiddemo.org/features
 
-Here you have an overview of our [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
+When you’re done, decide if you want to keep the note for yourself (private) or if you want to make it editable by the group (upper right corner).
+
+**[photo]**
+
+Sharing the url to an editable pad makes the pad the most collaborative place onLiquid Investigations, since content can be added by all users in real time (say during a meeting for all users to add meeting notes, or during a coordination meeting to organize tasks and assignments).
+
+
+***
+
+
+Back to our detailed [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
