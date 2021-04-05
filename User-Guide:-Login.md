@@ -1,9 +1,24 @@
-Log in by typing your username, password and TOTP token (if two-factur authentication is enabled).
+_First time Users_
+Prerequisites for logging into Liquid Investigations
 
-After a pre-defined time (by default 12 hours, configurable, can be disabled) the system will automatically log you out.
+Have an Authenticator enabled: 
+* Google Authenticator - https://en.wikipedia.org/wiki/Google_Authenticator
+* Duo Mobile- https://play.google.com/store/apps/details?id=com.duosecurity.duomobile&hl=en&gl=US
+* Have  an encrypted communication channel (e.g. Signal desktop)
 
-![](https://en.wikipedia.org/wiki/QR_code#/media/File:QR_code_for_mobile_English_Wikipedia.svg)
+A new user will get their credentials (username and a one-time onboarding URL) via an encrypted channel (e.g. Signal desktop). You will maintain the created username but may change your password. You will be asked to scan a QR code with your 2FA app:
 
+
+
+To finalize the account creation process you will then be prompted to also enter your 6 digit authentication code.
+Please make sure to activate your account in the next 12 hours! Otherwise the link will expire.
+
+_Login_
+
+Login by typing your username, password and TOTP token (if two-factor authentication is enabled). After a predefined time (by default 12 hours, configurable, can be disabled) the system will automatically log you out.
+
+
+***
 
 
 Here you have an overview of our [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
