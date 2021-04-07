@@ -9,7 +9,7 @@ Have an Authenticator enabled:
 
 A new user will get their credentials (username and a one-time onboarding URL) via an encrypted channel (e.g. Signal desktop). You will maintain the created username but may change your password. You will be asked to scan a QR code with your 2FA app:
 
-https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/1.%20AccountLogin.png
+(https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/1.%20AccountLogin.png)
 
 
 To finalize the account creation process you will then be prompted to also enter your 6 digit authentication code.
