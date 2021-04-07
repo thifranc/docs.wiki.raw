@@ -8,29 +8,28 @@ Liquid investigations uses two ways to share documents:
 Nextcloud allows you to drag and drop the documents you want to share (without the help of a sysadmin). This way of sharing documents is ideal for small document collections that can be managed manually.
 To share documents via Nextcloud, you can use the search box (upper right corner) to find a folder where you want to bring your documents.
 
-**[photo 14]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/14.%20Nextcloud%20search%20query%20garden.png)
 
 Or you can create your own folder by hitting the + sign and upload the files of your choice into your own folder.
 
-**[photo 15]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/15.%20Nextcloud%20plus%20sign.png)
 
 Each folder has an action menu:
 _Move_ is to relocate the document within the system; you can rename, _download_ or _delete_ the folder (in case of deleting, think twice, because the folder will not be available anymore for the entire group of people working on your Liquid Investigations).
 
-**[photo 16]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/16.%20Nextcloud%20action%20menu%20short.png)
 
 Clicking on the 3dots icon next to a file, will open new actions and options (details is for a shortcut url to share with others)
 
-**[photo 17]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/17.%20Nextcloud%20actions%20menu%20long.png)
 
 OtherLiquid Investigations apps do have file sharing capabilities but we’ve chosen to disable them to avoid any confusion. We prefer you use Nextcloud because documents can stay archived longer (than other apps) and they are indexed and OCRd (by language - link to OCR language folder) as well as searchable.
 
 We use Nextcloud to centralize our contact list. Since you are already here you may want to add your contact information, or see the contacts of the other participants in yourLiquid Investigations.
 
-**[photo 18]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/18.%20Nextcloud%20new%20contact.png)
 
-**[photo 19]**
-
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/19.%20Nextcloud%20contact%20form.png)
 
 ***
 
