@@ -8,7 +8,7 @@ _Channels/rooms_
 A deep-dive into channels can be found here: https://docs.rocket.chat/guides/user-guides/channels
 Basically the homepage will show you all publicly available channels/rooms (on left hand side).
 
-**[photo]**
+**[photo 2]**
 
 If you want to join any of them, just click on the channel/room of your choice and start announcing your presence by typing a message. 
 You can reply to a message or people can reply to your message with another message, with a reaction, by starting a discussion or a thread. Just look for these options at the top right corner of the message. **[photo]**
