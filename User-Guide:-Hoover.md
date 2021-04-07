@@ -7,7 +7,7 @@ The Hoover UI is fairly intuitive and all its content is divided into 3 main pan
 
 This triptych-like display is meant to increase visual appeal and support users that are constantly working with large loads of data.
 
-**[photo 20]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/20.%20Hoover%20tryptich.png)
 
 _Data collections_
 
@@ -16,7 +16,7 @@ When landing on the Hoover home page, you will begin by sifting through the data
 
 more collections, please ask your coordinator for extra permissions. All documents uploaded via Nextcloud will be available for search in Hoover. They will be indexed after upload (and OCR’d) under a collection called _‘Uploads’_.
 
-**[photo 21]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/21.%20Hoover%20uploads.png)
 
 
 _Filters_
@@ -28,35 +28,35 @@ Filters are made available when checking a collection from the left hand panel. 
 * Number of results per page filter
 * Filter referring to the order of search results (relevant, old, new, size, word count); To enable these, just click on the blue dot with 3 white lines.
 
-**[photo 22]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/22.%20Hoover%20filters.png)
 
 
-**[photo 23]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/23.%20Hoover%20date%20created%20filter.png)
 
 _More filters_ are available on the **left side panel**, below the data collections. These filters refer to _tags _(pubic and private) _date range_, _filetype_, _language_, _email domain_, _email from/to_ and _document path_. 
 
-**[photo 24]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/24.%20Hoover%20more%20filters.png)
 
 _Tags_ are a good way to mark what documents were already viewed or investigated. They further qualify the document and allow the user to view in an instant what the key takeaway is. Public tags are indexed and visible to everyone. Private tags allow the solo investigator to mark his own findings (are not indexed).
 
 To apply a public or a private tag, click on the search result that you are investigating (middle panel). A preview window will be opened on the right hand side. There you can go to the Tags tab type the tag of your choice and click Enter. You can also choose to make your tag visible or keep it private.
 
-**[photo 25]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/25.%20Hoover%20tags.png)
 
 
 All of these filters give the user the option to ADD or FILTER OUT the enabled criterias. For instance you can refine your search by applying the ‘carrot-based-food’ public tag or by specifically filter it out.
 
 AND
 
-**[photo 26]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/26.%20Hoover%20AND%20filter.png)
 
 NOT
 
-**[photo 27]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/27.%20Hoover%20NOT%20filter.png)
 
 Another example: You can search through documents stemming from a specific email domain (AND) or you can filter out specific email domains that bring too much noise in the list of results , like newsletters or spam emails (NOT).
 
-**[photo 28]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/28.%20Hoover%20ANDNOT%20filter.png)
 
 _Searches_
 
@@ -70,7 +70,7 @@ Batch searches are also possible. The batch search button is available under the
 
 Batch search queries need to be typed one per line (list format). Your batch search results will be also displayed in list format.
 
-**[photo 29]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/29.%20Hoover%20batch%20search.png)
 
 _Search results_
 
@@ -89,15 +89,15 @@ _Search preview_
 
 The ‘Preview’ mode shows the text, the tags and meta information of a certain document. 
 
-**[photo 30]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/30.%20Hoover%20preview.png)
 
 Here,  the user can also mark the document as interesting, or starred, or trash (top right corner). This will automatically create a public tag on the document.
 
-**[photo 31]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/31.%20Hoover%20interesting.png)
 
 The META tab shows you additional information about the investigated document (including the MD5 unique identifier). The Meta info is not printable or downloadable.
 
-**[photo 32]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/32.%20Hoover%20META%20tab.png)
 
 From here you can _print_, _download_ or _open the document in a new tab_. To avoid any security breaches, the users are not able to print or to download the META information (MD5 and the path) of a document. But even just text print-outs could be tricky, so please read the following article carefully: https://www.bbc.com/future/article/20170607-why-printers-add-secret-tracking-dots.
 
@@ -111,19 +111,19 @@ _Annotating Hoover documents_
 
 Once a document is opened in a new tab, it can be annotated by clicking on the _PDF viewer link_ underneath the PDF, Tags and Meta tabs (if the file type is a PDF). For any other file types you can just start annotating by highlighting some text.
 
-**[photo 33]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/33.%20Hoover%20PDF%20viewer%20link.png)
 
 The Hypothes.is annotation frame will be visible, allowing for highlights and annotation. You need to be signed into your Hypothes.is account in order to make digital annotations on your Hoover document.
 
-**[photo 34]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/34.%20Hoover%20Hypothes.is%20frame.png)
 
 Once you highlight the text to be annotated, an annotation panel will open on the right hand side. Here you can post the annotation to a specific group or keep it just for yourself. The number of annotations will  be displayed on the side of your document with a counter (e.g. 1 = only one annotation was made).  
 
-**[photo 35]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/35.%20Hoover%201%20annotation.png)
 
 When another colleague will search and find the same document, he/she will notice the annotations that were made (provided the annotations were posted publicly). Hypothes.is digital annotations are a great way to share findings directly on the source documents. 
 
-**[photo 36]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/36.%20Hoover%20search%20for%20annotations.png)
 
 
 ***
