@@ -13,16 +13,16 @@ _Create a new directory_
 
 If you want to start a new directory/project, please go to ‘Create a New Page’ bar in Root and add the name of your directory and related page (use the name of your investigative project, e.g. Nameoftheproject:infopage) and hit the ‘Add page’ button.
 
-**[photo]**
+**[photo 37]**
 
 
 Your new directory/project will be displayed in the Sitemap list (blue color). The page associated with it will also be displayed (green color).
 
-**[photo]**
+**[photo 38]**
 
 For example we have the project ‘wassergate’ that has 3 sub-directories: 
 
-**[photo]**
+**[photo 39]**
 
 * Annotations that signal interesting findings will be centralized in the information subdirectory
 * Before publication, a page containing confrontation questions will be added under the confrontation subdirectory
@@ -31,14 +31,14 @@ For example we have the project ‘wassergate’ that has 3 sub-directories:
 
 Eventually the finalized product will eventually land into the public domain;https://theblacksea.eu/stories/football-leaks/football-leaks-the-dirty-tricks-of-doyen-sports/
 
-**[photo]**
+**[photo 40]**
 
 _How to construct a Wiki page_
 
 
 Use the ‘Create a New Page’ bar. Choose an existing directory or sub-directory to be the parent of your page (eg. projectname). Please don’t create orphans! Once you click the Add page button, you will be promoted to also add content to the page and Save it.
 
-**[photo]**
+**[photo 41]**
 
 
 Check the Sitemap (just below the search box on the upper right corner) and see if  your newly created page landed under the right directory. 
@@ -48,25 +48,25 @@ _Move a page between directories_
 
 If by accident the newly created page landed in an erroneous spot, go to the right side of your page and choose ‘Rename Page’.
 
-**[photo]**
+**[photo 42]**
 
 
 Change the names of the directories and subdirectories in the url. For instance the page ‘wassergate_questions’ was erroneously added under the _drafts_ subdirectory. 
 
-**[photo]**
+**[photo 43]**
 
 
 To move the page under _confrontation_ (where it belongs), simply click on the ‘wassergate_questions’ page and go to the Rename button (on the right side of the page).
 
-**[photo]**
+**[photo 44]**
 
 Type in the correct URL and hit Rename.
 
-**[photo]**
+**[photo 45]**
 
 Your page will now show up under the right subdirectory.
 
-**[photo]**
+**[photo 46]**
 
 _Wiki pages labels and names_
 
