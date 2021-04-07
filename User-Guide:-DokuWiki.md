@@ -13,16 +13,16 @@ _Create a new directory_
 
 If you want to start a new directory/project, please go to ‘Create a New Page’ bar in Root and add the name of your directory and related page (use the name of your investigative project, e.g. Nameoftheproject:infopage) and hit the ‘Add page’ button.
 
-**[photo 37]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/37.%20Dokuwiki%20root.png)
 
 
 Your new directory/project will be displayed in the Sitemap list (blue color). The page associated with it will also be displayed (green color).
 
-**[photo 38]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/38.%20Dokuwiki%20Sitemap.png)
 
 For example we have the project ‘wassergate’ that has 3 sub-directories: 
 
-**[photo 39]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/39.%20Dokuwiki%20wassergate.png)
 
 * Annotations that signal interesting findings will be centralized in the information subdirectory
 * Before publication, a page containing confrontation questions will be added under the confrontation subdirectory
@@ -31,14 +31,14 @@ For example we have the project ‘wassergate’ that has 3 sub-directories:
 
 Eventually the finalized product will eventually land into the public domain;https://theblacksea.eu/stories/football-leaks/football-leaks-the-dirty-tricks-of-doyen-sports/
 
-**[photo 40]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/40.%20Dokuwiki%20Football%20leaks.png)
 
 _How to construct a Wiki page_
 
 
 Use the ‘Create a New Page’ bar. Choose an existing directory or sub-directory to be the parent of your page (eg. projectname). Please don’t create orphans! Once you click the Add page button, you will be promoted to also add content to the page and Save it.
 
-**[photo 41]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/41.%20Dokuwiki%20construct%20a%20page.png)
 
 
 Check the Sitemap (just below the search box on the upper right corner) and see if  your newly created page landed under the right directory. 
@@ -48,25 +48,25 @@ _Move a page between directories_
 
 If by accident the newly created page landed in an erroneous spot, go to the right side of your page and choose ‘Rename Page’.
 
-**[photo 42]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/42.%20Dokuwiki%20Rename%20page.png)
 
 
 Change the names of the directories and subdirectories in the url. For instance the page ‘wassergate_questions’ was erroneously added under the _drafts_ subdirectory. 
 
-**[photo 43]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/43.%20Dokuwiki%20wassergate%20drafts.png)
 
 
 To move the page under _confrontation_ (where it belongs), simply click on the ‘wassergate_questions’ page and go to the Rename button (on the right side of the page).
 
-**[photo 44]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/44.%20Dokuwiki%20wassergate%20confrontation.png)
 
 Type in the correct URL and hit Rename.
 
-**[photo 45]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/45.%20Dokuwiki%20wassergate%20type%20correct%20URL.png)
 
 Your page will now show up under the right subdirectory.
 
-**[photo 46]**
+![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/46.%20Dokuwiki%20wassergate%20correct.png)
 
 _Wiki pages labels and names_
 
