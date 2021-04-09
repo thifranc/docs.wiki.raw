@@ -1,6 +1,5 @@
 
-
-![Liquid Investigations](https://github.com/liquidinvestigations/docs-img/blob/main/liquid%20logo.png)
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/liquid%20logo.png" width=300 align=right>
 
 
 
