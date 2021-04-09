@@ -12,6 +12,21 @@ Liquid is an alternative place to migrate away from global centralized platforms
 
 Digital tools to support team work in the realm of knowledge co-creation, be it for journalism or for any other type of collaborative research, are global centralized platforms, reinforcing world inequalities and leading a wave of global digital colonization. They become governance tools and contributors who depend on them end up being surveilled, controlled and misused by the owners of such digital infrastructures. Currently there is no one-stop shop, free and open source, to offer such an infrastructure.  
 
+# Current Features 
+
+Liquid is a self-hosted knowledge production platform, allowing users full control over their data. 
+
+Currently, the Liquid bundle let’s you index, OCR & search, tagg, build wikis, chat, share files, collaborate on pads and annotations in a self-hosted environment behind a 2FA layer. It’s scalable from cheap hardware up to enterprise grade environments.
+
+Liquid integrates already established and easy to use apps, allowing for a seamless, collaborative workflow. Currently packaged applications:
+* Index and Search: Hoover, multi-faceted search technology, creating a bridge between all the other apps
+* Wiki: Dokuwiki
+* Chat: Rocket.chat 
+* Share files: Nextcloud
+* Pads: CodiMD
+* Annotations: Hypothes.is 
+
+
 ## Installation 
 
 Follow the [[Installation]] page on setting up a working system.
