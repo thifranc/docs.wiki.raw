@@ -72,7 +72,7 @@ For installation instructions and technical details go to [[Technical Overview]]
 
 To make it better go to [[Contributing]].
 
-If you want to know what are we working on, each month, go to [[Tech Team: Monthly Summary]]
+[Go here](https://github.com/liquidinvestigations/node/blob/master/CHANGELOG.md) if you want to know what are we working on, each month. 
 
 If you want to get in touch with us, send an email to candea [at] eic.network 
 
