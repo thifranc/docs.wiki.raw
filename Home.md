@@ -1,4 +1,4 @@
-Liquid Investigations is a self-hosted collection of apps, with a common authentication layer, useful for collaborating on research as a team.
+Liquid Investigations is a network infrastructure that makes it easy for anyone to collaboratively research and co-create knowledge. Robust and built from the margins of Europe by journalists and technologists. 
 
 Follow the [[Installation]] page on setting up a working system.
 
