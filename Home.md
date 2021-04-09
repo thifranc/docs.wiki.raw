@@ -1,7 +1,5 @@
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/main/liquid%20logo.png" width=150 align=right>
-
-
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/liquid%20logo.png" width=150 align=left>
 
 
 
