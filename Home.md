@@ -1,6 +1,8 @@
-# What is Liquid Investigations ?
+
 
 ![Liquid Investigations](https://github.com/liquidinvestigations/docs-img/blob/main/liquid%20logo.png)
+
+# What is Liquid Investigations ?
 
 Liquid Investigations is a network infrastructure that makes it easy for anyone to collaboratively research and co-create knowledge. Robust and built from the margins of Europe by journalists and technologists. 
 
