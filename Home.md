@@ -2,6 +2,16 @@
 
 Liquid Investigations is a network infrastructure that makes it easy for anyone to collaboratively research and co-create knowledge. Robust and built from the margins of Europe by journalists and technologists. 
 
+# Story 
+
+Today Liquid is a solid digital infrastructure where you can co-create knowledge by searching and exchanging information between and beyond your institutional boundaries. Using Liquid you can build your research network of choice, adding suitable workflows and governance rules. New collaborative applications will keep popping-up and Liquid is designed to integrate the best of them.  
+
+Liquid is an alternative place to migrate away from global centralized platforms offered by large for-profit or non-profit global players. 
+
+# Motivation 
+
+Digital tools to support team work in the realm of knowledge co-creation, be it for journalism or for any other type of collaborative research, are global centralized platforms, reinforcing world inequalities and leading a wave of global digital colonization. They become governance tools and contributors who depend on them end up being surveilled, controlled and misused by the owners of such digital infrastructures. Currently there is no one-stop shop, free and open source, to offer such an infrastructure.  
+
 ## Installation 
 
 Follow the [[Installation]] page on setting up a working system.
