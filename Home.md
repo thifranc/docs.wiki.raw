@@ -40,7 +40,7 @@ Liquid is here to foster independent knowledge co-creation, be it for journalism
 
 # History 
 
-Originally started by the Romanian Centre for Investigative Journalism, it was expanded for the use of EIC.network in a dozen projects by [media in 20 countries](hyperlink https://niemanreports.org/articles/an-investigative-toolkit-for-the-post-snowden-era/), publishing thousands of stories in a dozen languages. 
+Originally started by the Romanian Centre for Investigative Journalism, it was expanded for the use of EIC.network in a dozen projects by [media in 20 countries](https://niemanreports.org/articles/an-investigative-toolkit-for-the-post-snowden-era/), publishing thousands of stories in a dozen languages. 
 
 How to make collections of data available for collaborative research outside of big institutions and expensive infrastructures and proprietary solutions ? Liquid was born out of this real need of cross-border investigative journalists in Eastern Europe to share in working groups the research on large collections of source documents (leaks, scraps, archives). 
 
