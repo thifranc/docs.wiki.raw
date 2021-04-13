@@ -75,11 +75,12 @@ You can organize your channels, discussions and how you view all this informatio
 
 <BR CLEAR=”left” />
 
+<BR CLEAR=”left” />
+
+<BR CLEAR=”left” />
+
 ***
 
 <BR CLEAR=”left” />
-
-<BR CLEAR=”left” />
-
 
 Back to our detailed [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
