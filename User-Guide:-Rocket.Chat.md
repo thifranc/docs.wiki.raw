@@ -71,8 +71,12 @@ The Direct Messages option allows you to talk directly to one or multiple person
 You can organize your channels, discussions and how you view all this information by clicking on the _view mode_ icon.
 
 
+<BR CLEAR=”left” />
+
 
 ***
+
+<BR CLEAR=”left” />
 
 
 Back to our detailed [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
