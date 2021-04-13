@@ -60,7 +60,7 @@ The _pencil_ icon allows you to create a brand new channel/room, discussion or d
 
 When you create a channel/room, you can choose whether it's public or private.
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/12.%20Rocketchat%20create%20new%20channel.png" width=200 align=right>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/12.%20Rocketchat%20create%20new%20channel.png" width=200 align=left>
 
 The Direct Messages option allows you to talk directly to one or multiple persons without having to create a channel for it.
 
