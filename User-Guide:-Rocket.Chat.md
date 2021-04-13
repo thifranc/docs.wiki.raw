@@ -3,7 +3,7 @@ A detailed guide to RocketChat is available here: https://rocket.chat/docs/user-
 
 Some stuff that you will see on the guide won't work. Assume is by design or let our dev people know. 
 
-_Channels/rooms_
+## _Channels/rooms_
 
 A deep-dive into channels can be found here: https://docs.rocket.chat/guides/user-guides/channels
 Basically the homepage will show you all publicly available channels/rooms (on left hand side).
@@ -16,7 +16,7 @@ You can reply to a message or people can reply to your message with another mess
 Private channels/rooms are locked. Only invited people can get in. They are not visible to the rest of the participants. They work exactly as the public channels.
 The various EIC channels/rooms are generally dedicated to topics to investigate, or to logistical exchanges (like maintenance, or sharing URLs post-publication).
 
-_Discussions_
+## _Discussions_
 
 Within a channel/room with many people talking about many things at once, you can choose to engage in a thread (a short exchange on a specific topic) or to start a discussion, which is basically like a room inside another room.
 Discussions can be dedicated to meetings, and for sharing meeting URLs and notes, so they all stay in one place. They are listed on your left bar, same as the chat channels/rooms and your other private groups and communications.
@@ -36,7 +36,7 @@ You can search for the archive of messages pertaining to each channel by clickin
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/7.%20Rocketchat%20prune%20messag.png" width=200 align=right>
 
-_Homepage_
+## _Homepage_
 
 Back to the homepage, you will see other nifty icons in the top left corner, right next to your username.
 
@@ -63,6 +63,8 @@ When you create a channel/room, you can choose whether it's public or private.
 <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/12.%20Rocketchat%20create%20new%20channel.png" width=200 align=right>
 
 The Direct Messages option allows you to talk directly to one or multiple persons without having to create a channel for it.
+
+### Organize your channels
 
 You can organize your channels, discussions and how you view all this information by clicking on the _view mode_ icon.
 
