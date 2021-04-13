@@ -66,9 +66,10 @@ The Direct Messages option allows you to talk directly to one or multiple person
 
 ### Organize your channels
 
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/13.%20Rocketchat%20view%20mode.png" width=100 align=left> 
+
 You can organize your channels, discussions and how you view all this information by clicking on the _view mode_ icon.
 
-<BR CLEAR=”left” /> <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/13.%20Rocketchat%20view%20mode.png" width=100 align=left> 
 
 
 ***
