@@ -40,7 +40,7 @@ _Homepage_
 
 Back to the homepage, you will see other nifty icons in the top left corner, right next to your username.
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/8.%20Rocketchat%20world.png" width=200 align=right>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/8.%20Rocketchat%20world.png" width=200 align=left>
 
 The _directory/world_ icon will show you a broader view of ALL the publicly available channels. 
 
@@ -49,7 +49,7 @@ The _directory/world_ icon will show you a broader view of ALL the publicly avai
 Here you can also view a list with all the users. If you want to engage in one-to-one conversations, please click on the username of your choice and start exchanging messages. 
 If you want to have an extra-security layer for your conversation, go to the chat upper right corner, and click the 3dots button for settings and click on the key symbol > OTR.
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/10.%20Rocketchat%20OTR.png" width=200 align=right>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/10.%20Rocketchat%20OTR.png" width=200 align=left>
 
 After the other user is confirming the OTR session, all your messages will be encrypted end-to-end. Be careful, after the session expires, you won’t find any archive of these messages exchanged in the OTR mode.
 
@@ -60,7 +60,7 @@ The _pencil_ icon allows you to create a brand new channel/room, discussion or d
 
 When you create a channel/room, you can choose whether it's public or private.
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/12.%20Rocketchat%20create%20new%20channel.png" width=200 align=right>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/12.%20Rocketchat%20create%20new%20channel.png" width=200 align=left>
 
 The Direct Messages option allows you to talk directly to one or multiple persons without having to create a channel for it.
 
