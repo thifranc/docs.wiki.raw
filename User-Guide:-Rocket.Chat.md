@@ -8,8 +8,6 @@ _Channels/rooms_
 A deep-dive into channels can be found here: https://docs.rocket.chat/guides/user-guides/channels
 Basically the homepage will show you all publicly available channels/rooms (on left hand side).
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/1.%20AccountLogin.png" width=200 align=right>
-
 <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/2.%20RocketChat%20home.png" width=200 align=right>
 
 If you want to join any of them, just click on the channel/room of your choice and start announcing your presence by typing a message. 
