@@ -7,7 +7,8 @@ Liquid investigations uses two ways to share documents:
 * Via Nextcloud 
 Nextcloud allows you to drag and drop the documents you want to share (without the help of a sysadmin). This way of sharing documents is ideal for small document collections that can be managed manually.
 
-To share documents via Nextcloud, you can use the search box (upper right corner) to find a folder where you want to bring your documents. <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/14.%20Nextcloud%20search%20query%20garden.png" width=200 align=center>
+To share documents via Nextcloud, you can use the search box (upper right corner) to find a folder where you want to bring your documents.
+ <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/14.%20Nextcloud%20search%20query%20garden.png" width=200 align=center>
 
 Or you can create your own folder by hitting the + sign and upload the files of your choice into your own folder.
 
