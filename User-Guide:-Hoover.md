@@ -40,10 +40,17 @@ Filters are made available when checking a collection from the left hand panel. 
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/23.%20Hoover%20date%20created%20filter.png" width=400 align=center>
 
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 _More filters_ are available on the **left side panel**, below the data collections. These filters refer to _tags _(pubic and private) _date range_, _filetype_, _language_, _email domain_, _email from/to_ and _document path_. 
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/24.%20Hoover%20more%20filters.png" width=200 align=center>
+
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 _Tags_ are a good way to mark what documents were already viewed or investigated. They further qualify the document and allow the user to view in an instant what the key takeaway is. Public tags are indexed and visible to everyone. Private tags allow the solo investigator to mark his own findings (are not indexed).
 
