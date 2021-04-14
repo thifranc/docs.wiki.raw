@@ -68,3 +68,13 @@ curl  -XPUT "$ES_ADDR/_all/_settings" -H 'Content-Type: application/json' -d'{ "
 
 
 For hypothesis, you have to identify the container port opened with `docker ps | grep hypothesis/elasticsearch` and set the ES_ADDR to that `ip:port`. Then, re-run the 2 commands.
+
+## Docker Hub - Download Rate Limit 
+
+Docker Hub has been decreasing their free anonymous download limit. When deploying, you might reach this limit on your host IP.
+
+See [the Docker article on download-rate-limit](https://docs.docker.com/docker-hub/download-rate-limit/).
+
+Temporary work-around:
+- create a free Docker Hub account for each instance
+- do a `docker login` with new credentials on that machine
