@@ -1,8 +1,9 @@
 # Operating Liquid Investigations Servers
 
 ## Something broke, how do I fix it?
+* Identify and save logs for failed job in the Nomad UI. Service health check responses are available in the Consul UI.
 * Check [issues labelled `bug`](https://github.com/orgs/liquidinvestigations/projects/1?card_filter_query=label%3Abug#card-29263439) on the public board. If the bug is not tracked please add it.
-* Ask on Slack! **TODO** how to get on Slack
+* Ask on Slack!
 
 [issues labelled `bug`]: https://github.com/orgs/liquidinvestigations/projects/1?card_filter_query=label%3Abug
 
@@ -18,7 +19,12 @@ To wipe the certificates one should delete the Consul KV entries `/traefik` and 
 To follow Traefik's progress in getting the HTTPS certificates from LetsEncrypt use the Nomad UI to follow its console output.
 
 ## Nomad won't schedule jobs
+
 Try [running a clean reset](https://github.com/liquidinvestigations/docs/wiki/Maintenance#clean-reset). Watch out for [docker daemon GOMAXPROCS](https://github.com/liquidinvestigations/cluster/blob/474f0fd4910bee7e70a1ad09771f9c8033d7d63e/examples/registry-systemd-override.conf#L3) if you are running on many cores.
+
+Nomad errors will be available in the Nomad UI after navigating to the job.
+
+## InfluxDB doesn't start
 
 
 ## Elasticsearch won't index documents / Hypothesis won't save annotations
