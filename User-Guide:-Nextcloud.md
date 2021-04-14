@@ -5,9 +5,8 @@ Most stuff that you will see on the guide won't work. Assume is by design.
 Liquid investigations uses two ways to share documents:
 * Via Hoover (this requires the assistance of your sysadmin, who will index and make a collection of documents sharable for you - https://github.com/liquidinvestigations/docs/wiki; This way of sharing documents is ideal for larger documents collections.
 * Via Nextcloud 
-Nextcloud allows you to drag and drop the documents you want to share (without the help of a sysadmin). This way of sharing documents is ideal for small document collections that can be managed manually.
+Nextcloud allows you to drag and drop the documents you want to share (without the help of a sysadmin). This way of sharing documents is ideal for small document collections that can be managed manually. To share documents via Nextcloud, you can use the search box (upper right corner) to find a folder where you want to bring your documents.
 
-To share documents via Nextcloud, you can use the search box (upper right corner) to find a folder where you want to bring your documents.
  <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/14.%20Nextcloud%20search%20query%20garden.png" width=200 align=center>
 
 Or you can create your own folder by hitting the + sign and upload the files of your choice into your own folder.
