@@ -26,6 +26,11 @@ Nomad errors will be available in the Nomad UI after navigating to the job.
 
 ## InfluxDB doesn't start
 
+Running the `cluster` script will fail with:
+
+    influxdb: check "http" is missing
+
+
 If configured with less than 8GB of RAM, after a few months of time pass, InfluxDB will run out of memory. See [this issue](https://github.com/liquidinvestigations/cluster/issues/125#issuecomment-819422765) for more details.
 
 We have 3 ways to work around this problem:
