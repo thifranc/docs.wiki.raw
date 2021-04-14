@@ -28,6 +28,23 @@ Nomad errors will be available in the Nomad UI after navigating to the job.
 
 If configured with less than 8GB of RAM, after a few months of time pass, InfluxDB will run out of memory. See [this issue](https://github.com/liquidinvestigations/cluster/issues/125#issuecomment-819422765) for more details.
 
+We have 3 ways to work around this problem:
+- Disable `influxdb` from `cluster.ini`:
+  - A few non-critical dashboards under Grafana will fail to load.
+  - Steps:
+    1. In section `[cluster]` set replace `run_jobs = all` with `run_jobs = cluster-fabio,prometheus,grafana,telegraf,dnsmasq,registry`
+    2. Run `docker restart cluster`
+    3. Stop the `influxdb` job from the Nomad UI, if it's still running.
+- Wipe the `influxdb` volume
+  - Temporary fix, RAM will exceed limit again at the same speed as first time
+  - Steps:
+    1. Stop all docker containers: `docker stop $(docker ps -q)`
+    2. Check the volume directory: it's the value in `cluster.ini` section `[nomad_meta]` key `cluster_volumes =`, by default is set to `/opt/cluster/var/volumes/`
+    3. Remove the `influxdb` directory from underneath it: by default `sudo rm -rf /opt/cluster/var/volumes/influxdb`
+- Increase `influxdb` memory limit to some value `> 6000 mb`
+  - In `cluster.ini` it's key `influxdb_memory_limit`, set this to a value around 6000-8000
+  - On multi-node setups, more RAM will be needed
+
 ## Elasticsearch won't index documents / Hypothesis won't save annotations
 
 When the elasticsearch disk exceeds some 90% limit, elasticsearch will lock itself up.
