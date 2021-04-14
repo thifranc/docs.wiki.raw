@@ -1,7 +1,7 @@
 A guide to Hypothesis is available here: https://web.hypothes.is/help/. 
-Some stuff that you will see on the guide won't work. Assume is by design (or make a big issue here). 
+Some stuff that you will see on the guide won't work. Assume is by design.
 
-While performing your search operations via Hoover, you can use annotations to bookmark interesting documents, or simply mark read and junk documents. Or you can translate paragraphs, you can highlight text and you can add notes on things to follow-up, to check further or connect information that is available somewhere else (in a wiki, in a folder, or outside the system). 
+While performing your search operations via Hoover, you can use annotations to bookmark interesting documents, or simply mark read documents. Or you can translate paragraphs, you can highlight text and you can add notes on things to follow-up, to check further or connect information that is available somewhere else (in a wiki, in a folder, or outside the system). 
 
 Anytime you navigate Hoover documents annotations appear as a slim column-bar on your right side. Please check out the Hoover section that deals with annotations.
 
