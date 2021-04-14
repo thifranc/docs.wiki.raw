@@ -9,10 +9,17 @@ A deep-dive into channels can be found here: https://docs.rocket.chat/guides/use
 
 Basically the homepage will show you all publicly available channels/rooms (on left hand side).
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/2.%20RocketChat%20home.png" width=200 align=right>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/2.%20RocketChat%20home.png" width=900 align=center>
+
+<BR CLEAR=”right” />
 
 If you want to join any of them, just click on the channel/room of your choice and start announcing your presence by typing a message. 
-You can reply to a message or people can reply to your message with another message, with a reaction, by starting a discussion or a thread. Just look for these options at the top right corner of the message. <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/3.%20Rocketchat%20icons.png" width=200 align=left>
+You can reply to a message or people can reply to your message with another message, with a reaction, by starting a discussion or a thread. Just look for these options at the top right corner of the message. 
+
+<BR CLEAR=”left” />
+
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/3.%20Rocketchat%20icons.png" width=200 align=left>
 
 Private channels/rooms are locked. Only invited people can get in. They are not visible to the rest of the participants. They work exactly as the public channels.
 The various EIC channels/rooms are generally dedicated to topics to investigate, or to logistical exchanges (like maintenance, or sharing URLs post-publication).
