@@ -77,4 +77,4 @@ See [the Docker article on download-rate-limit](https://docs.docker.com/docker-h
 
 Temporary work-around:
 - create a free Docker Hub account for each instance
-- do a `docker login` with new credentials on that machine
+- do a `docker login` with new credentials on the machine running `./liquid deploy`.
