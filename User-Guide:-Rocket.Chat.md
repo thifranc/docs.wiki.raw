@@ -6,6 +6,7 @@ Some stuff that you will see on the guide won't work. Assume is by design or let
 ## _Channels/rooms_
 
 A deep-dive into channels can be found here: https://docs.rocket.chat/guides/user-guides/channels
+
 Basically the homepage will show you all publicly available channels/rooms (on left hand side).
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/2.%20RocketChat%20home.png" width=200 align=right>
