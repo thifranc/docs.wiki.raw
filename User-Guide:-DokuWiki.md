@@ -13,16 +13,24 @@ _Create a new directory_
 
 If you want to start a new directory/project, please go to ‘Create a New Page’ bar in Root and add the name of your directory and related page (use the name of your investigative project, e.g. Nameoftheproject:infopage) and hit the ‘Add page’ button.
 
-![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/37.%20Dokuwiki%20root.png)
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/37.%20Dokuwiki%20root.png" width=400 align=center>
 
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 Your new directory/project will be displayed in the Sitemap list (blue color). The page associated with it will also be displayed (green color).
 
-![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/38.%20Dokuwiki%20Sitemap.png)
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/38.%20Dokuwiki%20Sitemap.png" width=400 align=center>
 
 For example we have the project ‘wassergate’ that has 3 sub-directories: 
 
-![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/39.%20Dokuwiki%20wassergate.png)
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/39.%20Dokuwiki%20wassergate.png" width=200 align=center>
+
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 * Annotations that signal interesting findings will be centralized in the information subdirectory
 * Before publication, a page containing confrontation questions will be added under the confrontation subdirectory
@@ -31,14 +39,18 @@ For example we have the project ‘wassergate’ that has 3 sub-directories:
 
 Eventually the finalized product will eventually land into the public domain;https://theblacksea.eu/stories/football-leaks/football-leaks-the-dirty-tricks-of-doyen-sports/
 
-![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/40.%20Dokuwiki%20Football%20leaks.png)
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/40.%20Dokuwiki%20Football%20leaks.png" width=600 align=center>
+
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 _How to construct a Wiki page_
 
 
 Use the ‘Create a New Page’ bar. Choose an existing directory or sub-directory to be the parent of your page (eg. projectname). Please don’t create orphans! Once you click the Add page button, you will be promoted to also add content to the page and Save it.
 
-![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/41.%20Dokuwiki%20construct%20a%20page.png)
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/41.%20Dokuwiki%20construct%20a%20page.png" width=250 align=center>
 
 
 Check the Sitemap (just below the search box on the upper right corner) and see if  your newly created page landed under the right directory. 
@@ -48,33 +60,40 @@ _Move a page between directories_
 
 If by accident the newly created page landed in an erroneous spot, go to the right side of your page and choose ‘Rename Page’.
 
-![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/42.%20Dokuwiki%20Rename%20page.png)
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/42.%20Dokuwiki%20Rename%20page.png" width=200 align=center>
 
 
 Change the names of the directories and subdirectories in the url. For instance the page ‘wassergate_questions’ was erroneously added under the _drafts_ subdirectory. 
 
-![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/43.%20Dokuwiki%20wassergate%20drafts.png)
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/43.%20Dokuwiki%20wassergate%20drafts.png" width=250 align=center>
 
 
 To move the page under _confrontation_ (where it belongs), simply click on the ‘wassergate_questions’ page and go to the Rename button (on the right side of the page).
 
-![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/44.%20Dokuwiki%20wassergate%20confrontation.png)
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/44.%20Dokuwiki%20wassergate%20confrontation.png" width=400 align=center>
 
 Type in the correct URL and hit Rename.
 
-![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/45.%20Dokuwiki%20wassergate%20type%20correct%20URL.png)
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/45.%20Dokuwiki%20wassergate%20type%20correct%20URL.png" width=400 align=center>
 
 Your page will now show up under the right subdirectory.
 
-![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/46.%20Dokuwiki%20wassergate%20correct.png)
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/46.%20Dokuwiki%20wassergate%20correct.png" width=250 align=center>
+
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 _Wiki pages labels and names_
 
 
 You should name your wiki exactly what it is: a wedding list of someone, a deal of somebody, a structure of a company, a bio for a person etc. That should be reflected in the wiki title. For inspiration go read some wikipedia articles.
 Each project starts with a project name (eg. Wassergate) and an information directory (wassergate:information) that has a pitch page (description to convince others to join the project). 
+
 Confrontation pages should be created after the drafts are done. The confrontation pages should list ALL people and institutions that need to be confronted with written questions before the story is ready. In confrontation pages, each EIC journo should have the time to add his/her questions.
+
 Replies pages are mirrors of confrontation pages, only they include the exact copy/paste of the questions send, in the original language they were sent, as well as the replies, with the time stamp, email used etc
+
 
 _How to edit a Wiki page_
 
