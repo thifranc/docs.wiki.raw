@@ -2,7 +2,6 @@
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/liquid%20logo.png" width=200 align=right>
 
 
-
 Liquid Investigations is a network infrastructure that makes it easy for anyone to collaboratively research and co-create knowledge. Robust and built from the margins of Europe by journalists and technologists. 
 
 ## Story 
@@ -55,6 +54,23 @@ Even before facilitating more than 100 journalists to collaboratively search doc
 **2017:** The prototype bundle won a [Google innovation grant](https://newsinitiative.withgoogle.com/dnifund/insights/liquid-investigations-helping-journalists-collaborate-safely-scale/) and started to be used in production. 
 
 **Since 2018:** It is in use or has been used by the following media organizations (and not only): VG, Politiken, Der Spiegel, Mediapart, NRC, Standaard, Le Soir, Expresso, L’Espresso, infoLibre, RTS, Tamedia, theblacksea.eu, Nacional, Reuters, Bloomberg, The Sunday Times, Toronto Star.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20NRC.jpg" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20RTS.jpg" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20Standaard.png" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20TdG.png" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20The%20Sunday%20Times%20logo.JPG" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20crji.jpg" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20der%20spiegel.png" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20el-mundo.jpg" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20espresso.png" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20expresso.png" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20falter.jpg" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20infoLibre.png" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20le-soir.jpg" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20mediapart.png" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20politiken.jpg" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20tbs.jpg" width=100>
 
 
 ## Installation 
