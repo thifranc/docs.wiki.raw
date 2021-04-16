@@ -56,7 +56,7 @@ Even before facilitating more than 100 journalists to collaboratively search doc
 **So far, the search tool Hoover or the entire Liquid bundle have been used by the following organizations:**
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20NRC.jpg" width=100>
-<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20RTS.jpg" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20NACIONAL.jpeg" width=100>
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20Standaard.png" width=100>
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20TdG.png" width=100>
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20The%20Sunday%20Times%20logo.JPG" width=100>
@@ -74,7 +74,8 @@ Even before facilitating more than 100 journalists to collaboratively search doc
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20vg.png" width=100>
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20reuters.png" width=100>
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20Toronto_Star.png" width=100>
-<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20NACIONAL.jpeg" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20RTS.jpg" width=100>
+
 
 
 
