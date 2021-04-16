@@ -22,11 +22,11 @@ Currently, the Liquid bundle let’s you index, OCR & search, tagg, build wikis,
 
 Liquid integrates already established and easy to use apps, allowing for a seamless, collaborative workflow. Currently packaged applications:
 * Index and Search: Hoover, multi-faceted search technology, creating a bridge between all the other apps
-* Wiki: Dokuwiki
-* Chat: Rocket.chat 
-* Share files: Nextcloud
-* Pads: CodiMD
-* Annotations: Hypothes.is 
+* Wiki: Dokuwiki <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20dokuwiki.gif" width=50>
+* Chat: Rocket.chat <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20rocketchat.png" width=50>
+* Share files: Nextcloud <img src="https://github.com/liquidinvestigations/docs-img/blob/main/nextcloud_logo.png" width=50>
+* Pads: CodiMD <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20codimd.png" width=50>
+* Annotations: Hypothes.is <img src="https://github.com/liquidinvestigations/docs-img/blob/main/Hypothes.is_logo.jpg" width=50>
 
 ## Future
 
@@ -75,7 +75,6 @@ Even before facilitating more than 100 journalists to collaboratively search doc
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20reuters.png" width=100>
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20Toronto_Star.png" width=100>
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20RTS.jpg" width=100>
-
 
 
 
