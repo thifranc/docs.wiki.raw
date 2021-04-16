@@ -71,6 +71,11 @@ Even before facilitating more than 100 journalists to collaboratively search doc
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20mediapart.png" width=100>
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20politiken.jpg" width=100>
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20tbs.jpg" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20vg.png" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20reuters.png" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20Toronto_Star.png" width=100>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20NACIONAL.jpeg" width=100>
+
 
 
 ## Installation 
