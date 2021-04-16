@@ -53,7 +53,7 @@ Even before facilitating more than 100 journalists to collaboratively search doc
 
 **2017:** The prototype bundle won a [Google innovation grant](https://newsinitiative.withgoogle.com/dnifund/insights/liquid-investigations-helping-journalists-collaborate-safely-scale/) and started to be used in production. 
 
-**So far, the search tool Hoover or the entire Liquid bundle have been used by the following organizations: **
+**So far, the search tool Hoover or the entire Liquid bundle have been used by the following organizations:**
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20NRC.jpg" width=100>
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20RTS.jpg" width=100>
