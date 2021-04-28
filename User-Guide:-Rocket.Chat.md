@@ -30,25 +30,44 @@ The various EIC channels/rooms are generally dedicated to topics to investigate,
 **Adding users** and making them owners of an existing channel is easy! 
 Go to the channel/room of your choice, click on the ‘members’ icon and click on the ‘Add users’ (not ‘Invite users’) blue button. 
 
-[add users photo]
+<img src="https://github.com/liquidinvestigations/docs-img/blob/14e4a78cff20bd28285ff347ba5095da32737413/addusers.png" width=200 align=center>
+
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 Type in the username and hit the blue ‘Add users’ button again. You will receive a confirmation that the user of choice was added to your room. To view the members in your room, click again on the ‘members’ icon. Make sure that the dropdown menu is set to ‘all users’ (the default is online users).
 
-[all users photo]
+<img src="https://github.com/liquidinvestigations/docs-img/blob/14e4a78cff20bd28285ff347ba5095da32737413/allusers.png" width=200 align=center>
+
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 To make a user the owner of the group, click on the name of the user and then click on ‘Set as owner’ button.
 
-[set as owner photo]
+<img src="https://github.com/liquidinvestigations/docs-img/blob/14e4a78cff20bd28285ff347ba5095da32737413/userpermissions.png" width=200 align=center>
 
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 **Editing a channel** is easy! A channel owner has the capability to edit and add relevant information to a specific channel. For instance adding a wiki page URL that complements the information exchange of that channel. 
 Just go to the channel of your choice, click on the info icon and then the edit button.
 
-[edit channel photo]
+<img src="https://github.com/liquidinvestigations/docs-img/blob/14e4a78cff20bd28285ff347ba5095da32737413/editchannel.png" width=200 align=center>
+
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 This will open a form like view where you can edit information and add wiki URLs. Please do so only in the ‘Topic’ field. 
 
-[topic photo]
+<img src="https://github.com/liquidinvestigations/docs-img/blob/14e4a78cff20bd28285ff347ba5095da32737413/Topic%20field.png" width=200 align=center>
+
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 Make sure to hit Save!
 
