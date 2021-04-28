@@ -26,6 +26,33 @@ You can reply to a message or people can reply to your message with another mess
 Private channels/rooms are locked. Only invited people can get in. They are not visible to the rest of the participants. They work exactly as the public channels.
 The various EIC channels/rooms are generally dedicated to topics to investigate, or to logistical exchanges (like maintenance, or sharing URLs post-publication).
 
+
+**Adding users** and making them owners of an existing channel is easy! 
+Go to the channel/room of your choice, click on the ‘members’ icon and click on the ‘Add users’ (not ‘Invite users’) blue button. 
+
+[add users photo]
+
+Type in the username and hit the blue ‘Add users’ button again. You will receive a confirmation that the user of choice was added to your room. To view the members in your room, click again on the ‘members’ icon. Make sure that the dropdown menu is set to ‘all users’ (the default is online users).
+
+[all users photo]
+
+To make a user the owner of the group, click on the name of the user and then click on ‘Set as owner’ button.
+
+[set as owner photo]
+
+
+**Editing a channel** is easy! A channel owner has the capability to edit and add relevant information to a specific channel. For instance adding a wiki page URL that complements the information exchange of that channel. 
+Just go to the channel of your choice, click on the info icon and then the edit button.
+
+[edit channel photo]
+
+This will open a form like view where you can edit information and add wiki URLs. Please do so only in the ‘Topic’ field. 
+
+[topic photo]
+
+Make sure to hit Save!
+
+
 ## _Discussions_
 
 Within a channel/room with many people talking about many things at once, you can choose to engage in a thread (a short exchange on a specific topic) or to start a discussion, which is basically like a room inside another room.
