@@ -28,7 +28,7 @@ The various EIC channels/rooms are generally dedicated to topics to investigate,
 
 
 **Adding users** and making them owners of an existing channel is easy! 
-Go to the channel/room of your choice, click on the ‘members’ icon and click on the ‘Add users’ (not ‘Invite users’) blue button. 
+With your admin permissions, go to the channel/room of your choice, click on the ‘members’ icon and click on the ‘Add users’ (not ‘Invite users’) blue button. 
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/14e4a78cff20bd28285ff347ba5095da32737413/addusers.png" width=200 align=center>
 
