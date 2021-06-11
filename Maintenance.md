@@ -94,6 +94,23 @@ _Note:_ The collections have to be disabled in the `liquid.ini` to be restored. 
 
 To finish the restore process run `./liquid deploy`.
 
+## Ex-/Import Accounts
+
+To create a full data dump containing auth and otp data, use Django's dumpdata command like this: 
+
+```
+./liquid shell liquid:core ./manage.py dumpdata auth otp_totp > users.json
+```
+
+Restore this, maybe on a different machine, using the users.json file, copy it into the liquid:core container and run:
+
+```
+docker cp users-json core-...:/app/users.json
+./liquid shell liquid:core
+./manage.py loaddata users.json
+rm users.json
+exit
+```
 
 ## Changing domain name
 
