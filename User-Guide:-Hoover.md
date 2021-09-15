@@ -9,7 +9,7 @@ This triptych-like display is meant to increase visual appeal and support users 
 
 ![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/20.%20Hoover%20tryptich.png)
 
-_Data collections_
+## Data collections 
 
 
 When landing on the Hoover home page, you will begin by sifting through the data collections (left side panel) that were made available for you. If you feel you need to see 
@@ -22,7 +22,7 @@ more collections, please ask your coordinator for extra permissions. All documen
 
 <BR CLEAR=”right” />
 
-_Filters_
+## Filters
 
 
 Filters are made available when checking a collection from the left hand panel. The first set of filters is placed on the middle panel (where the search results will be displayed) and refers to: 
@@ -44,7 +44,7 @@ Filters are made available when checking a collection from the left hand panel. 
 
 <BR CLEAR=”right” />
 
-_More filters_ are available on the **left side panel**, below the data collections. These filters refer to _tags _(pubic and private) _date range_, _filetype_, _language_, _email domain_, _email from/to_ and _document path_. 
+_More filters_ are available on the **left side panel**, below the data collections. These filters refer to _tags_ (pubic and private), _date range_, _filetype_, _language_, _email domain_, _email from/to_ and _document path_. 
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/24.%20Hoover%20more%20filters.png" width=200 align=center>
 
@@ -52,7 +52,9 @@ _More filters_ are available on the **left side panel**, below the data collecti
 
 <BR CLEAR=”right” />
 
-_Tags_ are a good way to mark what documents were already viewed or investigated. They further qualify the document and allow the user to view in an instant what the key takeaway is. Public tags are indexed and visible to everyone. Private tags allow the solo investigator to mark his own findings (are not indexed).
+### Tags
+
+_Tags_ are a good way to mark what documents were already viewed or investigated. They further qualify the document and allow the user to view in an instant what the key takeaway is. Public tags are indexed and visible to everyone. Private tags allow the solo investigator to mark his own findings (are only available to the one user that made them).
 
 To apply a public or a private tag, click on the search result that you are investigating (middle panel). A preview window will be opened on the right hand side. There you can go to the Tags tab type the tag of your choice and click Enter. You can also choose to make your tag visible or keep it private.
 
@@ -69,6 +71,8 @@ NOT
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/27.%20Hoover%20NOT%20filter.png" width=600 align=center>
 
+### Other filters
+
 Another example: You can search through documents stemming from a specific email domain (AND) or you can filter out specific email domains that bring too much noise in the list of results , like newsletters or spam emails (NOT).
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/28.%20Hoover%20ANDNOT%20filter.png" width=200 align=center>
@@ -77,8 +81,8 @@ Another example: You can search through documents stemming from a specific email
 
 <BR CLEAR=”right” />
 
-_Searches_
 
+## Searches
 
 Start searching by selecting the collections of your choice and by typing a keyword or a search query that might be relevant for your search and hitting enter.
 To refine your searches, please consult this useful list of search operators and search tips: https://github.com/liquidinvestigations/hoover-search/wiki/Guide-to-search-terms. 
@@ -95,7 +99,7 @@ Batch search queries need to be typed one per line (list format). Your batch sea
 
 <BR CLEAR=”right” />
 
-_Search results_
+### Search results
 
 
 A list of search results will be displayed in the middle panel. Clicking on each result, a preview of the document is made available on the right side column.
@@ -107,7 +111,7 @@ There are certain hotkeys that allow the user a fast navigation between the vari
 * O- Select a preview to open in a new tab
 
 
-_Search preview_
+### Result preview
 
 
 The ‘Preview’ mode shows the text, the tags and meta information of a certain document. 
@@ -128,12 +132,12 @@ The META tab shows you additional information about the investigated document (i
 
 From here you can _print_, _download_ or _open the document in a new tab_. To avoid any security breaches, the users are not able to print or to download the META information (MD5 and the path) of a document. But even just text print-outs could be tricky, so please read the following article carefully: https://www.bbc.com/future/article/20170607-why-printers-add-secret-tracking-dots.
 
-_Open document in a new tab_
+### Open document in a new tab
 
 Once you open a document in a new tab, you can navigate across the document by clicking the up/down arrows (which collapse or expand the desired doc modules) - especially in the case of email documents who could have multiple files attached.
 
 
-_Annotating Hoover documents_
+## Annotating Hoover documents
 
 
 Once a document is opened in a new tab, it can be annotated by clicking on the _PDF viewer link_ underneath the PDF, Tags and Meta tabs (if the file type is a PDF). For any other file types you can just start annotating by highlighting some text.
