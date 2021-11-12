@@ -7,6 +7,8 @@ For installation instructions go to [[Technical Overview]].
 ## Users
 * [[User Guide: Overview]]
 * [[User Guide: Login]]
+* [[User Guide: Change Password]]
+* [[User Guide: Manage 2FA Devices]]
 * [[User Guide: Rocket.Chat]]
 * [[User Guide: Nextcloud]]
 * [[User Guide: Hoover]]
