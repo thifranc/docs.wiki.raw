@@ -1,19 +1,62 @@
-_First time Users_
-
-Prerequisites for logging into Liquid Investigations
-
-Have an Authenticator enabled: 
-* Google Authenticator - https://en.wikipedia.org/wiki/Google_Authenticator
-* Duo Mobile- https://play.google.com/store/apps/details?id=com.duosecurity.duomobile&hl=en&gl=US
-* Have  an encrypted communication channel (e.g. Signal desktop)
-
-A new user will get their credentials (username and a one-time onboarding URL) via an encrypted channel (e.g. Signal desktop). You will maintain the created username but may change your password. You will be asked to scan a QR code with your 2FA app:
-
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/1.%20AccountLogin.png" width=200 align=right>
+**Getting on board with Liquid Investigations**
 
 
-To finalize the account creation process you will then be prompted to also enter your 6 digit authentication code.
-**Please make sure to activate your account in the next 12 hours!** Otherwise the link will expire.
+Prerequisites for _first time users_, logging onto the Liquid Investigations platform:
+
+* Have a 2FA authenticator enabled on your mobile device! You will need this authenticator to scan a QR code that will help you login into your Liquid Investigations account. Our recommendations are:
+
+The Google Authenticator app : https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en&gl=US
+
+[screenshot 1]
+
+OR
+
+The Duo Mobile app: https://play.google.com/store/apps/details?id=com.duosecurity.duomobile&hl=en&gl=US
+
+[screenshot 2]
+
+
+* Have Signal desktop enabled:  https://signal.org/en/download/
+
+[screenshot 3]
+
+
+As a new user, you will get your Liquid investigations account credentials (username and one time onboarding URL) via Signal desktop chat.
+
+
+[screenshot 4]
+
+This URL is time sensitive so please make sure to set up your account in the next 12 hours. Otherwise the link will expire.
+
+
+
+
+Clicking on the URL will take you to the form below. You will maintain the created username but should create your own password (make sure you input strong passwords, combining numbers and letters).
+
+[screenshot 5]
+
+
+Next, you will be asked to scan a QR code with your 2FA mobile app (Google Authenticator or Duo Mobile). Once you do so, the 2FA app will generate an OTP token.
+
+
+[screenshot 6]
+
+
+To finalize the account creation process you will then be prompted to also enter your 6 digit OTP authentication token into the OTP form field and press the Login button.
+
+
+[screenshot 7]
+
+
+You will  receive a confirmation that your verification was successful.
+
+
+[screenshot 8]
+
+
+Once you hit ‘Home’ you will be able to access the Liquid Investigations apps bundle.
+
+
 
 _Login_
 
