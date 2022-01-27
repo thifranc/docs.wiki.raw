@@ -9,10 +9,16 @@ The Google Authenticator app : https://play.google.com/store/apps/details?id=com
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/screenshotGA1.png" width=600 align=center>
 
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 
 OR
 
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 
 The Duo Mobile app: https://play.google.com/store/apps/details?id=com.duosecurity.duomobile&hl=en&gl=US
@@ -21,11 +27,9 @@ The Duo Mobile app: https://play.google.com/store/apps/details?id=com.duosecurit
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/duomobile2.png" width=600 align=center>
 
 
+<BR CLEAR=”right” />
 
-
-
-
-
+<BR CLEAR=”right” />
 
 
 * Have Signal desktop enabled:  https://signal.org/en/download/
@@ -37,35 +41,50 @@ The Duo Mobile app: https://play.google.com/store/apps/details?id=com.duosecurit
 As a new user, you will get your Liquid investigations account credentials (username and one time onboarding URL) via Signal desktop chat.
 
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/main/onboarding%204.png" width=600 align=center>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/onboarding%204.png" width=400 align=center>
 
 
 This URL is time sensitive so please make sure to set up your account in the next 12 hours. Otherwise the link will expire.
 
 
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 
 Clicking on the URL will take you to the form below. You will maintain the created username but should create your own password (make sure you input strong passwords, combining numbers and letters).
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/main/Validatonform5.png" width=400 align=center>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/Validatonform5.png" width=200 align=center>
 
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 Next, you will be asked to scan a QR code with your 2FA mobile app (Google Authenticator or Duo Mobile). Once you do so, the 2FA app will generate an OTP token.
 
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/main/otptoken6.png" width=400 align=center>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/otptoken6.png" width=200 align=center>
 
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 To finalize the account creation process you will then be prompted to also enter your 6 digit OTP authentication token into the OTP form field and press the Login button.
 
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/otp7.png" width=400 align=center>
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 You will  receive a confirmation that your verification was successful.
 
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/Success8.png" width=400 align=center>
 
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 Once you hit ‘Home’ you will be able to access the Liquid Investigations apps bundle.
 
