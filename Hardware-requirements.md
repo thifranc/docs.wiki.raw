@@ -3,7 +3,7 @@
 To run the Liquid Investigations bundle you will need, at a minimum:
 
 * A single Linux system with
-  * 28GB RAM
+  * 28 GB RAM (no Hoover optional features enabled), or 50 GB (all Hoover optional features enabled)
   * 250GB SSD array
   * 1TB HDD/NAS array
 * Docker version 18 or newer
