@@ -3,14 +3,14 @@
 To run the Liquid Investigations bundle you will need, at a minimum:
 
 * A single Linux system with
-  * 28 GB RAM (no Hoover optional features enabled), or 50 GB (all Hoover optional features enabled)
-  * 250GB SSD array
-  * 1TB HDD/NAS array
+  * 28 GB RAM (no Hoover optional features enabled), or 50 GB RAM (all Hoover optional features enabled)
+  * 300 GB SSD array
+  * 1 TB HDD/NAS array
 * Docker version 18 or newer
 * Python 3.6+
 * pipenv
 
-A system in this configuration should be able to handle about 200GB of Hoover source data while also running all the bundled applications, see the next section for details.
+A system in this configuration should be able to handle about 200 GB of Hoover source data while also running all the bundled applications, see the next section for details.
 
 Liquid Investigations has only been tested on Ubuntu 18 & 20 LTS, Debian 10 and CentOS.
 
@@ -66,15 +66,15 @@ Use a machine with at least 4 CPU cores. The system has been seen to scale well 
 Most of the work has been done on *gaming computers* with these specifications. Prices have been sampled in May 2020 from european Amazon.
 
 - ~2017 intel i7 with 8 cores and hyper-threading (e.g. intel i7-9700K, $400)
-- 64GB DDR4 (4x16 kit, bulk, $300)
-- 2 x 2TB SSD PCIe M.2 arranged in software RAID-1 (intel 665p, $280 each)
-- 3 x 8TB HDD arranged in software RAID-5 (WD red, $220 each)
+- 64 GB DDR4 (4x16 kit, bulk, $300)
+- 2 x 2 TB SSD PCIe M.2 arranged in software RAID-1 (intel 665p, $280 each)
+- 3 x 8 TB HDD arranged in software RAID-5 (WD red, $220 each)
 - compatible motherboard, case, 800 watt power unit (total $350)
-- gigabit ethernet internet connection
+- gigabit Ethernet internet connection
 
 Setup cost total: ~$2300
 
-With some fine tuning, this single node system has served around 120 concurrent users searching through 3TB of source data.
+With some fine-tuning, this single node system has served around 120 concurrent users searching through 3 TB of source data.
 
 ### Extending the setup
 
@@ -85,7 +85,7 @@ Processing speed may be improved by using adding more workers to the cluster. Th
 
 The single-node setup can be extended to multiple machines if needed.
 
-- Use at least 16GB of RAM and 100GB of local SSD storage for each worker node in the cluster.
-- Use at least 32GB of RAM for the server node.
-- In the current implementation all nodes must access all the data, so mount both the HDD and the SSD volumes from the server node to each worker node using NFS.
+- Use at least 16 GB of RAM and 100 GB of local SSD storage for each worker node in the cluster.
+- Use at least 32 GB of RAM for the server node. Also, the storage only need to be connected to this server node.
+- Connect all the nodes using a firewalled VPN in the same IPv4 /24 subnet.
 - A 1Gbps LAN should give acceptable performance.
