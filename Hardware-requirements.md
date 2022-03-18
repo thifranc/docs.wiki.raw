@@ -19,24 +19,24 @@ Liquid Investigations has only been tested on Ubuntu 18 & 20 LTS, Debian 10 and 
 
 It's highly recommended to use RAID-5 (or better) for both the SSD and the HDD volumes. Backups should also be saved on a different machine, or at least on a different disk array.
 
-Liquid Investigations requires SSD storage (either SATA or M.2) to be available for:
-- operating system and host system packages - 10GB
-- docker images - 20GB
-- application data - max. 50GB for wiki, chat, pads, annotations
-- system runtime metrics - ~30GB for the last 4 weeks of system metrics
-- hoover elasticsearch and databases storage - ~0.6 X size of source data 
+Liquid Investigations requires **SSD storage (either SATA or M.2)** to be available for:
+- operating system and host system packages - `20 GB`
+- docker images - `50 GB`
+- system runtime metrics - `~30 GB` for the last 4 weeks of system metrics
+- application data - max. `50 GB` for wiki, chat, pads, annotations
+- hoover elasticsearch and databases storage - ~0.6 X size of source data
 
-The following can be stored on slower storage, HDD or NAS:
+The following can be stored on **slower storage, HDD or NAS**:
 - hoover source collection data - includes files uploaded by users
 - hoover internal data (data blobs) - ~3 X size of source data
 
 
-Backups also take space: expect application data to be 5-20GB / snapshot, and collection backups to take as much as 2X the source data.
+Backups also take space: expect application data to be 5-50GB / snapshot, and collection backups to take as much as 2X the source data.
 
 So, for example, you need to be able to search through **2TB** of source collection data. You need at least:
 
 - server HDD array: 2TB (source) + 6TB (blobs) = **8TB**
-- server SSD array: 1.2TB (hoover database and elasticsearch) + .11TB (everything else in the list) = **1.31TB**
+- server SSD array: 1.2TB (hoover database and elasticsearch) + .15TB (everything else in the list) = **1.35TB**
 - backup machine: 2 * 2 * 2TB (2 backups for each collection processed) + 240GB (12 application snapshots) = **8.24TB**
 
 
