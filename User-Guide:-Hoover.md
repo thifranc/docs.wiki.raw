@@ -46,9 +46,9 @@ Filters are made available when checking a collection from the left hand panel. 
 
 <BR CLEAR=”right” />
 
-_More filters_ are available on the **left side panel**, below the data collections. These filters refer to _tags_ (pubic and private), _date range_, _filetype_, _language_, _email domain_, _email from/to_ and _document path_. 
+_More filters_ are available on the **left side panel**, below the data collections. These filters refer to tags (pubic and private), date range, filetype, language, email domain, location, file size, OCR and Image AI.
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/24.%20Hoover%20more%20filters.png" width=200 align=center>
+<img src="https://github.com/liquidinvestigations/image-classification-service/blob/master/filters3.jpg" width=200 align=center>
 
 <BR CLEAR=”right” />
 
@@ -62,6 +62,9 @@ To apply a public or a private tag, click on the search result that you are inve
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/25.%20Hoover%20tags.png" width=800 align=center>
 
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 All of these filters give the user the option to ADD or FILTER OUT the enabled criterias. For instance you can refine your search by applying the ‘carrot-based-food’ public tag or by specifically filter it out.
 
@@ -131,8 +134,30 @@ Here,  the user can also mark the document as interesting, or starred, or trash 
 The META tab shows you additional information about the investigated document (including the MD5 unique identifier). The Meta info is not printable or downloadable.
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/32.%20Hoover%20META%20tab.png" width=400 align=center>
+<BR CLEAR=”right” />
 
-From here you can _print_, _download_ or _open the document in a new tab_. To avoid any security breaches, the users are not able to print or to download the META information (MD5 and the path) of a document. But even just text print-outs could be tricky, so please read the following article carefully: https://www.bbc.com/future/article/20170607-why-printers-add-secret-tracking-dots.
+<BR CLEAR=”right” />
+
+From the document 'Previewer' you can _print_, _download_ or _open the document in a new tab_.
+
+To be able to **download a document** you need to adjust your **Chrome browser settings**
+
+* Go to Chrome Settings > Security and Privacy
+* Site Settings > Scroll down to Additional Content Settings 
+* PDF Documents > Download PDFs
+
+<img src="https://github.com/liquidinvestigations/image-classification-service/blob/master/security_4.png" width=200 align=center>
+<img src="https://github.com/liquidinvestigations/image-classification-service/blob/master/sitesettings_5.png" width=400 align=center>
+<img src="https://github.com/liquidinvestigations/image-classification-service/blob/master/additionalsettings_6%2Cjpg.png" width=400 align=center>
+<img src="https://github.com/liquidinvestigations/image-classification-service/blob/master/downloadPDF_7.png" width=400 align=center>
+
+
+
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
+
+To avoid any security breaches, the users are not able to print or to download the META information (MD5 and the path) of a document. But even just text print-outs could be tricky, so please read the following article carefully: https://www.bbc.com/future/article/20170607-why-printers-add-secret-tracking-dots.
 
 ### Open document in a new tab
 
@@ -150,6 +175,9 @@ The Hypothes.is annotation frame will be visible, allowing for highlights and an
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/34.%20Hoover%20Hypothes.is%20frame.png" width=400 align=center>
 
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 Once you highlight the text to be annotated, an annotation panel will open on the right hand side. Here you can post the annotation to a specific group or keep it just for yourself. The number of annotations will  be displayed on the side of your document with a counter (e.g.only one annotation was made).  
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/35.%20Hoover%201%20annotation.png" width=400 align=center>
