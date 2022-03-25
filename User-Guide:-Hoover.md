@@ -7,7 +7,7 @@ The Hoover UI is fairly intuitive and all its content is divided into 3 main pan
 
 This triptych-like display is meant to increase visual appeal and support users that are constantly working with large loads of data.
 
-<img src="https://github.com/liquidinvestigations/image-classification-service/blob/master/tryptich_2.jpg" width=800 align=center>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/tryptich_2.jpg" width=800 align=center>
 
 
 
@@ -48,7 +48,7 @@ Filters are made available when checking a collection from the left hand panel. 
 
 _More filters_ are available on the **left side panel**, below the data collections. These filters refer to tags (pubic and private), date range, filetype, language, email domain, location, file size, OCR and Image AI.
 
-<img src="https://github.com/liquidinvestigations/image-classification-service/blob/master/filters3.jpg" width=200 align=center>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/filters3.jpg" width=200 align=center>
 
 <BR CLEAR=”right” />
 
@@ -142,14 +142,20 @@ From the document 'Previewer' you can _print_, _download_ or _open the document 
 
 To be able to **download a document** you need to adjust your **Chrome browser settings**
 
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/download%20pdf_1.png" width=400 align=center>
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
+
 * Go to Chrome Settings > Security and Privacy
 * Site Settings > Scroll down to Additional Content Settings 
 * PDF Documents > Download PDFs
 
-<img src="https://github.com/liquidinvestigations/image-classification-service/blob/master/security_4.png" width=200 align=center>
-<img src="https://github.com/liquidinvestigations/image-classification-service/blob/master/sitesettings_5.png" width=400 align=center>
-<img src="https://github.com/liquidinvestigations/image-classification-service/blob/master/additionalsettings_6%2Cjpg.png" width=400 align=center>
-<img src="https://github.com/liquidinvestigations/image-classification-service/blob/master/downloadPDF_7.png" width=400 align=center>
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/Chromesettings_4.png" width=300 align=center>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/sitesettings_5.png" width=400 align=center>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/additionalsettings_6%2Cjpg.png" width=400 align=center>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/downloadPDF_7.png" width=400 align=center>
 
 
 
