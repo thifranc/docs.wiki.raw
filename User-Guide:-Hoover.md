@@ -7,7 +7,9 @@ The Hoover UI is fairly intuitive and all its content is divided into 3 main pan
 
 This triptych-like display is meant to increase visual appeal and support users that are constantly working with large loads of data.
 
-![](https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/20.%20Hoover%20tryptich.png)
+<img src="https://github.com/liquidinvestigations/image-classification-service/blob/master/tryptich_2.jpg" width=800 align=center>
+
+
 
 ## Data collections 
 
