@@ -170,29 +170,6 @@ To avoid any security breaches, the users are not able to print or to download t
 Once you open a document in a new tab, you can navigate across the document by clicking the up/down arrows (which collapse or expand the desired doc modules) - especially in the case of email documents who could have multiple files attached.
 
 
-## Annotating Hoover documents
-
-
-Once a document is opened in a new tab, it can be annotated by clicking on the _PDF viewer link_ underneath the PDF, Tags and Meta tabs (if the file type is a PDF). For any other file types you can just start annotating by highlighting some text.
-
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/33.%20Hoover%20PDF%20viewer%20link.png" width=200 align=center>
-
-The Hypothes.is annotation frame will be visible, allowing for highlights and annotation. You need to be signed into your Hypothes.is account in order to make digital annotations on your Hoover document.
-
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/34.%20Hoover%20Hypothes.is%20frame.png" width=400 align=center>
-
-<BR CLEAR=”right” />
-
-<BR CLEAR=”right” />
-Once you highlight the text to be annotated, an annotation panel will open on the right hand side. Here you can post the annotation to a specific group or keep it just for yourself. The number of annotations will  be displayed on the side of your document with a counter (e.g.only one annotation was made).  
-
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/35.%20Hoover%201%20annotation.png" width=400 align=center>
-
-When another colleague will search and find the same document, he/she will notice the annotations that were made (provided the annotations were posted publicly). Hypothes.is digital annotations are a great way to share findings directly on the source documents. 
-
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/36.%20Hoover%20search%20for%20annotations.png" width=800 align=center>
-
-
 ***
 
 Back to our detailed [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
