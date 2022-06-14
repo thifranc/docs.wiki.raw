@@ -26,7 +26,6 @@ Liquid integrates already established and easy to use apps, allowing for a seaml
 * Chat: Rocket.chat <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20rocketchat.png" width=25>
 * Share files: Nextcloud <img src="https://github.com/liquidinvestigations/docs-img/blob/main/nextcloud_logo.png" width=25>
 * Pads: CodiMD <img src="https://github.com/liquidinvestigations/docs-img/blob/main/logo%20codimd.png" width=25>
-* Annotations: Hypothes.is <img src="https://github.com/liquidinvestigations/docs-img/blob/main/Hypothes.is_logo.jpg" width=25>
 
 ## Future
 
