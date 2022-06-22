@@ -23,6 +23,7 @@ Watch out for breaking changes in the configuration by looking at the changelogs
     git fetch
     git checkout vZ.Z.Z
     # check for new settings in `examples/liquid.ini` and add them to `liquid.ini`
+    ./liquid resources
     ./liquid deploy
 
 
@@ -62,6 +63,7 @@ docker exec cluster ./cluster.py wait
 cd /opt/node
 git fetch -ap
 git checkout vZ.Z.Z
+./liquid resources
 ./liquid deploy
 ```
 
