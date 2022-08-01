@@ -1,6 +1,11 @@
 # Browser configuration with caching
 
-### install tor browser portable edition, rename folder to "LIQUID", put on desktop
+### Install Tor browser portable edition
+
+* Go to https://www.torproject.org/download/, select the operating system of your choice and plug in your removable media
+* Your portable Tor browser will be downloaded on to your USB key or SD card
+* Rename folder to "LIQUID", put on desktop
+
 
 ###  hack up the tor browser settings -- https://github.com/CRJI/EIC/issues/626 for performance issues related to Caching
 
