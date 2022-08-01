@@ -1,6 +1,6 @@
 # Getting on board with Liquid Investigations
 
-## Install an Authenticator and chat client on your mobile
+## Install an Authenticator on your mobile
 
 ### Enable Automatic Time Sync settings on phone
 
