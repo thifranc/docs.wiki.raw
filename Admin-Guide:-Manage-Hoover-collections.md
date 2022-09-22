@@ -1,0 +1,7 @@
+Adding, removing and modifying collections requires SSH access to the machine. To change access rules to these collections follow
+[the relevant Wiki article](https://github.com/liquidinvestigations/docs/wiki/Admin-Guide:-Permissions-for-Hoover-collections).
+
+Instructions on managing collections can be found in
+[the node documentation](https://github.com/liquidinvestigations/node/blob/master/docs/Hoover.md).
+
+Supported file types are listed [in this table](https://github.com/liquidinvestigations/hoover-snoop2/blob/master/docs/filetypes.md).
