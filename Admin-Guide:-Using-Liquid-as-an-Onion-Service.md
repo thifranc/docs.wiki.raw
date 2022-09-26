@@ -7,9 +7,9 @@ HiddenServiceDir /var/lib/tor/liquid
 HiddenServicePort 80 10.66.60.1:80
 ```
 
-You can find the created Onion Service hostname in `/var/lib/tor/liquid/hostname`.
+After restarting the tor service, you can find the created Onion Service hostname in `/var/lib/tor/liquid/hostname`.
 
-Use this in `/opt/node/liquid.ini` as follows:
+Use the hostname value in `/opt/node/liquid.ini` as `domain`:
 
 ```
 domain = 0123456789thisisjustaninvalidsampleandnotavvalidonionurl.onion
