@@ -20,35 +20,22 @@ To follow Traefik's progress in getting the HTTPS certificates from LetsEncrypt 
 
 ## Nomad won't schedule jobs
 
-Try [running a clean reset](https://github.com/liquidinvestigations/docs/wiki/Maintenance#clean-reset). Watch out for [docker daemon GOMAXPROCS](https://github.com/liquidinvestigations/cluster/blob/474f0fd4910bee7e70a1ad09771f9c8033d7d63e/examples/registry-systemd-override.conf#L3) if you are running on many cores.
+Try [running a clean reset](https://github.com/liquidinvestigations/docs/wiki/Maintenance#clean-reset). Watch out for [docker daemon GOMAXPROCS](https://github.com/liquidinvestigations/cluster/blob/474f0fd4910bee7e70a1ad09771f9c8033d7d63e/examples/registry-systemd-override.conf#L3) if you are running on many cores. For machines with >32 cores, we recommend configuring docker with `GOMAXPROCS` of 8-12.
 
 Nomad errors will be available in the Nomad UI after navigating to the job.
 
-## InfluxDB doesn't start
-
-Running the `cluster` script will fail with:
-
-    influxdb: check "http" is missing
 
 
-If configured with less than 8GB of RAM, after a few months of time pass, InfluxDB will run out of memory. See [this issue](https://github.com/liquidinvestigations/cluster/issues/125#issuecomment-819422765) for more details.
+## Snoop gets stuck when processing
 
-We have 3 ways to work around this problem:
-- Disable `influxdb` from `cluster.ini`:
-  - A few non-critical dashboards under Grafana will fail to load.
-  - Steps:
-    1. In section `[cluster]` set replace `run_jobs = all` with `run_jobs = cluster-fabio,prometheus,grafana,telegraf,dnsmasq,registry`
-    2. Run `docker restart cluster`
-    3. Stop the `influxdb` job from the Nomad UI, if it's still running.
-- Wipe the `influxdb` volume
-  - Temporary fix, RAM will exceed limit again at the same speed as first time
-  - Steps:
-    1. Stop all docker containers: `docker stop $(docker ps -q)`
-    2. Check the volume directory: it's the value in `cluster.ini` section `[nomad_meta]` key `cluster_volumes =`, by default is set to `/opt/cluster/var/volumes/`
-    3. Remove the `influxdb` directory from underneath it: by default `sudo rm -rf /opt/cluster/var/volumes/influxdb`
-- Increase `influxdb` memory limit to some value `> 6000 mb`
-  - In `cluster.ini` it's key `influxdb_memory_limit`, set this to a value around 6000-8000
-  - On multi-node setups, more RAM will be needed
+When processing many collections in parallel, one might run out of RabbitMQ memory. To check if this has happened:
+- Proxy port `10.66.60.1:9990` from server onto local machine `localhost:9990` using SSH LocalForward configuration.
+- Visit `http://localhost:9990/_snoop_rabbit/`, login with username `guest` and password `guest`.
+- Look at the "Memory" cell on the "Overview" screen. If it's red, then you're out of memory.
+
+If you're out of RabbitMQ memory, do one of these:
+- increase `rabbitmq_memory_limit` to 4+ GB, or
+- process less collections at the same time (set `process = off` on some of them, turn on again later)
 
 ## Elasticsearch won't index documents / Hypothesis won't save annotations
 
