@@ -53,6 +53,6 @@ For example, if a dataset comes as a single 3 TB file called `data.zip`, the ste
   - File count in Linux: `find DATA_FOLDER -type f | wc -l`
   - Folder size in Linux: `du -hd1 DATA_FOLDER | sort -h`
 - Splt extracted data into collections of around `200 GB` each, based on the examples above
-  - Use `mv` commands to move around data on the same file system with no wait time
+  - Use `mv` commands to move folders around with no wait time, *on the same file system*
 - If any file of size `> 200 GB` is found inside, unpack it manually and split its contents among more collections
 - Final setup should have around 15 collections for that dataset
