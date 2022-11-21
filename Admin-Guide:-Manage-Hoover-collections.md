@@ -1,13 +1,30 @@
-Adding, removing and modifying collections requires SSH access to the machine. To change access rules to these collections follow
+## Adding and Removing collections
+
+Adding, removing and modifying collections requires SSH access to the machine.
+
+The administrator must place the collection files in a specific directory on the server, edit the configuration `.ini` file to add it, and redeploy the server to start processing it.
+
+Specific instructions on managing collections can be found in
+[the node documentation](https://github.com/liquidinvestigations/node/blob/master/docs/Hoover.md).
+
+### Importing and Exporting collections
+
+Collections can also be saved as zip files and restored by the the administrator. This also requires SSH access to the machine.
+
+Specific details for importing and exporting are [on the Maintenance wiki page](https://github.com/liquidinvestigations/docs/wiki/Maintenance#backup).
+
+## Managing access rights
+
+To change access rules to these collections follow
 [the relevant Wiki article](https://github.com/liquidinvestigations/docs/wiki/Admin-Guide:-Permissions-for-Hoover-collections).
 
-Instructions on managing collections can be found in
-[the node documentation](https://github.com/liquidinvestigations/node/blob/master/docs/Hoover.md).
+## Limitations
+
+### Supported file types
 
 Supported file types are listed [in this table](https://github.com/liquidinvestigations/hoover-snoop2/blob/master/docs/filetypes.md).
 
-
-## Collection Size Limit
+### Collection Size Limit
 
 Collections are kept on a single SQL database each. This means we have a natural limit of how many files a collection can have.
 
