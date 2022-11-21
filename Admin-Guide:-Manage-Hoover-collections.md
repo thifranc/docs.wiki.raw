@@ -9,7 +9,7 @@ Specific instructions on managing collections can be found in
 
 ### Importing and Exporting collections
 
-Collections can also be saved as zip files and restored by the the administrator. This also requires SSH access to the machine.
+Collections can also be saved as zip files and restored by the administrator. This also requires SSH access to the machine.
 
 Specific details for importing and exporting are [on the Maintenance wiki page](https://github.com/liquidinvestigations/docs/wiki/Maintenance#backup).
 
