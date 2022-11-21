@@ -30,3 +30,4 @@ For example, if a dataset comes as a single 3 TB file called `data.zip`, the ste
 - manually extract the archive
 - Splt extracted data into collections of around `200 GB` each, based on the examples above
 - If any file of size `> 200 GB` is found inside, unpack it manually and split its contents among more collections
+- Final setup should have around 15 collections for that dataset
