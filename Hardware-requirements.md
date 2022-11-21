@@ -39,6 +39,7 @@ So, for example, you need to be able to search through **2TB** of source collect
 - server SSD array: 1.2TB (hoover database and elasticsearch) + .15TB (everything else in the list) = **1.35TB**
 - backup machine: 2 * 2 * 2TB (2 backups for each collection processed) + 240GB (12 application snapshots) = **8.24TB**
 
+Note: the example *2 TB* of source data mentioned above should be manually divided into around *10 collections*, following the [Collection Size Limit section](https://github.com/liquidinvestigations/docs/wiki/Admin-Guide%3A-Manage-Hoover-collections#collection-size-limit).
 
 ## Memory
 
