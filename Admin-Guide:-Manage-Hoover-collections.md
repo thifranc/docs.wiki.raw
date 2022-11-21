@@ -15,7 +15,11 @@ Specific details for importing and exporting are [on the Maintenance wiki page](
 
 ## Managing access rights
 
-To change access rules to these collections follow
+To change access rules to these collections, visit Hoover, click on the **ADMIN** button, and select **Collections**. There, each collection can be configured to allow users, groups or public access.
+
+Please note: the *Public* checkbox allows any authenticated user to see the collection. It cannot be visited by unauthenticated users, so it is, in a sense, *Public to the server*.
+
+For more details, follow
 [the relevant Wiki article](https://github.com/liquidinvestigations/docs/wiki/Admin-Guide:-Permissions-for-Hoover-collections).
 
 ## Limitations
