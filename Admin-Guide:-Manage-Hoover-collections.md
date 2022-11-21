@@ -45,7 +45,7 @@ Here are some rough examples on how one can reach the 1 million documents target
 - `25-150 GB` - zips with mixed content
 - `200-500 GB` - Words, PDF, Scans, Pictures (unpacked)
 
-Please use the rough estimation above to manually split the dataset into collections that are below the *1 million documents / 500 GB*. A good rule of thumb is to split datasets into collections of around `200-300 GB` each.
+Please use the rough estimation above to manually split the dataset into collections that are below the *1 million documents and 500 GB limit*. A good rule of thumb is to split datasets into collections of around `200-300 GB` each.
 
 For example, if a dataset comes as a single 3 TB file called `data.zip`, the steps are:
 - manually extract the archive
