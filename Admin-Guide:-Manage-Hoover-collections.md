@@ -48,7 +48,7 @@ Here are some rough examples on how one can reach the 1 million documents target
 Please use the rough estimation above to manually split the dataset into collections that are below the *1 million documents and 500 GB limit*. A good rule of thumb is to split datasets into collections of around `200-300 GB` each.
 
 For example, if a dataset comes as a single 3 TB file called `data.zip`, the steps are:
-- manually extract the archive
+- Manually extract the archive, then check number of files (in Linux: `find DATA_FOLDER -type f | wc -l`) and total size (in Linux: `du -hd1 DATA_FOLDER`)
 - Splt extracted data into collections of around `200 GB` each, based on the examples above
 - If any file of size `> 200 GB` is found inside, unpack it manually and split its contents among more collections
 - Final setup should have around 15 collections for that dataset
