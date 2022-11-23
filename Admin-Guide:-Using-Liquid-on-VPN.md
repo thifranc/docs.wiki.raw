@@ -1,4 +1,4 @@
-Liquid can be used with external HTTPS termination, so a group can configure their own VPN-limited access, or through networks that aren't connected to the Internet.
+Liquid can be used with external HTTPS termination, so a group can configure their own VPN-limited access, or use networks that aren't connected to the Internet.
 
 ## Configure HTTPS
 
