@@ -14,3 +14,5 @@ Use the hostname value in `/opt/node/liquid.ini` as `domain`:
 ```
 domain = 0123456789thisisjustaninvalidsampleandnotavvalidonionurl.onion
 ```
+
+After the settings are set, run `./liquid deploy`.
