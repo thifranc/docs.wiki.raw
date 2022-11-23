@@ -22,4 +22,5 @@ For installation instructions go to [[Technical Overview]].
 * [[Admin Guide: Manage Hoover collections]]
 * [[Admin Guide: Permissions for Hoover collections]]
 * [[Admin Guide: Using Liquid as an Onion Service]]
+* [[Admin Guide: Using Liquid on VPN]]
 * [[Admin Guide: FAQ]]
