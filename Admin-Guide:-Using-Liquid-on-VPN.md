@@ -1,15 +1,15 @@
-Liquid can be used with external HTTPS termination, and with VPN clients.
+Liquid can be used with external HTTPS termination, so a group can configure their own VPN-limited access, or through networks that aren't connected to the Internet.
 
 ## Configure HTTPS
 
-Under VPN we can't use the "Let's Encrypt HTTP challenge" we automatically use. Because of this, you must supply your own HTTPS termination, for example using Nginx or Apache. Liquid will run in HTTP mode with HTTPS protocol override, like this:
+Under VPN we can't use the "Let's Encrypt HTTP challenge" we automatically obtain HTTPS certificates with. Because of this, you must supply your own HTTPS termination server, for example using Nginx or Apache. Liquid will run in HTTP mode with HTTPS protocol override, like this:
 
 ```
 [liquid]
 http_protocol_override = https
 ```
 
-And comment out the `[https]` section to disable it from Liquid:
+And comment out the `[https]` section to disable it from `liquid.ini`:
 
 ```
 ; [https]
