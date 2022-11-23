@@ -32,7 +32,7 @@ After HTTPS termination, forward all traffic to the Liquid server, port `80` (by
 
 Set up your own VPN server, clients, and configuration.
 
-If the client VPN server is on the same machine or LAN as the Liquid servers, make sure to firewall off any direct connection into the Cluster Interface (by default IP 10.66.60.1).
+If the client VPN server is on the same machine or LAN as the Liquid servers, make sure to firewall off any direct connection from the client VPN zone into the Cluster Interface (by default IP `10.66.60.1`). They should instead have access only to the HTTPS termination web server you configured above.
 
 The following subdomains must be configured in the DNS configurations for VPN:
 
