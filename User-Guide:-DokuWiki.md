@@ -111,6 +111,9 @@ _Tips for keeping a clean wiki_
 
 The end resulting information wiki page should be a clear sourced information page that can be fact checked by anybody who reads it for the first time.
 
+## Access Control, Group Management, Permissions
+
+See this page for administering the access control, permissions and group management here: [[Admin Guide: Wiki Permissions for Dokuwiki]].
 
 
 
