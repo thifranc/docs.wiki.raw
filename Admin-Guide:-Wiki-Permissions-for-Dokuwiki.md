@@ -1,5 +1,3 @@
-# Dokuwiki Access Control, Permissions, and Group Management
-
 
 <img align="right" width="40%" src="https://user-images.githubusercontent.com/7493327/208932117-74188222-c933-4ac5-a4ef-a663a9265172.png">
 
