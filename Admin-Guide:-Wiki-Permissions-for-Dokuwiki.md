@@ -1,5 +1,6 @@
-
+<a href="https://user-images.githubusercontent.com/7493327/208932117-74188222-c933-4ac5-a4ef-a663a9265172.png">
 <img align="right" width="40%" src="https://user-images.githubusercontent.com/7493327/208932117-74188222-c933-4ac5-a4ef-a663a9265172.png">
+</a>
 
 
 The wiki supports controlling the access for each page and namespace of the wiki. Permissions can be given to individual users or to entire groups.
@@ -15,10 +16,10 @@ The wiki supports controlling the access for each page and namespace of the wiki
 
 
 ## The Admin Pages
-
+<a href="https://user-images.githubusercontent.com/7493327/208906880-4d05bf55-a55a-4ce0-b8cd-0fe13d70abf6.png">
 <img align="right" width="40%" 
 src="https://user-images.githubusercontent.com/7493327/208906880-4d05bf55-a55a-4ce0-b8cd-0fe13d70abf6.png"></img>
-
+</a>
 On the right is a screenshot of the admin page, with interesting links highlighted.
 
 
@@ -29,10 +30,10 @@ There are two interesting interfaces here: "Virtual Groups" and "Access Control 
 ---
 
 ### Virtual Groups: Manage Wiki Groups
-
+<a href="https://user-images.githubusercontent.com/7493327/208912439-3a54ab17-b884-4f90-85a4-41cc52316da7.png">
 <img align="right" width="40%"
 src="https://user-images.githubusercontent.com/7493327/208912439-3a54ab17-b884-4f90-85a4-41cc52316da7.png"></img>
-
+</a>
 
 
 You will find a couple of simple forms, as shown on the right. Using either one, you can add new groups to the system, and link existing users to groups.
@@ -44,9 +45,9 @@ You will find a couple of simple forms, as shown on the right. Using either one,
 ---
 
 ### Access Control Lists: Manage Wiki Permissions
-
+<a href="https://user-images.githubusercontent.com/7493327/208913060-5e766721-230d-478f-9cbf-33d5abb50047.png">
 <img align="right" width="40%" src="https://user-images.githubusercontent.com/7493327/208913060-5e766721-230d-478f-9cbf-33d5abb50047.png"></img>
-
+</a>
 
 This page allows you to configure access for each page/namespace, either for a specific user or for an entire group.
 You can also set the default permission set (the `*` namespace).
