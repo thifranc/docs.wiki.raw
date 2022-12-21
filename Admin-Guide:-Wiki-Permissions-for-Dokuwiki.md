@@ -6,7 +6,16 @@ src="https://user-images.githubusercontent.com/7493327/208906880-4d05bf55-a55a-4
 
 The wiki supports controlling the access for each page and namespace of the wiki. Permissions can be given to individual users or to entire groups.
 
-**Note**: The Wiki Groups here are independent from the rest of the system. If you create a group in the "Liquid Home Page" app, it will not be synced here, so the user needs to be onboarded separately.
+**Notes**: 
+1. Only users marked as "Staff" and "Superuser" in the Liquid Home Page Admin will see this interface.
+2. Conversely, any user marked as "Staff" and "Superuser" in the Liquid Home Page Admin will have potential access to the whole wiki, both secret and public: they can give themselves access to any page.
+3. The Wiki Groups themselves are independent of the rest of the system. If you create a group in the "Liquid Home Page" app, it will not be synced here, so the user needs to be given access to users and groups separately from the home page or Hoover.
+
+<img align="right" width="40%" https://user-images.githubusercontent.com/7493327/208932117-74188222-c933-4ac5-a4ef-a663a9265172.png">
+
+
+
+
 
 ## The Admin Pages
 
@@ -19,12 +28,21 @@ There are two interesting interfaces here: "Virtual Groups" and "Access Control 
 ---
 
 ### Virtual Groups: Manage Wiki Groups
+<img align="right" width="40%"
+src="https://user-images.githubusercontent.com/7493327/208912439-3a54ab17-b884-4f90-85a4-41cc52316da7.png"></img>
 
 
-You will find a couple of simple forms, as shown on the right. One can connect users to groups, or create new groups for some users.
+
+You will find a couple of simple forms, as shown on the right. Using either one, you can add new groups to the system, and link existing users to groups.
 
 **Warning**: This page does not check if the usernames are actually valid in the system - please double-check the correct username is set. When possible, use copy/paste instead of manually writing the username, to avoid errors.
 
 ---
 
 ### Access Control Lists: Manage Wiki Permissions
+
+<img align="right" width="40%" src="https://user-images.githubusercontent.com/7493327/208913060-5e766721-230d-478f-9cbf-33d5abb50047.png"></img>
+
+
+This page allows you to configure access for each page/namespace, either for a specific user or for an entire group.
+
