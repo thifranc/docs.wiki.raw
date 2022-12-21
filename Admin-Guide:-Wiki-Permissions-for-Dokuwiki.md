@@ -52,6 +52,8 @@ You will find a couple of simple forms, as shown on the right. Using either one,
 This page allows you to configure access for each page/namespace, either for a specific user or for an entire group.
 You can also set the default permission set (the `*` namespace).
 
-More information on the ACL system, including examples, can be found in the [Dokuwiki Documentation on Access Control](https://www.dokuwiki.org/acl#acls_by_example).
+More information on the ACL system, including examples, can be found here: [Dokuwiki Access Restrictions](https://www.dokuwiki.org/acl#access_restrictions), [Access Control Examples](https://www.dokuwiki.org/acl#acls_by_example).
 
-**Warning**: This page form does not check if the groups are actually valid in the system - please double-check the correct group is set. When possible, use copy/paste from the Virtual Group manager instead of manually writing the group name, to avoid errors.
+**Warning**: 
+1. This page form does not check if the groups are actually valid in the system - please double-check the correct group is set. When possible, use copy/paste from the Virtual Group manager instead of manually writing the group name, to avoid errors.
+2. Do NOT use the default groups called `user`, `admin` or `user,admin` (this last one is a result of a bug). You can, however, use the `ALL` group as specified in the [Dokuwiki Access Restrictions Documentation](https://www.dokuwiki.org/acl#access_restrictions), or your own custom groups from the Virtual Group Manager.
