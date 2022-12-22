@@ -54,15 +54,25 @@ Click Save, on the bottom right.
 
 The user should have the Prerequisites (without admin privilege).
 
-Go to Users in the Liquid Investigations home page (not in the Hoover app admin, which has the same UI), type in the username and click Search;
-Click the checkbox to select the user;
-On Action dropdown menu, select Create invitations and click Go;
-Send the generated url to the user via encrypted email only;
-The link will be valid for 30 minutes, repeat this process if it expires.
+Go to Users in the Liquid Investigations home page `[admin]` interface (as shown in first screenshot above), type in the username and click Search.
+
+Click the checkbox to select the user.
+On Action dropdown menu, select Create invitations and click Go.
+
+Send the generated url to the user via encrypted email only.
+
+The link will be valid for 30 minutes and a single use, repeat this process if it expires.
+
 
 ![Screenshot from 2022-12-22 17-58-37](https://user-images.githubusercontent.com/7493327/209174974-a18c3fd2-a126-4e3a-8306-22df2b85e494.png)
 
 
-Don't manage users and invites in the Liquid bundle using the Hoover app interface, always manage Liquid users from the Liquid admin interface. 
+Send this docs page to the user along with the invite link:
+https://github.com/liquidinvestigations/docs/wiki/User-Guide%3A-Manage-2FA-Devices
 
-Here you have an overview of our [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide).
+---
+
+*Reminder*: Manage Liquid user creation and invitations from the "Liquid Investigations" home page `[admin]` interface, not from the Hoover Admin interface - both have the same theme, and one might confuse them. 
+
+---
+Back to [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide)
