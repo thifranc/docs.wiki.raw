@@ -59,14 +59,20 @@ The Duo Mobile app: https://play.google.com/store/apps/details?id=com.duosecurit
 
 <BR CLEAR=”right” />
 
-### Install Signal Desktop on laptop: 
+---
+
+## Install Signal Desktop on laptop: 
+
 https://signal.org/en/download/
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/signal3.png" width=400 align=center>
 
+### Disable Signal Link Previews
+
 Make sure to disable link previews in both Signal Desktop and also in Signal Mobile!
 https://support.signal.org/hc/en-us/articles/360022474332-Link-Previews
 
+---
 
 ## Invite Link
 
@@ -79,6 +85,8 @@ This URL is time sensitive, so please make sure to set up your account in 30 min
 The URL is single-use, meaning that once the link is opened, it cannot be used in other browsers, and must be used in that particular browser, so it's advisable not to click on it unless ready to use it to set up the Liquid account.
 
 Copy/Paste to Open Link in Private Browsing/Incognito. 
+
+---
 
 ## Open Link and Create Account
 
