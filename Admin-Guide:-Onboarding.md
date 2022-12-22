@@ -7,45 +7,54 @@ Be ready to receive your on boarding code per pgp or per Signal.
 
 ---
 
+### [admin]
+
+
 In the Liquid Investigations home page, click the right top menu button and go to `[admin]`.
 
----
 
 
 ![Screenshot from 2022-12-22 18-02-38](https://user-images.githubusercontent.com/7493327/209174206-9bbe729c-b4b8-4f3e-b9f9-ccb0c688e2cb.png)
 
 ---
 
+*Reminder*: Manage Liquid user creation and invitations from the "Liquid Investigations" home page `[admin]` interface, not from the Hoover Admin interface - both have the same theme, and one might confuse them. 
+
+---
+
+### Add User
+
 Click on +Add, on the right side of Users; 
 Or click on Users and use the ADD USER + button on the right;
 
----
 
 ![Screenshot from 2022-12-22 18-09-25](https://user-images.githubusercontent.com/7493327/209175404-0e10946e-3a1e-46e9-98a9-1fa70552700e.png)
 
 ---
+
+### Set Username and Initial Password
 
 Add username and password (I use firstname.lastname convention); **don’t use “-”**.
 If the username is taken, you'll get an error (add surename or change order).
 
 **Note**: When 2FA is being used, this initial password cannot be used to enter the account - use some random text twice, create an invitation link afterwards. The user will not need this initial password to use the link.
 
----
 
 ![Screenshot from 2022-12-22 18-12-53](https://user-images.githubusercontent.com/7493327/209176305-05c4556f-f062-4ab6-9068-5caf43e0f1f3.png)
 
 
 ---
 
-*Reminder*: Manage Liquid user creation and invitations from the "Liquid Investigations" home page `[admin]` interface, not from the Hoover Admin interface - both have the same theme, and one might confuse them. 
+### User details
 
-## User details
 You've been redirected to edit the user's information;
 On First name we add the entire name (both first and last name);
 On Last name we add the name of the media organization;
 On Email address the user's email;
 Everything else should be left to default;
 Click Save, on the bottom right.
+
+---
 
 ## Board user (and 2FA Re-invite process)
 
