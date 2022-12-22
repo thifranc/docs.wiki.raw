@@ -74,7 +74,7 @@ As a new user, you will get your Liquid investigations account credentials (user
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/onboarding%204.png" width=400 align=center>
 
-This URL is time sensitive so please make sure to set up your account in the next 12 hours. Otherwise the link will expire.
+This URL is time sensitive, so please make sure to set up your account in 30 minutes from the moment it was generated. Otherwise the link will expire.
 
 The URL is single-use, meaning that once the link is opened, it cannot be used in other browsers, and must be used in that particular browser, so it's advisable not to click on it unless ready to use it to set up the Liquid account.
 
