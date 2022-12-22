@@ -77,8 +77,6 @@ refulgence.blended
 
 ## Board user (and 2FA Re-invite process)
 
-![Screenshot from 2022-12-22 17-54-54](https://user-images.githubusercontent.com/7493327/209174791-dc88fc73-1ffb-4d8c-9961-c9f60f8a9272.png)
-
 
 The user should have the Prerequisites (without admin privilege).
 
@@ -87,13 +85,13 @@ Go to Users in the Liquid Investigations home page `[admin]` interface (as shown
 Click the checkbox to select the user.
 On Action dropdown menu, select Create invitations and click Go.
 
-Send the generated url to the user via encrypted email only.
-
-The link will be valid for 30 minutes and a single use, repeat this process if it expires.
-
-
+![Screenshot from 2022-12-22 17-54-54](https://user-images.githubusercontent.com/7493327/209174791-dc88fc73-1ffb-4d8c-9961-c9f60f8a9272.png)
 ![Screenshot from 2022-12-22 17-58-37](https://user-images.githubusercontent.com/7493327/209174974-a18c3fd2-a126-4e3a-8306-22df2b85e494.png)
 
+
+Send the generated url to the user via encrypted email only.
+
+The link will be valid for 30 minutes and a single use, repeat this process if it expires. Do not open it yourself, else it will expire.
 
 Send these pages to the user along with the invite link:
 - https://github.com/liquidinvestigations/docs/wiki/User-Guide%3A-Login
