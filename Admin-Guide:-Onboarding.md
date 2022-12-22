@@ -28,7 +28,7 @@ Or click on Users and use the ADD USER + button on the right;
 Add username and password (I use firstname.lastname convention); **don’t use “-”**.
 If the username is taken, you'll get an error (add surename or change order).
 
-**Note**: When 2FA is being used, this initial password cannot be used to enter the account - use some random text twice, create an invitation link instead. The user will not need this initial password to use the link.
+**Note**: When 2FA is being used, this initial password cannot be used to enter the account - use some random text twice, create an invitation link afterwards. The user will not need this initial password to use the link.
 
 ---
 
