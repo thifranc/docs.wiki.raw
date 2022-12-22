@@ -98,7 +98,7 @@ Send these pages to the user along with the invite link:
 
 **Warning**: The link will be valid for 30 minutes and a single use, repeat this process if it expires. Do not open it yourself, else it will expire. 
 
-Take care if using Web Services like Whatsapp, Facebook Messenger, Signal, Slack, Gmail, Sheets or Excel: they will visit the link to give you a "preview", and it will expire.
+Take care if using Web Services like Whatsapp, Facebook Messenger, Signal, Slack, Gmail, Sheets or Excel: they will visit the link to give you a "preview", and it will expire. Instructions to disable link previews in Signal are shown in the [User Guide: Login](https://github.com/liquidinvestigations/docs/wiki/User-Guide%3A-Login) page linked above.
 
 
 ---
