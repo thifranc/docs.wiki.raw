@@ -37,22 +37,41 @@ Or click on Users and use the ADD USER + button on the right;
 Add username and password (I use firstname.lastname convention); **don’t use “-”**.
 If the username is taken, you'll get an error (add surename or change order).
 
+![Screenshot from 2022-12-22 18-12-53](https://user-images.githubusercontent.com/7493327/209176305-05c4556f-f062-4ab6-9068-5caf43e0f1f3.png)
+
+
 **Note**: When 2FA is being used, this initial password cannot be used to enter the account - use some random text twice, create an invitation link afterwards. The user will not need this initial password to use the link.
 
-
-![Screenshot from 2022-12-22 18-12-53](https://user-images.githubusercontent.com/7493327/209176305-05c4556f-f062-4ab6-9068-5caf43e0f1f3.png)
 
 
 ---
 
 ### User details
 
-You've been redirected to edit the user's information;
-On First name we add the entire name (both first and last name);
-On Last name we add the name of the media organization;
-On Email address the user's email;
-Everything else should be left to default;
+You've been redirected to edit the user's information.
+
+On First name we add the entire name (both first and last name).
+
+On Last name we add the name of the media organization.
+
+On Email address the user's email.
+
+
+Everything else should be left to default.
+
 Click Save, on the bottom right.
+
+---
+
+### Random Username
+
+Or, of course, you anonymize everyone, and use a couple of random dictionary words for the usernames. For example, on Linux or macOS, you can use this terminal command to sample [the words file on your machine](https://en.wikipedia.org/wiki/Words_(Unix)):
+
+```
+$ cat /usr/share/dict/words | grep -E '^[A-Za-z]+$' | sort | uniq | sort -R | head -n2 | xargs -n2 printf '%s.%s\n'
+
+refulgence.blended
+```
 
 ---
 
