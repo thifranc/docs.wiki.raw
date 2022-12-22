@@ -4,15 +4,40 @@ Have one of the following apps installed: Google Authenticator, Authy, Duo Mobil
 Be ready to receive your on boarding code per pgp or per Signal.
 
 ## Add new user for the Liquid bundle:
-Click the right top menu button and go to admin;
-Or go to https://liquiddemo.org/admin/;
-Click on +Add, on the right side of Users;
-Or click on Users and use the ADD USER + button on the right;
-Add username and password (I use firstname.lastname convention); don’t us “-”
-If the username is taken, you'll get an error (add surename or change order);
-This password isn't relevant, the user will change it without needing it.
 
-Don't add users in the Liquid bundle using the Hoover app interface, always manage Liquid users from the Liquid admin interface. 
+---
+
+In the Liquid Investigations home page, click the right top menu button and go to `[admin]`.
+
+---
+
+
+![Screenshot from 2022-12-22 18-02-38](https://user-images.githubusercontent.com/7493327/209174206-9bbe729c-b4b8-4f3e-b9f9-ccb0c688e2cb.png)
+
+---
+
+Click on +Add, on the right side of Users; 
+Or click on Users and use the ADD USER + button on the right;
+
+---
+
+![Screenshot from 2022-12-22 18-09-25](https://user-images.githubusercontent.com/7493327/209175404-0e10946e-3a1e-46e9-98a9-1fa70552700e.png)
+
+---
+
+Add username and password (I use firstname.lastname convention); **don’t use “-”**.
+If the username is taken, you'll get an error (add surename or change order).
+
+When 2FA is being used, this initial password cannot be used to enter the account - create an invitation link instead.
+
+---
+
+![Screenshot from 2022-12-22 18-12-53](https://user-images.githubusercontent.com/7493327/209176305-05c4556f-f062-4ab6-9068-5caf43e0f1f3.png)
+
+
+---
+
+Don't add users in the Liquid bundle using the Hoover admin interface, always manage Liquid users from the Liquid admin interface. 
 
 ## User details
 You've been redirected to edit the user's information;
@@ -22,13 +47,21 @@ On Email address the user's email;
 Everything else should be left to default;
 Click Save, on the bottom right.
 
-## Board user (and Re-invite process)
-The user should have the Prerequisites (without admin privilege);
-Go to Users in the https://liquiddemo.org/admin/ (not in the Hoover app admin, which has the same UI), type in the username and click Search;
+## Board user (and 2FA Re-invite process)
+
+![Screenshot from 2022-12-22 17-54-54](https://user-images.githubusercontent.com/7493327/209174791-dc88fc73-1ffb-4d8c-9961-c9f60f8a9272.png)
+
+
+The user should have the Prerequisites (without admin privilege).
+
+Go to Users in the Liquid Investigations home page (not in the Hoover app admin, which has the same UI), type in the username and click Search;
 Click the checkbox to select the user;
 On Action dropdown menu, select Create invitations and click Go;
 Send the generated url to the user via encrypted email only;
 The link will be valid for 30 minutes, repeat this process if it expires.
+
+![Screenshot from 2022-12-22 17-58-37](https://user-images.githubusercontent.com/7493327/209174974-a18c3fd2-a126-4e3a-8306-22df2b85e494.png)
+
 
 Don't manage users and invites in the Liquid bundle using the Hoover app interface, always manage Liquid users from the Liquid admin interface. 
 
