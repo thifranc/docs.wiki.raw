@@ -28,7 +28,7 @@ Or click on Users and use the ADD USER + button on the right;
 Add username and password (I use firstname.lastname convention); **don’t use “-”**.
 If the username is taken, you'll get an error (add surename or change order).
 
-When 2FA is being used, this initial password cannot be used to enter the account - create an invitation link instead.
+**Note**: When 2FA is being used, this initial password cannot be used to enter the account - use some random text twice, create an invitation link instead. The user will not need this initial password to use the link.
 
 ---
 
@@ -37,7 +37,7 @@ When 2FA is being used, this initial password cannot be used to enter the accoun
 
 ---
 
-Don't add users in the Liquid bundle using the Hoover admin interface, always manage Liquid users from the Liquid admin interface. 
+*Reminder*: Manage Liquid user creation and invitations from the "Liquid Investigations" home page `[admin]` interface, not from the Hoover Admin interface - both have the same theme, and one might confuse them. 
 
 ## User details
 You've been redirected to edit the user's information;
@@ -70,9 +70,6 @@ The link will be valid for 30 minutes and a single use, repeat this process if i
 Send this docs page to the user along with the invite link:
 https://github.com/liquidinvestigations/docs/wiki/User-Guide%3A-Manage-2FA-Devices
 
----
-
-*Reminder*: Manage Liquid user creation and invitations from the "Liquid Investigations" home page `[admin]` interface, not from the Hoover Admin interface - both have the same theme, and one might confuse them. 
 
 ---
 Back to [User Guide](https://github.com/liquidinvestigations/docs/wiki/User-Guide)
