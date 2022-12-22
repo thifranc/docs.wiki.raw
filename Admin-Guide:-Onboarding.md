@@ -95,8 +95,9 @@ The link will be valid for 30 minutes and a single use, repeat this process if i
 ![Screenshot from 2022-12-22 17-58-37](https://user-images.githubusercontent.com/7493327/209174974-a18c3fd2-a126-4e3a-8306-22df2b85e494.png)
 
 
-Send this docs page to the user along with the invite link:
-https://github.com/liquidinvestigations/docs/wiki/User-Guide%3A-Manage-2FA-Devices
+Send these pages to the user along with the invite link:
+- https://github.com/liquidinvestigations/docs/wiki/User-Guide%3A-Login
+- https://github.com/liquidinvestigations/docs/wiki/User-Guide%3A-Manage-2FA-Devices
 
 
 ---
