@@ -25,7 +25,8 @@ Open the Date & Time Preferences and check the the 'set time zone automatically 
 
 Additionally please check your time settings by opening https://time.is/ on the device that has the authenticator and see the text "Your time is exact!" and error under 5 seconds
 
-Check your drift: http://browserspy.dk/date.php and look at "Difference between server and PC time".
+Look at potential time differences here: http://browserspy.dk/date.php and look at "Difference between server and PC time".
+
 Have one of the following apps installed: Google Authenticator, Authy, Duo Mobile
 Be ready to receive your on boarding code per pgp or per Signal.
 
