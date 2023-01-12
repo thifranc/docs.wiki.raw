@@ -75,6 +75,32 @@ sudo wg set wg0 peer **public client key** allowed-ips 10.11.12.2
 sudo wg set wg0 peer **public client key** remove
 ```
 
-## Provision Tails to be a client
+## Provision Tails to be a peer
+
+Assuming: an existing Tails Persistence layer, a configured Administration user and an enabled Unsafe Browser, start installing WireGuard using `sudo apt install wireguard`, first. Answer _Install Every Time_ when prompted. Add a client config as above.
+
+Allow incoming and outgoing udp packets by editing `/etc/ferm/ferm.conf`:
+
+```shell
+domain ip {
+    table filter {
+        chain INPUT {
+            policy DROP;
+
+            daddr (**public server ip**/32) {
+                proto udp ACCEPT;
+            }
+# ...
+        chain OUTPUT {
+            policy DROP;
+
+            daddr (**public server ip**/32) {
+                proto udp ACCEPT;
+            }
+# ...
+}
+```
+
+Apply changes with `service ferm restart`.
 
 ## Additional configs for local DNS and Certificates
