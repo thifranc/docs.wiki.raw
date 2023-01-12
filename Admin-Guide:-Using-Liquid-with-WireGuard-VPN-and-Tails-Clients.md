@@ -1,3 +1,5 @@
+# Liquid using WireGuard and Tails
+
 ### Work in progress
 ***
 
@@ -5,10 +7,12 @@ Liquid can be used in an isolated environment accessible using a WireGuard VPN o
 
 Consider the generic instruction to [use Liquid with VPN](https://github.com/liquidinvestigations/docs/wiki/Admin-Guide:-Using-Liquid-on-VPN), first.
 
-# Setting up the server-side WireGuard VPN
+## Setting up the server-side WireGuard VPN
 
-# Adding clients
+Based on top of the [WireGuard Quick Start](https://www.wireguard.com/quickstart/) you may want to use the [WireGuard installer](https://github.com/angristan/wireguard-install) provided by [angristan at GitHub](https://github.com/angristan).
 
-# Provision Tails to be a client
+## Adding clients
 
-# Additional configs for local DNS and Certificates
+## Provision Tails to be a client
+
+## Additional configs for local DNS and Certificates
