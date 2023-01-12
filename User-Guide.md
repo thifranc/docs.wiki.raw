@@ -24,4 +24,5 @@ For installation instructions go to [[Technical Overview]].
 * [[Admin Guide: Wiki Permissions for Dokuwiki]]
 * [[Admin Guide: Using Liquid as an Onion Service]]
 * [[Admin Guide: Using Liquid on VPN]]
+* [[Admin Guide: Using Liquid with WireGuard VPN and Tails Clients]]
 * [[Admin Guide: FAQ]]
