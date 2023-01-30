@@ -1,54 +1,111 @@
-The wiki allows for access control for each page and namespace of the wiki. Permissions can be given to individual users or to entire groups.
+DokuWiki allows for access control for each page and namespace of the wiki. Permissions can be given to individual users or to entire groups.
+Admin permissions will be assigned in both the Liquid Core Admin page as well as in the DokuWiki Admin pages.
 
-<img src="https://user-images.githubusercontent.com/7493327/208932117-74188222-c933-4ac5-a4ef-a663a9265172.png" width=800 align=center>
+## Liquid Core Admin interface
+
+1.  Go to Liquid Admin
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/WikiPermissions/1.png" width=800 align=center>
 <BR CLEAR=”right” />
+
+
+2. Under 'Groups' click the green plus sign to create the group of your choice.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/WikiPermissions/2.png" width=800 align=center>
+<BR CLEAR=”right” />
+
+
+3. Name your group and assign the desired permissions by selecting the checkmarks next to the apps
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/WikiPermissions/3.png" width=800 align=center>
+<BR CLEAR=”right” />
+
+
+4. A list of the groups that you created will be displayed under 'Groups', each having access to the different available apps
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/WikiPermissions/4.png" width=800 align=center>
+<BR CLEAR=”right” />
+
+
+5. Go to Liquid Admin under Users and create a User and assign it to a Group
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/WikiPermissions/5.png" width=1000 align=center>
+<BR CLEAR=”right” />
+
+
+6. When creating a user, you can assign the user to a specific group
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/WikiPermissions/6.png" width=1000 align=center>
+<BR CLEAR=”right” />
+
+
+
+In this example, the user test.1 is part of the toto_cutugno and celentano groups
+
+
+7. A list of the created users and their respective group membership will be displayed in the Users view
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/WikiPermissions/7.png" width=800 align=center>
+<BR CLEAR=”right” />
+
+
 
 
 **Notes**: 
 * Only users marked as "Staff" and "Superuser" in the Liquid Home Page Admin will see this interface.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/WikiPermissions/13.png" width=800 align=center>
+<BR CLEAR=”right” />
+
+
+
+
 *  Any user marked as "Staff" and "Superuser" in the Liquid Home Page Admin will have potential access to the entire wiki, both secret and public: they can give themselves access to any page.
-* The Wiki Groups themselves are independent of the rest of the system. If you create a group in the "Liquid Home Page" app, it will not be synced here, so the user needs to be given access to users and groups separately from the home page or Hoover.
 
 
 
 <br clear="both"/>
 
 
-## The Admin Pages
+## DokuWiki Admin interface
+The Wiki Groups themselves are independent of the rest of the system. If you create a group in the 'Liquid Core Admin' page, it will not be synced here, so the user needs to be given access to users and groups separately from the home page or Hoover.
 
-Here is a screenshot of the admin page, highlighting potential links of interest.
+1. Navigate to the DokuWiki App, to the Admin interface
 
-<img src="https://user-images.githubusercontent.com/7493327/208906880-4d05bf55-a55a-4ce0-b8cd-0fe13d70abf6.png" width=800 align=center>
-<BR CLEAR=”right” />
-
-There are two interesting interfaces here: 'Virtual Groups' and 'Access Control Lists':
-* 'Virtual Groups' is used for creating and handling groups; 
-* The 'Access Control Lists' page controls what users and groups have the following permissions:  `Read  Edit  Create  Upload  Delete`.
-
-<br clear="both"/>
-
----
-
-### 'Virtual Groups': Manage Wiki Groups
-
-Use either of these simple forms, to add new groups to the system, and link existing users to groups.
-
-<img src="https://user-images.githubusercontent.com/7493327/208912439-3a54ab17-b884-4f90-85a4-41cc52316da7.png" width=800 align=center>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/WikiPermissions/8.png" width=800 align=center>
 <BR CLEAR=”right” />
 
 
-**Warning**: This page does not check if the usernames are actually valid in the system, so please double-check if the correct username is set. To avoid any errors, please copy/paste the username from the Liquid Home Page instead of manually writing it.
+### 'Virtual Groups': Create and manage wiki groups
+
+2. Select 'Virtual Groups' 
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/WikiPermissions/9.png" width=800 align=center>
+<BR CLEAR=”right” />
+
+
+3. Use these simple forms, to add new groups to the system, and link existing users to groups.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/WikiPermissions/10.png" width=800 align=center>
+<BR CLEAR=”right” />
+
+
+**Caveat**: This page does not check if the usernames are actually valid in the system, so please double-check if the correct username is set. To avoid any errors, please copy/paste the username from the Liquid Core Admin page instead of manually writing it.
 
 <br clear="both"/>
 
----
 
-### 'Access Control Lists': Manage Wiki Permissions
+### 'Access Control Lists'
 
-This page allows you to configure access for each page/namespace, either for a specific user or for an entire group.
+This page controls what users and groups have the following permissions:  `Read  Edit  Create  Upload  Delete`. It allows you to configure access for each page/namespace, either for a specific user or for an entire group.
 You can also set the default permission set (the `*` namespace).
 
-<img src="https://user-images.githubusercontent.com/7493327/208913060-5e766721-230d-478f-9cbf-33d5abb50047.png" width=800 align=center>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/WikiPermissions/11.png" width=800 align=center>
+<BR CLEAR=”right” />
+
+When managing group access permissions, you can assign different levels of permissions, with 'None' being the most limiting access level and  'Delete' being the most permissive level, depending on each use case. 
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/WikiPermissions/12.png" width=800 align=center>
 <BR CLEAR=”right” />
 
 More information on the 'Access Control Lists' system, including examples, can be found here: [Dokuwiki Access Restrictions](https://www.dokuwiki.org/acl#access_restrictions), [Access Control Examples](https://www.dokuwiki.org/acl#acls_by_example).
