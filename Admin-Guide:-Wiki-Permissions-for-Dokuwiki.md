@@ -110,6 +110,24 @@ When managing group access permissions, you can assign different levels of permi
 
 More information on the 'Access Control Lists' system, including examples, can be found here: [Dokuwiki Access Restrictions](https://www.dokuwiki.org/acl#access_restrictions), [Access Control Examples](https://www.dokuwiki.org/acl#acls_by_example).
 
-**Warning**: 
-* This page form does not check if the groups are actually valid in the system, so please double-check the correct group is set. When possible, use copy/paste from the Virtual Group manager instead of manually writing the group name, to avoid errors.
-* Do NOT use the default groups called `user`, `admin` or `user,admin` (this last one is a result of a bug). You can, however, use the `ALL` group as specified in the [Dokuwiki Access Restrictions Documentation](https://www.dokuwiki.org/acl#access_restrictions), or your own custom groups from the Virtual Group Manager.
+## Pre-defined Groups: ALL, admin
+
+You can make use of the following groups created automatically:
+- `ALL` and `user` - both contain all users of the wiki.
+- `admin` - contains people with Admin access (marked as Staff in Liquid Home Page)
+- `superuser` - contains all people with Superuser access (marked as Superuser in Liquid Home Page)
+
+
+### The Superuser permission model
+
+People marked as `Superuser` in the Liquid Home page (and automatically added to the `superuser` group in DokuWiki) are not restricted by access control lists. This means they can view, edit, move, delete any page, in any namespace.
+
+Superusers can fix situations such as admins accidentally locking themselves out of their own namespaces (by setting their own group to have no permissions).
+
+Because of their elevated access, these accounts should only be used by people with direct access to the servers, for maintenance and fixing permissions.
+
+See [Dokuwiki Access Restrictions Documentation](https://www.dokuwiki.org/acl#access_restrictions) for more details.
+
+## Warnings 
+* The Virtual Manager and ACL forms do not check if the groups and usernames are actually valid in the system, so please double-check the correct group is set. When possible, use copy/paste from the Liquid Home Page / Virtual Group manager instead of manually writing the user/group name, to avoid errors.
+* When setting up permissions for deep namespaces, do NOT set higher permissions for the deeper namespaces than the ones above. Doing so will break the Sitemap page for the users where this happens. See [sneaky_index](https://www.dokuwiki.org/config:sneaky_index) for more details.
