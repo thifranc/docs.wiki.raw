@@ -112,6 +112,15 @@ When managing group access permissions, you can assign different levels of permi
 
 More information on the 'Access Control Lists' system, including examples, can be found here: [Dokuwiki Access Restrictions](https://www.dokuwiki.org/acl#access_restrictions), [Access Control Examples](https://www.dokuwiki.org/acl#acls_by_example).
 
+## Sitemap
+
+Make sure everyone has access to the `tools:index` page, to access the Sitemap.
+
+Use these ACL rules to give everyone access  to `tools:index`:
+![Screenshot from 2023-02-18 01-21-53](https://user-images.githubusercontent.com/7493327/219815698-eb647d23-d398-4428-b2ee-af7440f4624f.png)
+
+
+
 ## Pre-defined Groups: ALL, admin
 
 You can make use of the following groups created automatically:
@@ -130,4 +139,3 @@ See [Dokuwiki Access Restrictions Documentation](https://www.dokuwiki.org/acl#ac
 
 ## Warnings 
 * The Virtual Manager and ACL forms do not check if the groups and usernames are actually valid in the system, so please double-check the correct group is set. When possible, use copy/paste from the Liquid Home Page / Virtual Group manager instead of manually writing the user/group name, to avoid errors.
-* When setting up permissions for deep namespaces, do NOT set higher permissions for the deeper namespaces than the ones above. Doing so will break the Sitemap page for the users where this happens. See [sneaky_index](https://www.dokuwiki.org/config:sneaky_index) for more details.
