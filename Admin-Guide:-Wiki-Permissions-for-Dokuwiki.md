@@ -97,6 +97,8 @@ The Wiki Groups themselves are independent of the rest of the system. If you cre
 
 ### 'Access Control Lists'
 
+To see this mage, you must have `Superuser` permission.
+
 This page controls what users and groups have the following permissions:  `Read  Edit  Create  Upload  Delete`. It allows you to configure access for each page/namespace, either for a specific user or for an entire group.
 You can also set the default permission set (the `*` namespace).
 
@@ -120,9 +122,7 @@ You can make use of the following groups created automatically:
 
 ### The Superuser permission model
 
-People marked as `Superuser` in the Liquid Home page (and automatically added to the `superuser` group in DokuWiki) are not restricted by access control lists. This means they can view, edit, move, delete any page, in any namespace.
-
-Superusers can fix situations such as admins accidentally locking themselves out of their own namespaces (by setting their own group to have no permissions).
+Accounts marked as `Superuser` in the Liquid Home page (and automatically added to the `superuser` group in DokuWiki) are the only accounts that can access the Virtual Group Manager and the ACL Manager. They are not restricted by the ACLs they create. This means they can view, edit, move, delete any page, in any namespace.
 
 Because of their elevated access, these accounts should only be used by people with direct access to the servers, for maintenance and fixing permissions.
 
