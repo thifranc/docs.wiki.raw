@@ -116,7 +116,7 @@ More information on the 'Access Control Lists' system, including examples, can b
 
 You can make use of the following groups created automatically:
 - `ALL` and `user` - both contain all users of the wiki.
-- `admin` - contains people with Admin access (marked as Staff in Liquid Home Page)
+- `admin` - contains people with Admin access (marked as Staff in Liquid Home Page). However, they cannot access the Virtual Group or ACL pages.
 - `superuser` - contains all people with Superuser access (marked as Superuser in Liquid Home Page)
 
 
