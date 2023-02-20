@@ -169,6 +169,34 @@ To avoid any security breaches, the users are not able to print or to download t
 
 Once you open a document in a new tab, you can navigate across the document by clicking the up/down arrows (which collapse or expand the desired doc modules) - especially in the case of email documents who could have multiple files attached.
 
+### File system view
+
+The file system view allows users to easily navigate between various data folders.
+
+To get to this view, click on the 'Open in new tab' icon, placed on the right side of the desired search result.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/4.%20opennewtab.png" width=800 align=center>
+
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
+
+Once the document is opened in a new tab, click on the 'Locations' link.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/2.locations.png" width=800 align=center>
+
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
+
+A tree view of the respective document will be shown at the top of the 'Locations' link.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/3.filesystem.png" width=800 align=center>
+
+
+
+
+
 
 ***
 
