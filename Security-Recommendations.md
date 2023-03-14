@@ -13,6 +13,3 @@ Please report all security-related bugs at rcij@riseup.net (pgp: 0x8234F8D4A624D
 
 Follow the [[Maintenance]] page on keeping the system up to date and run the latest security patches.
 
-## Disclaimer
-
-TODO
