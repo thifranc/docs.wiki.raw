@@ -15,6 +15,7 @@ For installation instructions go to [[Technical Overview]].
 * [[User Guide: DokuWiki]]
 * [[User Guide: Hypothesis]]
 * [[User Guide: CodiMD]]
+* [[User Guide: Wiki.js]]
 * [[User Guide: Set-up Tor portable edition]]
 
 ## Administrators
