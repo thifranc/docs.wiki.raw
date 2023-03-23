@@ -10,30 +10,76 @@ On the homepage, please check out the side bar on the left-hand, to view what fo
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs1.png" width=200 align=center>
 
+<BR CLEAR=”right” />
+<BR CLEAR=”right” />
 
 To create a new standalone page, just click on the 'Page plus' sign at the top right corner.
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs2.png" width=200 align=center>
 
+<BR CLEAR=”right” />
+<BR CLEAR=”right” />
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs3.png" width=200 align=center>
-
+Type the new path name and click select.
+<BR CLEAR=”right” />
+<BR CLEAR=”right” />
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs3.png" width=600 align=center>
+<BR CLEAR=”right” />
+<BR CLEAR=”right” />
 
 You will be prompted to select an editor. Make sure you choose the 'Visual Editor' for rich text capabilities.
+<BR CLEAR=”right” />
+<BR CLEAR=”right” />
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/37.%20Dokuwiki%20root.png" width=400 align=center>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs4.png" width=600 align=center>
+
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
+
+Next, you will land on the 'Page Properties' view where you will create your page title and description as well as assign some tags. Make sure to click the 'Ok' button, at the top right corner.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs5.png" width=600 align=center>
+
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
+You will return to the visual editor to populate your page with rich content. Make sure to hit the green 'Create' button.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs6.png" width=800 align=center>
+
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
 
 
-To create a page within an existing folder, choose an existing path and just add the page name to the existing path.
+To edit, duplicate, move or delete existing pages, click on the 'Page Actions' sign.
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/37.%20Dokuwiki%20root.png" width=400 align=center>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs7.png" width=200 align=center>
 
+<BR CLEAR=”right” />
 
-To edit, duplicate, move or delete existing pages, click on the page actions sign.
+<BR CLEAR=”right” />
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/37.%20Dokuwiki%20root.png" width=400 align=center>
+When deleting a page, you will be asked again, to avoid errors.
 
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs10.png" width=600 align=center>
 
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
+
+To create a page within an existing folder, choose an existing path and just add the page name to the existing path. Make sure to click the 'Ok' button at the top right corner.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs8.png" width=600 align=center>
+
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
+
+You cannot create pages utilizing the same path name. An error notification will pop up to let you know to change the name.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs9.png" width=600 align=center>
 
 
 
