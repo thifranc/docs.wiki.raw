@@ -8,11 +8,16 @@ Wiki.js allows for both folders with nested pages or just standalone pages.
 
 On the homepage, please check out the side bar on the left-hand, to view what folders and/or pages have been already created. 
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/37.%20Dokuwiki%20root.png" width=400 align=center>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs1.png" width=200 align=center>
+
 
 To create a new standalone page, just click on the 'Page plus' sign at the top right corner.
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/37.%20Dokuwiki%20root.png" width=400 align=center>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs2.png" width=200 align=center>
+
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs3.png" width=200 align=center>
+
 
 You will be prompted to select an editor. Make sure you choose the 'Visual Editor' for rich text capabilities.
 
