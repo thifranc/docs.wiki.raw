@@ -12,7 +12,7 @@ Below some of the key functionalities debunked:
 
 
 
-Detailed information about Wiki.js can be found here:  https://docs.requarks.io/
+
 
 
 ***
