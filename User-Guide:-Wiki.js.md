@@ -4,16 +4,29 @@ Below some of the key functionalities debunked:
 
 ### Create Page
 
-Wiki.js doesn't have a folder structure in the traditional sense. You never need to create folders in order to create new pages. Instead, you create pages directly at the path of your choice. That said, you can have both folders with nested pages in them or just standalone pages.
+Wiki.js allows for both folders with nested pages or just standalone pages.
 
 On the homepage, please check out the side bar on the left-hand, to view what folders and/or pages have been already created. 
 
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/37.%20Dokuwiki%20root.png" width=400 align=center>
+
+To create a new standalone page, just click on the 'Page plus' sign at the top right corner.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/37.%20Dokuwiki%20root.png" width=400 align=center>
+
+You will be prompted to select an editor. Make sure you choose the 'Visual Editor' for rich text capabilities.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/37.%20Dokuwiki%20root.png" width=400 align=center>
 
 
+To create a page within an existing folder, choose an existing path and just add the page name to the existing path.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/37.%20Dokuwiki%20root.png" width=400 align=center>
 
 
+To edit, duplicate, move or delete existing pages, click on the page actions sign.
 
-
+<img src="https://github.com/liquidinvestigations/docs-img/blob/bf12169dcf1ec1be98308966160de828259e39c0/37.%20Dokuwiki%20root.png" width=400 align=center>
 
 
 
