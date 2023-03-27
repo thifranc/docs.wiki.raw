@@ -2,6 +2,21 @@ This is EIC network's collaborative knowledge base, that grows stronger with eve
 
 Below some of the key functionalities debunked:
 
+### Your Wiki.js. Account
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/11wikijs.png" width=200 align=center>
+<BR CLEAR=”right” />
+<BR CLEAR=”right” />
+
+Clicking on the 'Account' icon will lead you to a 'Profile' dashboard as well as to the 'Pages' that you've created.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/12wikijs.png" width=800 align=center>
+
+<BR CLEAR=”right” />
+<BR CLEAR=”right” />
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/13wikijs.png" width=800 align=center>
+
 ### Create Page
 
 Wiki.js allows for both folders with nested pages or just standalone pages.
@@ -13,21 +28,23 @@ On the homepage, please check out the side bar on the left-hand, to view what fo
 <BR CLEAR=”right” />
 <BR CLEAR=”right” />
 
-To create a new standalone page, just click on the 'Page plus' sign at the top right corner.
+To create a new standalone page, just click on the 'Page plus' sign at the top right corner. Please note that the 'Settings' wheel only appears if you are an admin.
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs2.png" width=200 align=center>
 
 <BR CLEAR=”right” />
 <BR CLEAR=”right” />
 
-Type the new path name and click select.
+Type the new path name and click select. Paths are also referred to as 'Breadcrumbs'.
 <BR CLEAR=”right” />
 <BR CLEAR=”right” />
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs3.png" width=600 align=center>
 <BR CLEAR=”right” />
 <BR CLEAR=”right” />
 
-You will be prompted to select an editor. Make sure you choose the 'Visual Editor' for rich text capabilities.
+Wiki.js offers various editors depending on the type of content you want to write.  You will be prompted to select an editor. Make sure you choose the **'Visual Editor'** for rich text capabilities. Developers will usually go with the **'Markdown'** editor.
+
+
 <BR CLEAR=”right” />
 <BR CLEAR=”right” />
 
@@ -69,7 +86,8 @@ When deleting a page, you will be asked again, to avoid errors.
 
 <BR CLEAR=”right” />
 
-To create a page within an existing folder, choose an existing path and just add the page name to the existing path. Make sure to click the 'Ok' button at the top right corner.
+To **create a page within an existing folder** (or an existing namespace), choose an existing path and just add the page name to the existing path. DO NOT put a trailing slash, when adding to the existing path. Make sure to click the 'Ok' button at the top right corner.
+
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs8.png" width=600 align=center>
 
