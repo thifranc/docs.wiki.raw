@@ -117,7 +117,7 @@ Comments modules add discussion capabilities to your pages. Type in your comment
 
 These capabilities are available next to each individual page on the right side menu.
 
-<img src="https://github.com/liquidinvestigations/docs-img/blob/main/16wikijs.png" width=400 align=center>
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/16wikijs.png" width=200 align=center>
 
 <BR CLEAR=”right” />
 
