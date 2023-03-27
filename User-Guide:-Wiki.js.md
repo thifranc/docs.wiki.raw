@@ -113,6 +113,14 @@ Comments modules add discussion capabilities to your pages. Type in your comment
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/15wikijs.png" width=600 align=center>
 
+### Sharing & Printing your pages
+
+These capabilities are available next to each individual page on the right side menu.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/16wikijs.png" width=400 align=center>
+
+Clicking on the 'Print' icon will download a PDF format of the respective page, on your computer.
+
 ***
 
 
