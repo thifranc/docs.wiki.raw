@@ -119,7 +119,16 @@ These capabilities are available next to each individual page on the right side 
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/16wikijs.png" width=400 align=center>
 
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
+
 Clicking on the 'Print' icon will download a PDF format of the respective page, on your computer.
+
+### Groups
+
+A user can be part of one or more groups. A group defines what users can see and what they can do. Groups are created and managed by admins.
+
 
 ***
 
