@@ -61,6 +61,15 @@ Next, you will land on the 'Page Properties' view where you will create your pag
 <BR CLEAR=”right” />
 
 <BR CLEAR=”right” />
+
+**Tags** are a great way to categorize your pages and easily find related content. You can search and browse pages by tags, by clicking on the tag icon next to the top search bar.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/14wikijs.png" width=400 align=center>
+
+<BR CLEAR=”right” />
+
+<BR CLEAR=”right” />
+
 You will return to the visual editor to populate your page with rich content. Make sure to hit the green 'Create' button.
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs6.png" width=800 align=center>
@@ -99,9 +108,10 @@ You cannot create pages utilizing the same path name. An error notification will
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/LiquidScreenshots/wikijs9.png" width=600 align=center>
 
+### Comments
+Comments modules add discussion capabilities to your pages. Type in your comment below the page of your choice and click on the 'Post Comment' button.
 
-
-
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/15wikijs.png" width=600 align=center>
 
 ***
 
