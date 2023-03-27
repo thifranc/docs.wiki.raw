@@ -42,7 +42,7 @@ Type the new path name and click select. Paths are also referred to as 'Breadcru
 <BR CLEAR=”right” />
 <BR CLEAR=”right” />
 
-Wiki.js offers various editors depending on the type of content you want to write.  You will be prompted to select an editor. Make sure you choose the **'Visual Editor'** for rich text capabilities. Developers will usually go with the **'Markdown'** editor.
+You will be prompted to select an editor. Wiki.js offers various editors depending on the type of content you want to write. Make sure to choose the **'Visual Editor'** for rich text capabilities. Developers will usually go with the **'Markdown'** editor.
 
 
 <BR CLEAR=”right” />
