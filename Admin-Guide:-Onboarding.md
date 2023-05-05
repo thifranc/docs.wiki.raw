@@ -1,3 +1,32 @@
+## Checklist
+
+Here is a short list of steps required to onboard each new user:
+
+1. Liquid Home Page Admin:
+    - Add new User
+    - Edit User details
+    - Add User to Groups, and set App permissions
+    - Generate Invitation Link
+2. Assign User to Groups in Individual Apps:
+    - Hoover
+    - Wiki.JS
+    - RocketChat
+3. User Phone:
+    - Enable automatic time sync settings
+    - Install 2FA Authenticator
+    - Install Chat App: Rocket.Chat
+    - Install secure side-channel to receive invitation links (Signal)
+4. User Computer:
+    - Install Chat App: Rocket.Chat
+    - Install secure side-channel to receive invitation links (Signal)
+5. Send Login Info to User
+    - Send Invitation Link to User using secure side-channel (Signal)
+    - Send documentation links: "User Guide: Login" + "User Guide: Manage 2FA"
+6. Confirmation
+    - Ask User to log in to Rocket.Chat on all platforms: Web, Phone, Desktop
+    - Ask User to perform Hoover Search and confirm it works
+    - Ask User to access Wiki and create/edit test page in their namespace
+
 ## Prerequisites
 
 ### Enable Automatic Time Sync settings on phone
