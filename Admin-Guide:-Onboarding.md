@@ -1,12 +1,12 @@
 ## Checklist
 
-Here is a short list of steps required to onboard each new user:
+Here is a list of steps required to onboard each new user:
 
 1. Liquid Home Page Admin:
     - Add new User
     - Edit User details
     - Add User to Groups, and set App permissions
-    - Generate Invitation Link
+    - Generate _Invitation Link_
 2. Assign User to Groups in Individual Apps:
     - Hoover Admin
     - Wiki.JS Admin
@@ -20,12 +20,14 @@ Here is a short list of steps required to onboard each new user:
     - Install Chat App: Rocket.Chat
     - Install secure side-channel to receive invitation links (Signal)
 5. Send Login Info to User
-    - Send Invitation Link to User using secure side-channel (Signal)
-    - Send documentation links: "User Guide: Login" + "User Guide: Manage 2FA"
+    - Send documentation links: ["User Guide: Login"](https://github.com/liquidinvestigations/docs/wiki/User-Guide%3A-Login) + ["User Guide: Manage 2FA"](https://github.com/liquidinvestigations/docs/wiki/User-Guide%3A-Manage-2FA-Devices)
+    - Send _Invitation Link_ to User using secure side-channel (Signal) 
 6. Confirmation
     - Ask User to log in to Rocket.Chat on all platforms: Web, Phone, Desktop
     - Ask User to perform Hoover Search and confirm it works
     - Ask User to access Wiki and create/edit test page in their namespace
+
+Detailed explanations continue below.
 
 ## Prerequisites
 
