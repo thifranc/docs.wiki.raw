@@ -8,9 +8,9 @@ Here is a short list of steps required to onboard each new user:
     - Add User to Groups, and set App permissions
     - Generate Invitation Link
 2. Assign User to Groups in Individual Apps:
-    - Hoover
-    - Wiki.JS
-    - RocketChat
+    - Hoover Admin
+    - Wiki.JS Admin
+    - RocketChat Admin
 3. User Phone:
     - Enable automatic time sync settings
     - Install 2FA Authenticator
