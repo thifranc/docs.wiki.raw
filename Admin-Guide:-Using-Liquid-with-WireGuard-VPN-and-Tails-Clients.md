@@ -77,7 +77,7 @@ sudo wg set wg0 peer **public client key** remove
 
 ## Provision Tails to be a peer
 
-Assuming: an existing Tails Persistence layer, a configured Administration user and an enabled Unsafe Browser, start installing WireGuard using `sudo apt install wireguard`, first. Answer _Install Every Time_ when prompted. Add a client config as above.
+Assuming: an existing Tails Persistence layer, a configured Administration user and an enabled Unsafe Browser, start installing WireGuard using `sudo apt update && sudo apt install wireguard`, first. Answer _Install Every Time_ when prompted. Add a client config as above.
 
 Allow incoming and outgoing udp packets by editing `/etc/ferm/ferm.conf`:
 
@@ -103,4 +103,20 @@ domain ip {
 
 Apply changes with `service ferm restart`.
 
-## Additional configs for local DNS and Certificates
+## Additional configs for local DNS and Certificates using the Unsafe Browser
+
+Add local DNS setting applying a patch to `/usr/local/sbin/usafe-browser`:
+
+```patch
+--- /usr/local/sbin/unsafe-browser	2022-12-19 09:43:26.000000000 +0000
++++ unsafe-browser	2023-01-12 12:24:06.980003349 +0000
+@@ -152,6 +152,8 @@
+ echo '127.0.0.42 firefox.settings.services.mozilla.com' \
+      >> "${CHROOT}"/etc/hosts
+ 
++echo '10.11.12.1      **servername**.home.arpa hoover.**servername**.home.arpa dokuwiki.**servername**.home.arpa rocketchat.**servername**.home.arpa nextcloud.**servername**.home.arpa codimd.**servername**.home.arpa wikijs.**servername**.home.arpa' >> "${CHROOT}"/etc/hosts
++
+ echo "* Starting Unsafe Browser"
+ # Do not localize the 5th argument: it becomes WM_CLASS and then GNOME
+ # displays the localized app name found in the matching .desktop file;
+```
