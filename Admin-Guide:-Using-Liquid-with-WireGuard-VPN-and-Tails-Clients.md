@@ -81,24 +81,41 @@ Assuming: an existing Tails Persistence layer, a configured Administration user 
 
 Allow incoming and outgoing udp packets by editing `/etc/ferm/ferm.conf`:
 
-```shell
-domain ip {
-    table filter {
-        chain INPUT {
-            policy DROP;
-
-            daddr (**public server ip**/32) {
-                proto udp ACCEPT;
-            }
-# ...
-        chain OUTPUT {
-            policy DROP;
-
-            daddr (**public server ip**/32) {
-                proto udp ACCEPT;
-            }
-# ...
-}
+```patch
+--- /etc/ferm/ferm.conf	2022-12-19 09:43:26.000000000 +0000
++++ ferm.conf	2023-01-12 12:23:14.984001706 +0000
+@@ -13,6 +13,11 @@
+         chain INPUT {
+             policy DROP;
+ 
++            daddr (**public server ip**/32) {
++                proto udp ACCEPT;
++#		ACCEPT;
++            }
++
+             # Established incoming connections are accepted.
+             mod state state (ESTABLISHED) ACCEPT;
+ 
+@@ -32,6 +37,11 @@
+         chain OUTPUT {
+             policy DROP;
+ 
++            daddr (**public server ip**/32) {
++                proto udp ACCEPT;
++#		ACCEPT;
++            }
++
+             # Established outgoing connections are accepted.
+             mod state state (ESTABLISHED) ACCEPT;
+ 
+@@ -122,6 +132,7 @@
+                 ACCEPT;
+             }
+ 
++
+             # Everything else is logged and dropped.
+             LOG log-prefix "Dropped outbound packet: " log-level debug log-uid;
+             REJECT reject-with icmp-port-unreachable;
 ```
 
 Apply changes with `service ferm restart`.
