@@ -20,8 +20,23 @@ Go to the Admin page by clicking on the settings icon
 
 Go to Groups and create new group. 
 
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/11wikijs.png" width=200 align=center>
+
+<BR CLEAR=”right” />
+<BR CLEAR=”right” />
+
 Click on the group to assign users.
 
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/11wikijs.png" width=200 align=center>
+
+<BR CLEAR=”right” />
+<BR CLEAR=”right” />
+
 Create a new User and assign to the group.
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/11wikijs.png" width=200 align=center>
+
+<BR CLEAR=”right” />
+<BR CLEAR=”right” />
 
 
