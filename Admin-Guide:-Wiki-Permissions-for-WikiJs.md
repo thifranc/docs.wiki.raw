@@ -82,4 +82,19 @@ If users upload assets to the default path / then everyone can see that folder, 
 <BR CLEAR=”right” />
 Recommendation: Remove `asset:write` and `page:write` permissions from / folder, making users use their own namespaces
 
+### Import from DokuWiki
+
+* with SSH access:
+ * * download `pandoc` version 3 from their website: `https://github.com/jgm/pandoc/releases/tag/3.1.2`
+ * * * use the binary `pandoc -3.1.2-linux-amd64.tar.gz`
+ * * set the `PANDOC` environment variable to the unpacked binary
+ * * if needed, set the `IMPORT_DOKU_ROOT` variable to the dokuwiki data root (by default `/opt/node/volumes/dokuwiki`)
+ * * run script: `./scripts/export-dokuwiki-into-wikijs.sh`
+ * * follow instructions printed on screen using Administrator account\
+ * * mention this red links problem & workaround: https://github.com/CRJI/EIC/issues/1041
+
+### Create existing users in Wiki.js
+
+* On first wiki creation, user database is empty
+* Admin needs to execute script when running first time: `./scripts/migrate_wikijs_users.sh`
 
