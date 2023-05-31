@@ -67,10 +67,10 @@ Only adding permissions on the 'Permissions' tab does not give default / implici
 
 Caveat: The UI doesn't alert you on this:
 
-* it lets the user to enable some permissions in 'Page Rules' even if the user forgets to enable them in'Permissions'
-* it doesn't warn the user after permissions were added under'Permissions' without ever using them under 'Page Rules'
+* it lets the user to enable some permissions in 'Page Rules' even if the user forgets to enable them in 'Permissions'
+* it doesn't warn the user after permissions were added under 'Permissions' without ever using them under 'Page Rules'
 
-The Permission administration should only happen on 1 browser tab. If you have 2 browser tabs open and toggle between 'Permissions' and 'Page Rules', the permissions or rules don't stick.
+The administration of permissions should only happen on **1 browser tab**. If you have 2 browser tabs open and toggle between 'Permissions' and 'Page Rules', the permissions or rules don't stick.
 
 For more details around 'Permissions' and 'Page Rules', please check out https://docs.requarks.io/groups
 
