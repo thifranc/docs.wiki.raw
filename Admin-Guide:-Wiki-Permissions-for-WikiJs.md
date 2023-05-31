@@ -49,6 +49,15 @@ Create a new User (if needed) and assign to the respective group.
 
 Assign **Permissions** to a group; these allow or deny users specific actions on the wiki page.
 
+You can start by editing group permissions and removing the default access. (ex. Guest group).
+
+<img src="https://github.com/liquidinvestigations/docs-img/blob/main/adminwikijs9.png" width=800 align=center>
+
+<BR CLEAR=”right” />
+<BR CLEAR=”right” />
+
+Afterwards you can assign permissions on a case by case basis.
+
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/adminwikijs.7.png" width=800 align=center>
 
 <BR CLEAR=”right” />
