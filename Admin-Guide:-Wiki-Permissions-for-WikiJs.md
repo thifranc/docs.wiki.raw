@@ -74,7 +74,7 @@ The Permission administration should only happen on 1 browser tab. If you have 2
 
 For more details around 'Permissions' and 'Page Rules', please check out https://docs.requarks.io/groups
 
-### Assets permissions
+### Asset permissions
 An admin can control assets permissions (image uploads) with  `read:asset` and `write:asset` permissions.
 
 If users upload assets to the default path / then everyone can see that folder, so the screenshots are not secret anymore
