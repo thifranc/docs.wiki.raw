@@ -50,9 +50,14 @@ Assign **Global Permissions** to a group; these allow or deny users specific act
 
 The permission system is a bit confusing: for each permission, you need to set it both in the "Permissions" group, AND in "Page Rules" for where those permissions can be applied.
 
-Only adding permissions in "Permissions" tab does not give default / implicit permissions - it merely allows the "Page Rules" permissions to actually work.
+Only adding permissions on the 'Permissions' tab does not give default / implicit permissions - it merely allows the 'Page Rules' permissions to actually work.
 
-The Permission Administration should only happen on 1 browser tab. If you have 2 browser tabs open and toggle between Permissions and Page rules, the permissions or rules don't stick.
+Caveat: The UI doesn't alert you on this:
+
+* it lets the user to enable some permissions in 'Page Rules' even if the user forgot to enable it under 'Permissions'
+* it doesn't warn you after you added permissions under 'Permissions' without ever using them under 'Page Rules'
+
+The Permission Administration should only happen on 1 browser tab. If you have 2 browser tabs open and toggle between 'Permissions' and 'Page Rules', the permissions or rules don't stick.
 
 Admin can control assets permissions (image uploads) with read:asset and write:asset permissions
 If users upload assets to the default path / then everyone can see that folder, so the screenshots are not secret anymore
