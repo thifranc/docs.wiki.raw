@@ -72,9 +72,9 @@ Caveat: The UI doesn't alert you on this:
 
 The Permission administration should only happen on 1 browser tab. If you have 2 browser tabs open and toggle between 'Permissions' and 'Page Rules', the permissions or rules don't stick.
 
-An Admin can control assets permissions (image uploads) with read:asset and write:asset permissions
+An Admin can control assets permissions (image uploads) with  `read:asset` and `write:asset` permissions.
 
 If users upload assets to the default path / then everyone can see that folder, so the screenshots are not secret anymore
-Recommendation: Remove asset:write and page:write permissions from / folder, making users use their own namespaces
+Recommendation: Remove `asset:write` and `page:write` permissions from / folder, making users use their own namespaces
 
 For more details around 'Permissions' and 'Page Rules', please check out https://docs.requarks.io/groups
