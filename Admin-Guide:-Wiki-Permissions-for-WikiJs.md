@@ -40,7 +40,7 @@ Click on the group of your choice to assign users.
 <BR CLEAR=”right” />
 <BR CLEAR=”right” />
 
-Create a new User (if needed) and assign to the respective group.
+Go to User page and add the user to the respective group. Users will be created automatically in WikiJs after the user is created in the home page.
 
 <img src="https://github.com/liquidinvestigations/docs-img/blob/main/adminwikijs6.png" width=600 align=center>
 
