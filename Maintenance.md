@@ -172,9 +172,9 @@ Take care in updating HTTP vs. HTTPS for your new domain.
 
 #### HTTPS certificates
 
-HTTPS certificates are not automatically removed. See the [[Admin FAQ]] for more details.
+HTTPS certificates are not automatically removed. See the [[Admin Guide: FAQ]] for more details.
 
 
 ## Other problems
 
-Use the [[Admin FAQ]] for miscellaneous operating details and the [[Security]] page on how to keep a production system secure.
+Use the [[Admin Guide: FAQ]] for miscellaneous operating details and the [[Security]] page on how to keep a production system secure.

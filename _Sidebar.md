@@ -1,5 +1,7 @@
 * [[User Guide]]
-* [[Technical Overview]]
+* [[Architecture]]
 * [[Installation]]
 * [[Maintenance]]
+* [[Troubleshooting]]
 * [[Contributing]]
+* [[Security]]

@@ -4,24 +4,30 @@ Submit feedback and feature requests as GitHub Issues at https://github.com/liqu
 
 You should also join our Slack channel: `<TODO>`
 
-
 ## Report a bug
 
+
+### Is this a security bug ?
 Please see the [[Security]] page about reporting security bugs.
 
-Report all other bugs as GitHub Issues under the relevant repository listed in the 
-[[Architecture]] page. If unsure, open a new Issue at https://github.com/liquidinvestigations/node and we'll move it to the  relevant repository.
+### Else
+Please see the [[Contributing:Bug]] page before reporting bugs.
 
-## Learn about the technologies used in the project
+## Development
 
+
+### Get started with development ##
 There is a [Reading List](https://hackmd.io/upSx7g7qSYSjE0poRtprkQ?view) we made for the 2020 summer internship. It references all the main components in the system.
 
-## Get started with development ##
+### Setup development environment ##
+The different components require different setups for working on them.
+Please take note of our [[Hardware requirements]] before attempting to run the services on your machine. If you need instructions to set up for development see [[Contributing:DevFirstSteps]].
 
-To get started see [[Liquid Investigations Development First Steps]].
+### Working on the infrastructure
+No special instructions are needed here; simply clone the `node` repository and patch it to your needs, without chaning anything inside the service containers themselves.
 
-## Send code
+### Working on backend services
+Go to https://github.com/liquidinvestigations/node/blob/master/docs/Development.md for details on mounting each container's code to your local machine.
 
-All work is done through GitHub Pull Requests. See the following page for technical details:
-- [[Technical Overview]]
-- [[Development]]
+### Working on the Hoover UI
+Go to the UI repository https://github.com/liquidinvestigations/hoover-ui and follow the instructions there to use an already existing backend when doing UI development.

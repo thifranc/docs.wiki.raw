@@ -77,15 +77,22 @@ Even before facilitating more than 100 journalists to collaboratively search doc
 
 
 
+# Chapters
+
 ## Installation 
 
 Follow the [[Installation]] page on setting up a working system.
+You can then go to [[Maintenance]] page for follow-ups.
 
 ## Documentations 
 
 For user documentation go to [[User Guide]].
 
-For installation instructions and technical details go to [[Technical Overview]].
+For technical details go to [[Architecture]].
+
+For Troubleshooting details go to [[Troubleshooting]].
+
+For Security details go to [[Security]].
 
 ## Contributing 
 
